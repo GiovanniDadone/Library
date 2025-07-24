@@ -1,0 +1,1017 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< com.giodad.todolist:library >---------------------
+[INFO] Building Library 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.4.1:clean (default-clean) @ library ---
+[INFO] Deleting C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\target
+[INFO] 
+[INFO] --- enforcer:3.5.0:enforce (enforce-versions) @ library ---
+[INFO] Rule 0: org.apache.maven.enforcer.rules.version.RequireMavenVersion passed
+[INFO] Rule 1: org.apache.maven.enforcer.rules.version.RequireJavaVersion passed
+[INFO] 
+[INFO] --- enforcer:3.5.0:enforce (enforce-dependencyConvergence) @ library ---
+[INFO] Rule 0: org.apache.maven.enforcer.rules.dependency.DependencyConvergence passed
+[INFO] 
+[INFO] --- properties:1.2.1:read-project-properties (default) @ library ---
+[INFO] Loading 34 properties from File: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\sonar-project.properties
+[INFO] 
+[INFO] --- jacoco:0.8.13:prepare-agent (pre-unit-tests) @ library ---
+[INFO] argLine set to -javaagent:C:\\Users\\argir\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.8.13\\org.jacoco.agent-0.8.13-runtime.jar=destfile=C:\\Users\\argir\\Documenti\\CodingGiovanni\\CorsoBackend\\Library\\target\\jacoco.exec -Djava.security.egd=file:/dev/./urandom -Xmx1G
+[INFO] 
+[INFO] --- spotless:2.44.4:apply (spotless) @ library ---
+[INFO] Index file does not exist. Fallback to an empty index
+[INFO] Spotless.Java is keeping 155 files clean - 0 were changed to be clean, 155 were already clean, 0 were skipped because caching determined they were already clean
+[INFO] 
+[INFO] --- spring-boot:3.4.5:build-info (build-info) @ library ---
+[INFO] 
+[INFO] --- checksum:1.11:files (create-pre-compiled-webapp-checksum) @ library ---
+[INFO] 
+[INFO] --- antrun:3.1.0:run (eval-frontend-checksum) @ library ---
+[INFO] Executing tasks
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- frontend:1.15.1:install-node-and-npm (install-node-and-npm) @ library ---
+[INFO] Installing node version v22.15.0
+[INFO] Copying node binary from C:\Users\argir\.m2\repository\com\github\eirslett\node\22.15.0\node-22.15.0-win-x64.exe to C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\target\node\node.exe
+[INFO] Installed node locally.
+[INFO] Installing npm version 11.3.0
+[INFO] Unpacking C:\Users\argir\.m2\repository\com\github\eirslett\npm\11.3.0\npm-11.3.0.tar.gz into C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\target\node\node_modules
+[INFO] Installed npm locally.
+[INFO] 
+[INFO] --- frontend:1.15.1:npm (npm install) @ library ---
+[INFO] Running 'npm install' in C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library
+[INFO] 
+[INFO] > library@0.0.1-SNAPSHOT prepare
+[INFO] > husky
+[INFO] 
+[INFO] .git can't be found
+[INFO] up to date, audited 2004 packages in 5s
+[INFO] 
+[INFO] 375 packages are looking for funding
+[INFO]   run `npm fund` for details
+[INFO] 
+[INFO] 6 vulnerabilities (4 high, 2 critical)
+[INFO] 
+[INFO] To address all issues possible (including breaking changes), run:
+[INFO]   npm audit fix --force
+[INFO] 
+[INFO] Some issues need review, and may require choosing
+[INFO] a different dependency.
+[INFO] 
+[INFO] Run `npm audit` for details.
+[INFO] 
+[INFO] --- frontend:1.15.1:npm (webapp build dev) @ library ---
+[INFO] npm not inheriting proxy config from Maven
+[INFO] Running 'npm run webapp:build' in C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library
+[INFO] 
+[INFO] > library@0.0.1-SNAPSHOT webapp:build
+[INFO] > npm run clean-www && npm run webapp:build:dev --
+[INFO] 
+[INFO] 
+[INFO] > library@0.0.1-SNAPSHOT clean-www
+[INFO] > rimraf target/classes/static/
+[INFO] 
+[INFO] 
+[INFO] > library@0.0.1-SNAPSHOT webapp:build:dev
+[INFO] > webpack --config webpack/webpack.dev.js --env stats=minimal
+[INFO] 
+[INFO] Webpack: Starting ...
+[INFO] [GWebpack: Starting ...
+[INFO] 
+[INFO]   > Compile modules
+[INFO] [GWebpack: Starting ...
+[INFO] 
+[INFO]   ? Compile modules
+[INFO]   > Build modules (0%)
+[INFO] [GWebpack: Starting ...
+[INFO] 
+[INFO]   ? Compile modules
+[INFO]   > Build modules (1%)
+[INFO] [GWebpack: Starting ...
+[INFO] 
+[INFO]   ? Compile modules
+[INFO]   > Build modules (2%)
+[INFO] [GWebpack: Starting ...
+[INFO] 
+[INFO]   ? Compile modules
+[INFO]   > Build modules (5%)
+[INFO] [GWebpack: Starting ...
+[INFO] 
+[INFO]   ? Compile modules
+[INFO]   > Build modules (6%)
+[INFO] [GWebpack: Starting ...
+[INFO] 
+[INFO]   ? Compile modules
+[INFO]   > Build modules (11%)
+[INFO] [GWebpack: Starting ...
+[INFO] 
+[INFO]   ? Compile modules
+[INFO]   > Build modules (92%)
+[INFO] [GWebpack: Starting ...
+[INFO] 
+[INFO]   ? Compile modules
+[INFO]   > Build modules (98%)
+[INFO] [GWebpack: Starting ...
+[INFO] 
+[INFO]   ? Compile modules
+[INFO]   > Build modules (100%)
+[INFO] [GWebpack: Starting ...
+[INFO] 
+[INFO]   ? Compile modules
+[INFO]   ? Build modules
+[INFO]   > Optimize modules (-2%)
+[INFO]     ? Sealing ...
+[INFO] [GWebpack: Starting ...
+[INFO] 
+[INFO]   ? Compile modules
+[INFO]   ? Build modules
+[INFO]   > Optimize modules (1%)
+[INFO]     ? Sealing ...
+[INFO] [GWebpack: Starting ...
+[INFO] 
+[INFO]   ? Compile modules
+[INFO]   ? Build modules
+[INFO]   > Optimize modules (4%)
+[INFO]     ? Sealing ...
+[INFO] [GWebpack: Starting ...
+[INFO] 
+[INFO]   ? Compile modules
+[INFO]   ? Build modules
+[INFO]   > Optimize modules (7%)
+[INFO]     ? Sealing ...
+[INFO] [GWebpack: Starting ...
+[INFO] 
+[INFO]   ? Compile modules
+[INFO]   ? Build modules
+[INFO]   > Optimize modules (10%)
+[INFO]     ? Sealing ...
+[INFO] [GWebpack: Starting ...
+[INFO] 
+[INFO]   ? Compile modules
+[INFO]   ? Build modules
+[INFO]   > Optimize modules (12%)
+[INFO]     ? Sealing ...
+[INFO] [GWebpack: Starting ...
+[INFO] 
+[INFO]   ? Compile modules
+[INFO]   ? Build modules
+[INFO]   > Optimize modules (15%)
+[INFO]     ? Sealing ...
+[INFO] [GWebpack: Starting ...
+[INFO] 
+[INFO]   ? Compile modules
+[INFO]   ? Build modules
+[INFO]   > Optimize modules (18%)
+[INFO]     ? Sealing ...
+[INFO] [GWebpack: Starting ...
+[INFO] 
+[INFO]   ? Compile modules
+[INFO]   ? Build modules
+[INFO]   > Optimize modules (21%)
+[INFO]     ? Sealing ...
+[INFO] [GWebpack: Starting ...
+[INFO] 
+[INFO]   ? Compile modules
+[INFO]   ? Build modules
+[INFO]   > Optimize modules (24%)
+[INFO]     ? Sealing ...
+[INFO] [GWebpack: Starting ...
+[INFO] 
+[INFO]   ? Compile modules
+[INFO]   ? Build modules
+[INFO]   > Optimize modules (26%)
+[INFO]     ? Sealing ...
+[INFO] [GWebpack: Starting ...
+[INFO] 
+[INFO]   ? Compile modules
+[INFO]   ? Build modules
+[INFO]   > Optimize modules (29%)
+[INFO]     ? Sealing ...
+[INFO] [GWebpack: Starting ...
+[INFO] 
+[INFO]   ? Compile modules
+[INFO]   ? Build modules
+[INFO]   > Optimize modules (32%)
+[INFO]     ? Sealing ...
+[INFO] [GWebpack: Starting ...
+[INFO] 
+[INFO]   ? Compile modules
+[INFO]   ? Build modules
+[INFO]   > Optimize modules (35%)
+[INFO]     ? Sealing ...
+[INFO] [GWebpack: Starting ...
+[INFO] 
+[INFO]   ? Compile modules
+[INFO]   ? Build modules
+[INFO]   > Optimize modules (37%)
+[INFO]     ? Sealing ...
+[INFO] [GWebpack: Starting ...
+[INFO] 
+[INFO]   ? Compile modules
+[INFO]   ? Build modules
+[INFO]   > Optimize modules (40%)
+[INFO]     ? Sealing ...
+[INFO] [GWebpack: Starting ...
+[INFO] 
+[INFO]   ? Compile modules
+[INFO]   ? Build modules
+[INFO]   > Optimize modules (43%)
+[INFO]     ? Sealing ...
+[INFO] [GWebpack: Starting ...
+[INFO] 
+[INFO]   ? Compile modules
+[INFO]   ? Build modules
+[INFO]   > Optimize modules (46%)
+[INFO]     ? Sealing ...
+[INFO] [GWebpack: Starting ...
+[INFO] 
+[INFO]   ? Compile modules
+[INFO]   ? Build modules
+[INFO]   > Optimize modules (49%)
+[INFO]     ? Sealing ...
+[INFO] [GWebpack: Starting ...
+[INFO] 
+[INFO]   ? Compile modules
+[INFO]   ? Build modules
+[INFO]   > Optimize modules (51%)
+[INFO]     ? Sealing ...
+[INFO] [GWebpack: Starting ...
+[INFO] 
+[INFO]   ? Compile modules
+[INFO]   ? Build modules
+[INFO]   > Optimize modules (54%)
+[INFO]     ? Sealing ...
+[INFO] [GWebpack: Starting ...
+[INFO] 
+[INFO]   ? Compile modules
+[INFO]   ? Build modules
+[INFO]   > Optimize modules (57%)
+[INFO]     ? Sealing ...
+[INFO] [GWebpack: Starting ...
+[INFO] 
+[INFO]   ? Compile modules
+[INFO]   ? Build modules
+[INFO]   > Optimize modules (60%)
+[INFO]     ? Sealing ...
+[INFO] [GWebpack: Starting ...
+[INFO] 
+[INFO]   ? Compile modules
+[INFO]   ? Build modules
+[INFO]   > Optimize modules (63%)
+[INFO]     ? Sealing ...
+[INFO] [GWebpack: Starting ...
+[INFO] 
+[INFO]   ? Compile modules
+[INFO]   ? Build modules
+[INFO]   > Optimize modules (65%)
+[INFO]     ? Sealing ...
+[INFO] [GWebpack: Starting ...
+[INFO] 
+[INFO]   ? Compile modules
+[INFO]   ? Build modules
+[INFO]   > Optimize modules (68%)
+[INFO]     ? Sealing ...
+[INFO] [GWebpack: Starting ...
+[INFO] 
+[INFO]   ? Compile modules
+[INFO]   ? Build modules
+[INFO]   > Optimize modules (71%)
+[INFO]     ? Sealing ...
+[INFO] [GWebpack: Starting ...
+[INFO] 
+[INFO]   ? Compile modules
+[INFO]   ? Build modules
+[INFO]   > Optimize modules (74%)
+[INFO]     ? Sealing ...
+[INFO] [GWebpack: Starting ...
+[INFO] 
+[INFO]   ? Compile modules
+[INFO]   ? Build modules
+[INFO]   > Optimize modules (76%)
+[INFO]     ? Sealing ...
+[INFO] [GWebpack: Starting ...
+[INFO] 
+[INFO]   ? Compile modules
+[INFO]   ? Build modules
+[INFO]   > Optimize modules (79%)
+[INFO]     ? Sealing ...
+[INFO] [GWebpack: Starting ...
+[INFO] 
+[INFO]   ? Compile modules
+[INFO]   ? Build modules
+[INFO]   > Optimize modules (82%)
+[INFO]     ? Sealing ...
+[INFO] [GWebpack: Starting ...
+[INFO] 
+[INFO]   ? Compile modules
+[INFO]   ? Build modules
+[INFO]   > Optimize modules (85%)
+[INFO]     ? Sealing ...
+[INFO] [GWebpack: Starting ...
+[INFO] 
+[INFO]   ? Compile modules
+[INFO]   ? Build modules
+[INFO]   > Optimize modules (88%)
+[INFO]     ? Sealing ...
+[INFO] [GWebpack: Starting ...
+[INFO] 
+[INFO]   ? Compile modules
+[INFO]   ? Build modules
+[INFO]   > Optimize modules (90%)
+[INFO]     ? Sealing ...
+[INFO] [GWebpack: Starting ...
+[INFO] 
+[INFO]   ? Compile modules
+[INFO]   ? Build modules
+[INFO]   > Optimize modules (93%)
+[INFO]     ? Sealing ...
+[INFO] [GWebpack: Starting ...
+[INFO] 
+[INFO]   ? Compile modules
+[INFO]   ? Build modules
+[INFO]   > Optimize modules (96%)
+[INFO]     ? Sealing ...
+[INFO] [GWebpack: Starting ...
+[INFO] 
+[INFO]   ? Compile modules
+[INFO]   ? Build modules
+[INFO]   > Optimize modules (99%)
+[INFO]     ? Sealing ...
+[INFO] [GWebpack: Starting ...
+[INFO] 
+[INFO]   ? Compile modules
+[INFO]   ? Build modules
+[INFO]   > Optimize modules (102%)
+[INFO]     ? Sealing ...
+[INFO] [GWebpack: Starting ...
+[INFO] 
+[INFO]   ? Compile modules
+[INFO]   ? Build modules
+[INFO]   ? Optimize modules
+[INFO]   > Emit files
+[INFO] [GWebpack: Starting ...
+[INFO] 
+[INFO]   ? Compile modules
+[INFO]   ? Build modules
+[INFO]   ? Optimize modules
+[INFO]   ? Emit files
+[INFO] 
+[INFO] Finished after 15.641 seconds.
+[INFO] 
+[INFO] Webpack: Starting ...
+[INFO] [GWebpack: Starting ...
+[INFO] 
+[INFO]   ? Compile modules
+[INFO]   ? Build modules
+[INFO]   ? Optimize modules
+[INFO]   > Emit files
+[INFO] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[INFO] [GWebpack: Starting ...
+[INFO] 
+[INFO]   ? Compile modules
+[INFO]   ? Build modules
+[INFO]   ? Optimize modules
+[INFO]   ? Emit files
+[INFO] 
+[INFO] Finished after 3.186 seconds.
+[INFO] 
+[INFO] 44 assets
+[INFO] 634 modules
+[INFO] webpack 5.99.8 compiled successfully in 15638 ms
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ library ---
+[INFO] Copying 4 resources from src\main\resources to target\classes
+[INFO] Copying 21 resources from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.14.0:compile (default-compile) @ library ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 95 source files with javac [debug parameters release 17] to target\classes
+[WARNING] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/main/java/com/giodad/todolist/service/mapper/AutoreMapper.java:[11,8] Unmapped target properties: "libris, removeLibri". Occured at 'E toEntity(D dto)' in 'EntityMapper'.
+[WARNING] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/main/java/com/giodad/todolist/service/mapper/AutoreMapper.java:[11,8] Unmapped target properties: "libris, removeLibri". Occured at 'void partialUpdate(E entity, D dto)' in 'EntityMapper'.
+[WARNING] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/main/java/com/giodad/todolist/service/mapper/RecensioneMapper.java:[15,8] Unmapped target properties: "libris, removeLibri". Mapping from property "AutoreDTO libro.autore" to "Autore libro.autore". Occured at 'E toEntity(D dto)' in 'EntityMapper'.
+[WARNING] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/main/java/com/giodad/todolist/service/mapper/RecensioneMapper.java:[15,8] Unmapped target properties: "recensionis, removeRecensioni". Mapping from property "LibroDTO libro" to "Libro libro". Occured at 'E toEntity(D dto)' in 'EntityMapper'.
+[WARNING] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/main/java/com/giodad/todolist/service/mapper/RecensioneMapper.java:[15,8] Unmapped target properties: "createdBy, createdDate, lastModifiedBy, lastModifiedDate, password, firstName, lastName, email, imageUrl, activated, activationKey, resetKey, resetDate, langKey, authorities". Mapping from property "UserDTO user" to "User user". Occured at 'E toEntity(D dto)' in 'EntityMapper'.
+[WARNING] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/main/java/com/giodad/todolist/service/mapper/RecensioneMapper.java:[15,8] Unmapped target properties: "libris, removeLibri". Mapping from property "AutoreDTO libro.autore" to "Autore libro.autore". Occured at 'void partialUpdate(E entity, D dto)' in 'EntityMapper'.
+[WARNING] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/main/java/com/giodad/todolist/service/mapper/RecensioneMapper.java:[15,8] Unmapped target properties: "recensionis, removeRecensioni". Mapping from property "LibroDTO libro" to "Libro libro". Occured at 'void partialUpdate(E entity, D dto)' in 'EntityMapper'.
+[WARNING] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/main/java/com/giodad/todolist/service/mapper/RecensioneMapper.java:[15,8] Unmapped target properties: "createdBy, createdDate, lastModifiedBy, lastModifiedDate, password, firstName, lastName, email, imageUrl, activated, activationKey, resetKey, resetDate, langKey, authorities". Mapping from property "UserDTO user" to "User user". Occured at 'void partialUpdate(E entity, D dto)' in 'EntityMapper'.
+[WARNING] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/main/java/com/giodad/todolist/service/mapper/LibroMapper.java:[13,8] Unmapped target properties: "libris, removeLibri". Mapping from property "AutoreDTO autore" to "Autore autore". Occured at 'E toEntity(D dto)' in 'EntityMapper'.
+[WARNING] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/main/java/com/giodad/todolist/service/mapper/LibroMapper.java:[13,8] Unmapped target properties: "recensionis, removeRecensioni". Occured at 'E toEntity(D dto)' in 'EntityMapper'.
+[WARNING] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/main/java/com/giodad/todolist/service/mapper/LibroMapper.java:[13,8] Unmapped target properties: "libris, removeLibri". Mapping from property "AutoreDTO autore" to "Autore autore". Occured at 'void partialUpdate(E entity, D dto)' in 'EntityMapper'.
+[WARNING] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/main/java/com/giodad/todolist/service/mapper/LibroMapper.java:[13,8] Unmapped target properties: "recensionis, removeRecensioni". Occured at 'void partialUpdate(E entity, D dto)' in 'EntityMapper'.
+[INFO] Hibernate compile-time tooling 6.6.13.Final
+[INFO] 
+[INFO] --- checksum:1.11:files (create-compiled-webapp-checksum) @ library ---
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ library ---
+[INFO] Copying 11 resources from src\test\resources to target\test-classes
+[INFO] 
+[INFO] --- compiler:3.14.0:testCompile (default-testCompile) @ library ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 60 source files with javac [debug parameters release 17] to target\test-classes
+[INFO] Hibernate compile-time tooling 6.6.13.Final
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/IntegrationTest.java:[5,34] cannot find symbol
+  symbol:   class JacksonConfiguration
+  location: package com.giodad.todolist.config
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/config/StaticResourcesWebConfigurerTest.java:[3,41] cannot find symbol
+  symbol:   class StaticResourcesWebConfiguration
+  location: package com.giodad.todolist.config
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/config/StaticResourcesWebConfigurerTest.java:[21,12] cannot find symbol
+  symbol:   class StaticResourcesWebConfiguration
+  location: class com.giodad.todolist.config.StaticResourcesWebConfigurerTest
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/config/WebConfigurerTest.java:[29,13] cannot find symbol
+  symbol:   class WebConfigurer
+  location: class com.giodad.todolist.config.WebConfigurerTest
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/AuthorityAsserts.java:[13,59] cannot find symbol
+  symbol:   class Authority
+  location: class com.giodad.todolist.domain.AuthorityAsserts
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/AuthorityAsserts.java:[13,79] cannot find symbol
+  symbol:   class Authority
+  location: class com.giodad.todolist.domain.AuthorityAsserts
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/AuthorityAsserts.java:[24,68] cannot find symbol
+  symbol:   class Authority
+  location: class com.giodad.todolist.domain.AuthorityAsserts
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/AuthorityAsserts.java:[24,88] cannot find symbol
+  symbol:   class Authority
+  location: class com.giodad.todolist.domain.AuthorityAsserts
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/AuthorityAsserts.java:[35,69] cannot find symbol
+  symbol:   class Authority
+  location: class com.giodad.todolist.domain.AuthorityAsserts
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/AuthorityAsserts.java:[35,89] cannot find symbol
+  symbol:   class Authority
+  location: class com.giodad.todolist.domain.AuthorityAsserts
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/AuthorityAsserts.java:[45,61] cannot find symbol
+  symbol:   class Authority
+  location: class com.giodad.todolist.domain.AuthorityAsserts
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/AuthorityAsserts.java:[45,81] cannot find symbol
+  symbol:   class Authority
+  location: class com.giodad.todolist.domain.AuthorityAsserts
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/AuthorityAsserts.java:[57,68] cannot find symbol
+  symbol:   class Authority
+  location: class com.giodad.todolist.domain.AuthorityAsserts
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/AuthorityAsserts.java:[57,88] cannot find symbol
+  symbol:   class Authority
+  location: class com.giodad.todolist.domain.AuthorityAsserts
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/AuthorityTestSamples.java:[7,19] cannot find symbol
+  symbol:   class Authority
+  location: class com.giodad.todolist.domain.AuthorityTestSamples
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/AuthorityTestSamples.java:[11,19] cannot find symbol
+  symbol:   class Authority
+  location: class com.giodad.todolist.domain.AuthorityTestSamples
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/AuthorityTestSamples.java:[15,19] cannot find symbol
+  symbol:   class Authority
+  location: class com.giodad.todolist.domain.AuthorityTestSamples
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/AutoreAsserts.java:[13,56] cannot find symbol
+  symbol:   class Autore
+  location: class com.giodad.todolist.domain.AutoreAsserts
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/AutoreAsserts.java:[13,73] cannot find symbol
+  symbol:   class Autore
+  location: class com.giodad.todolist.domain.AutoreAsserts
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/AutoreAsserts.java:[24,65] cannot find symbol
+  symbol:   class Autore
+  location: class com.giodad.todolist.domain.AutoreAsserts
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/AutoreAsserts.java:[24,82] cannot find symbol
+  symbol:   class Autore
+  location: class com.giodad.todolist.domain.AutoreAsserts
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/AutoreAsserts.java:[35,66] cannot find symbol
+  symbol:   class Autore
+  location: class com.giodad.todolist.domain.AutoreAsserts
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/AutoreAsserts.java:[35,83] cannot find symbol
+  symbol:   class Autore
+  location: class com.giodad.todolist.domain.AutoreAsserts
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/AutoreAsserts.java:[47,58] cannot find symbol
+  symbol:   class Autore
+  location: class com.giodad.todolist.domain.AutoreAsserts
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/AutoreAsserts.java:[47,75] cannot find symbol
+  symbol:   class Autore
+  location: class com.giodad.todolist.domain.AutoreAsserts
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/AutoreAsserts.java:[59,65] cannot find symbol
+  symbol:   class Autore
+  location: class com.giodad.todolist.domain.AutoreAsserts
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/AutoreAsserts.java:[59,82] cannot find symbol
+  symbol:   class Autore
+  location: class com.giodad.todolist.domain.AutoreAsserts
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/AutoreTestSamples.java:[12,19] cannot find symbol
+  symbol:   class Autore
+  location: class com.giodad.todolist.domain.AutoreTestSamples
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/AutoreTestSamples.java:[16,19] cannot find symbol
+  symbol:   class Autore
+  location: class com.giodad.todolist.domain.AutoreTestSamples
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/AutoreTestSamples.java:[20,19] cannot find symbol
+  symbol:   class Autore
+  location: class com.giodad.todolist.domain.AutoreTestSamples
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/LibroTestSamples.java:[12,19] cannot find symbol
+  symbol:   class Libro
+  location: class com.giodad.todolist.domain.LibroTestSamples
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/LibroTestSamples.java:[16,19] cannot find symbol
+  symbol:   class Libro
+  location: class com.giodad.todolist.domain.LibroTestSamples
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/LibroTestSamples.java:[20,19] cannot find symbol
+  symbol:   class Libro
+  location: class com.giodad.todolist.domain.LibroTestSamples
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/LibroAsserts.java:[13,55] cannot find symbol
+  symbol:   class Libro
+  location: class com.giodad.todolist.domain.LibroAsserts
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/LibroAsserts.java:[13,71] cannot find symbol
+  symbol:   class Libro
+  location: class com.giodad.todolist.domain.LibroAsserts
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/LibroAsserts.java:[24,64] cannot find symbol
+  symbol:   class Libro
+  location: class com.giodad.todolist.domain.LibroAsserts
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/LibroAsserts.java:[24,80] cannot find symbol
+  symbol:   class Libro
+  location: class com.giodad.todolist.domain.LibroAsserts
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/LibroAsserts.java:[35,65] cannot find symbol
+  symbol:   class Libro
+  location: class com.giodad.todolist.domain.LibroAsserts
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/LibroAsserts.java:[35,81] cannot find symbol
+  symbol:   class Libro
+  location: class com.giodad.todolist.domain.LibroAsserts
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/LibroAsserts.java:[47,57] cannot find symbol
+  symbol:   class Libro
+  location: class com.giodad.todolist.domain.LibroAsserts
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/LibroAsserts.java:[47,73] cannot find symbol
+  symbol:   class Libro
+  location: class com.giodad.todolist.domain.LibroAsserts
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/LibroAsserts.java:[60,64] cannot find symbol
+  symbol:   class Libro
+  location: class com.giodad.todolist.domain.LibroAsserts
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/LibroAsserts.java:[60,80] cannot find symbol
+  symbol:   class Libro
+  location: class com.giodad.todolist.domain.LibroAsserts
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/RecensioneTestSamples.java:[12,19] cannot find symbol
+  symbol:   class Recensione
+  location: class com.giodad.todolist.domain.RecensioneTestSamples
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/RecensioneTestSamples.java:[16,19] cannot find symbol
+  symbol:   class Recensione
+  location: class com.giodad.todolist.domain.RecensioneTestSamples
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/RecensioneTestSamples.java:[20,19] cannot find symbol
+  symbol:   class Recensione
+  location: class com.giodad.todolist.domain.RecensioneTestSamples
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/RecensioneAsserts.java:[13,60] cannot find symbol
+  symbol:   class Recensione
+  location: class com.giodad.todolist.domain.RecensioneAsserts
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/RecensioneAsserts.java:[13,81] cannot find symbol
+  symbol:   class Recensione
+  location: class com.giodad.todolist.domain.RecensioneAsserts
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/RecensioneAsserts.java:[24,69] cannot find symbol
+  symbol:   class Recensione
+  location: class com.giodad.todolist.domain.RecensioneAsserts
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/RecensioneAsserts.java:[24,90] cannot find symbol
+  symbol:   class Recensione
+  location: class com.giodad.todolist.domain.RecensioneAsserts
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/RecensioneAsserts.java:[35,70] cannot find symbol
+  symbol:   class Recensione
+  location: class com.giodad.todolist.domain.RecensioneAsserts
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/RecensioneAsserts.java:[35,91] cannot find symbol
+  symbol:   class Recensione
+  location: class com.giodad.todolist.domain.RecensioneAsserts
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/RecensioneAsserts.java:[47,62] cannot find symbol
+  symbol:   class Recensione
+  location: class com.giodad.todolist.domain.RecensioneAsserts
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/RecensioneAsserts.java:[47,83] cannot find symbol
+  symbol:   class Recensione
+  location: class com.giodad.todolist.domain.RecensioneAsserts
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/RecensioneAsserts.java:[59,69] cannot find symbol
+  symbol:   class Recensione
+  location: class com.giodad.todolist.domain.RecensioneAsserts
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/RecensioneAsserts.java:[59,90] cannot find symbol
+  symbol:   class Recensione
+  location: class com.giodad.todolist.domain.RecensioneAsserts
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/management/SecurityMetersServiceTests.java:[18,13] cannot find symbol
+  symbol:   class SecurityMetersService
+  location: class com.giodad.todolist.management.SecurityMetersServiceTests
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/security/DomainUserDetailsServiceIT.java:[7,34] cannot find symbol
+  symbol:   class User
+  location: package com.giodad.todolist.domain
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/security/DomainUserDetailsServiceIT.java:[8,38] cannot find symbol
+  symbol:   class UserRepository
+  location: package com.giodad.todolist.repository
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/security/DomainUserDetailsServiceIT.java:[9,35] cannot find symbol
+  symbol:   class UserService
+  location: package com.giodad.todolist.service
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/security/DomainUserDetailsServiceIT.java:[36,13] cannot find symbol
+  symbol:   class UserRepository
+  location: class com.giodad.todolist.security.DomainUserDetailsServiceIT
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/security/DomainUserDetailsServiceIT.java:[39,13] cannot find symbol
+  symbol:   class UserService
+  location: class com.giodad.todolist.security.DomainUserDetailsServiceIT
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/security/DomainUserDetailsServiceIT.java:[45,12] cannot find symbol
+  symbol:   class User
+  location: class com.giodad.todolist.security.DomainUserDetailsServiceIT
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/security/DomainUserDetailsServiceIT.java:[57,12] cannot find symbol
+  symbol:   class User
+  location: class com.giodad.todolist.security.DomainUserDetailsServiceIT
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/security/DomainUserDetailsServiceIT.java:[69,12] cannot find symbol
+  symbol:   class User
+  location: class com.giodad.todolist.security.DomainUserDetailsServiceIT
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/security/SecurityUtilsUnitTest.java:[3,43] cannot find symbol
+  symbol:   class SecurityUtils
+  location: package com.giodad.todolist.security
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/security/SecurityUtilsUnitTest.java:[3,1] static import only from classes and interfaces
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/security/jwt/AuthenticationIntegrationTest.java:[3,34] cannot find symbol
+  symbol:   class SecurityConfiguration
+  location: package com.giodad.todolist.config
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/security/jwt/AuthenticationIntegrationTest.java:[4,34] cannot find symbol
+  symbol:   class SecurityJwtConfiguration
+  location: package com.giodad.todolist.config
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/security/jwt/AuthenticationIntegrationTest.java:[5,34] cannot find symbol
+  symbol:   class WebConfigurer
+  location: package com.giodad.todolist.config
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/security/jwt/AuthenticationIntegrationTest.java:[6,38] cannot find symbol
+  symbol:   class SecurityMetersService
+  location: package com.giodad.todolist.management
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/security/jwt/AuthenticationIntegrationTest.java:[7,36] cannot find symbol
+  symbol:   class AuthenticateController
+  location: package com.giodad.todolist.web.rest
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/security/jwt/JwtAuthenticationTestUtils.java:[3,43] cannot find symbol
+  symbol:   class AuthoritiesConstants
+  location: package com.giodad.todolist.security
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/security/jwt/JwtAuthenticationTestUtils.java:[3,1] static import only from classes and interfaces
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/security/jwt/JwtAuthenticationTestUtils.java:[4,43] cannot find symbol
+  symbol:   class SecurityUtils
+  location: package com.giodad.todolist.security
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/security/jwt/JwtAuthenticationTestUtils.java:[4,1] static import only from classes and interfaces
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/security/jwt/JwtAuthenticationTestUtils.java:[5,43] cannot find symbol
+  symbol:   class SecurityUtils
+  location: package com.giodad.todolist.security
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/security/jwt/JwtAuthenticationTestUtils.java:[5,1] static import only from classes and interfaces
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/service/MailServiceIT.java:[8,34] cannot find symbol
+  symbol:   class Constants
+  location: package com.giodad.todolist.config
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/service/MailServiceIT.java:[9,34] cannot find symbol
+  symbol:   class User
+  location: package com.giodad.todolist.domain
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/service/MailServiceIT.java:[56,13] cannot find symbol
+  symbol:   class MailService
+  location: class com.giodad.todolist.service.MailServiceIT
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/service/UserServiceIT.java:[7,34] cannot find symbol
+  symbol:   class User
+  location: package com.giodad.todolist.domain
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/service/UserServiceIT.java:[8,38] cannot find symbol
+  symbol:   class UserRepository
+  location: package com.giodad.todolist.repository
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/service/UserServiceIT.java:[51,13] cannot find symbol
+  symbol:   class UserRepository
+  location: class com.giodad.todolist.service.UserServiceIT
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/service/UserServiceIT.java:[54,13] cannot find symbol
+  symbol:   class UserService
+  location: class com.giodad.todolist.service.UserServiceIT
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/service/UserServiceIT.java:[62,13] cannot find symbol
+  symbol:   class User
+  location: class com.giodad.todolist.service.UserServiceIT
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/service/criteria/AutoreCriteriaTest.java:[77,39] cannot find symbol
+  symbol:   class AutoreCriteria
+  location: class com.giodad.todolist.service.criteria.AutoreCriteriaTest
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/service/criteria/AutoreCriteriaTest.java:[84,30] cannot find symbol
+  symbol:   class AutoreCriteria
+  location: class com.giodad.todolist.service.criteria.AutoreCriteriaTest
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/service/criteria/AutoreCriteriaTest.java:[95,61] cannot find symbol
+  symbol:   class AutoreCriteria
+  location: class com.giodad.todolist.service.criteria.AutoreCriteriaTest
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/service/criteria/AutoreCriteriaTest.java:[95,30] cannot find symbol
+  symbol:   class AutoreCriteria
+  location: class com.giodad.todolist.service.criteria.AutoreCriteriaTest
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/service/criteria/LibroCriteriaTest.java:[77,39] cannot find symbol
+  symbol:   class LibroCriteria
+  location: class com.giodad.todolist.service.criteria.LibroCriteriaTest
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/service/criteria/LibroCriteriaTest.java:[86,30] cannot find symbol
+  symbol:   class LibroCriteria
+  location: class com.giodad.todolist.service.criteria.LibroCriteriaTest
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/service/criteria/LibroCriteriaTest.java:[99,60] cannot find symbol
+  symbol:   class LibroCriteria
+  location: class com.giodad.todolist.service.criteria.LibroCriteriaTest
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/service/criteria/LibroCriteriaTest.java:[99,30] cannot find symbol
+  symbol:   class LibroCriteria
+  location: class com.giodad.todolist.service.criteria.LibroCriteriaTest
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/service/criteria/RecensioneCriteriaTest.java:[77,39] cannot find symbol
+  symbol:   class RecensioneCriteria
+  location: class com.giodad.todolist.service.criteria.RecensioneCriteriaTest
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/service/criteria/RecensioneCriteriaTest.java:[85,30] cannot find symbol
+  symbol:   class RecensioneCriteria
+  location: class com.giodad.todolist.service.criteria.RecensioneCriteriaTest
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/service/criteria/RecensioneCriteriaTest.java:[97,65] cannot find symbol
+  symbol:   class RecensioneCriteria
+  location: class com.giodad.todolist.service.criteria.RecensioneCriteriaTest
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/service/criteria/RecensioneCriteriaTest.java:[97,30] cannot find symbol
+  symbol:   class RecensioneCriteria
+  location: class com.giodad.todolist.service.criteria.RecensioneCriteriaTest
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/service/mapper/AutoreMapperTest.java:[11,13] cannot find symbol
+  symbol:   class AutoreMapper
+  location: class com.giodad.todolist.service.mapper.AutoreMapperTest
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/service/mapper/LibroMapperTest.java:[11,13] cannot find symbol
+  symbol:   class LibroMapper
+  location: class com.giodad.todolist.service.mapper.LibroMapperTest
+[INFO] 100 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  01:16 min
+[INFO] Finished at: 2025-07-24T18:19:40+02:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.14.0:testCompile (default-testCompile) on project library: Compilation failure: Compilation failure: 
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/IntegrationTest.java:[5,34] cannot find symbol
+[ERROR]   symbol:   class JacksonConfiguration
+[ERROR]   location: package com.giodad.todolist.config
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/config/StaticResourcesWebConfigurerTest.java:[3,41] cannot find symbol
+[ERROR]   symbol:   class StaticResourcesWebConfiguration
+[ERROR]   location: package com.giodad.todolist.config
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/config/StaticResourcesWebConfigurerTest.java:[21,12] cannot find symbol
+[ERROR]   symbol:   class StaticResourcesWebConfiguration
+[ERROR]   location: class com.giodad.todolist.config.StaticResourcesWebConfigurerTest
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/config/WebConfigurerTest.java:[29,13] cannot find symbol
+[ERROR]   symbol:   class WebConfigurer
+[ERROR]   location: class com.giodad.todolist.config.WebConfigurerTest
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/AuthorityAsserts.java:[13,59] cannot find symbol
+[ERROR]   symbol:   class Authority
+[ERROR]   location: class com.giodad.todolist.domain.AuthorityAsserts
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/AuthorityAsserts.java:[13,79] cannot find symbol
+[ERROR]   symbol:   class Authority
+[ERROR]   location: class com.giodad.todolist.domain.AuthorityAsserts
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/AuthorityAsserts.java:[24,68] cannot find symbol
+[ERROR]   symbol:   class Authority
+[ERROR]   location: class com.giodad.todolist.domain.AuthorityAsserts
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/AuthorityAsserts.java:[24,88] cannot find symbol
+[ERROR]   symbol:   class Authority
+[ERROR]   location: class com.giodad.todolist.domain.AuthorityAsserts
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/AuthorityAsserts.java:[35,69] cannot find symbol
+[ERROR]   symbol:   class Authority
+[ERROR]   location: class com.giodad.todolist.domain.AuthorityAsserts
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/AuthorityAsserts.java:[35,89] cannot find symbol
+[ERROR]   symbol:   class Authority
+[ERROR]   location: class com.giodad.todolist.domain.AuthorityAsserts
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/AuthorityAsserts.java:[45,61] cannot find symbol
+[ERROR]   symbol:   class Authority
+[ERROR]   location: class com.giodad.todolist.domain.AuthorityAsserts
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/AuthorityAsserts.java:[45,81] cannot find symbol
+[ERROR]   symbol:   class Authority
+[ERROR]   location: class com.giodad.todolist.domain.AuthorityAsserts
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/AuthorityAsserts.java:[57,68] cannot find symbol
+[ERROR]   symbol:   class Authority
+[ERROR]   location: class com.giodad.todolist.domain.AuthorityAsserts
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/AuthorityAsserts.java:[57,88] cannot find symbol
+[ERROR]   symbol:   class Authority
+[ERROR]   location: class com.giodad.todolist.domain.AuthorityAsserts
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/AuthorityTestSamples.java:[7,19] cannot find symbol
+[ERROR]   symbol:   class Authority
+[ERROR]   location: class com.giodad.todolist.domain.AuthorityTestSamples
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/AuthorityTestSamples.java:[11,19] cannot find symbol
+[ERROR]   symbol:   class Authority
+[ERROR]   location: class com.giodad.todolist.domain.AuthorityTestSamples
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/AuthorityTestSamples.java:[15,19] cannot find symbol
+[ERROR]   symbol:   class Authority
+[ERROR]   location: class com.giodad.todolist.domain.AuthorityTestSamples
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/AutoreAsserts.java:[13,56] cannot find symbol
+[ERROR]   symbol:   class Autore
+[ERROR]   location: class com.giodad.todolist.domain.AutoreAsserts
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/AutoreAsserts.java:[13,73] cannot find symbol
+[ERROR]   symbol:   class Autore
+[ERROR]   location: class com.giodad.todolist.domain.AutoreAsserts
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/AutoreAsserts.java:[24,65] cannot find symbol
+[ERROR]   symbol:   class Autore
+[ERROR]   location: class com.giodad.todolist.domain.AutoreAsserts
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/AutoreAsserts.java:[24,82] cannot find symbol
+[ERROR]   symbol:   class Autore
+[ERROR]   location: class com.giodad.todolist.domain.AutoreAsserts
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/AutoreAsserts.java:[35,66] cannot find symbol
+[ERROR]   symbol:   class Autore
+[ERROR]   location: class com.giodad.todolist.domain.AutoreAsserts
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/AutoreAsserts.java:[35,83] cannot find symbol
+[ERROR]   symbol:   class Autore
+[ERROR]   location: class com.giodad.todolist.domain.AutoreAsserts
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/AutoreAsserts.java:[47,58] cannot find symbol
+[ERROR]   symbol:   class Autore
+[ERROR]   location: class com.giodad.todolist.domain.AutoreAsserts
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/AutoreAsserts.java:[47,75] cannot find symbol
+[ERROR]   symbol:   class Autore
+[ERROR]   location: class com.giodad.todolist.domain.AutoreAsserts
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/AutoreAsserts.java:[59,65] cannot find symbol
+[ERROR]   symbol:   class Autore
+[ERROR]   location: class com.giodad.todolist.domain.AutoreAsserts
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/AutoreAsserts.java:[59,82] cannot find symbol
+[ERROR]   symbol:   class Autore
+[ERROR]   location: class com.giodad.todolist.domain.AutoreAsserts
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/AutoreTestSamples.java:[12,19] cannot find symbol
+[ERROR]   symbol:   class Autore
+[ERROR]   location: class com.giodad.todolist.domain.AutoreTestSamples
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/AutoreTestSamples.java:[16,19] cannot find symbol
+[ERROR]   symbol:   class Autore
+[ERROR]   location: class com.giodad.todolist.domain.AutoreTestSamples
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/AutoreTestSamples.java:[20,19] cannot find symbol
+[ERROR]   symbol:   class Autore
+[ERROR]   location: class com.giodad.todolist.domain.AutoreTestSamples
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/LibroTestSamples.java:[12,19] cannot find symbol
+[ERROR]   symbol:   class Libro
+[ERROR]   location: class com.giodad.todolist.domain.LibroTestSamples
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/LibroTestSamples.java:[16,19] cannot find symbol
+[ERROR]   symbol:   class Libro
+[ERROR]   location: class com.giodad.todolist.domain.LibroTestSamples
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/LibroTestSamples.java:[20,19] cannot find symbol
+[ERROR]   symbol:   class Libro
+[ERROR]   location: class com.giodad.todolist.domain.LibroTestSamples
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/LibroAsserts.java:[13,55] cannot find symbol
+[ERROR]   symbol:   class Libro
+[ERROR]   location: class com.giodad.todolist.domain.LibroAsserts
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/LibroAsserts.java:[13,71] cannot find symbol
+[ERROR]   symbol:   class Libro
+[ERROR]   location: class com.giodad.todolist.domain.LibroAsserts
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/LibroAsserts.java:[24,64] cannot find symbol
+[ERROR]   symbol:   class Libro
+[ERROR]   location: class com.giodad.todolist.domain.LibroAsserts
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/LibroAsserts.java:[24,80] cannot find symbol
+[ERROR]   symbol:   class Libro
+[ERROR]   location: class com.giodad.todolist.domain.LibroAsserts
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/LibroAsserts.java:[35,65] cannot find symbol
+[ERROR]   symbol:   class Libro
+[ERROR]   location: class com.giodad.todolist.domain.LibroAsserts
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/LibroAsserts.java:[35,81] cannot find symbol
+[ERROR]   symbol:   class Libro
+[ERROR]   location: class com.giodad.todolist.domain.LibroAsserts
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/LibroAsserts.java:[47,57] cannot find symbol
+[ERROR]   symbol:   class Libro
+[ERROR]   location: class com.giodad.todolist.domain.LibroAsserts
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/LibroAsserts.java:[47,73] cannot find symbol
+[ERROR]   symbol:   class Libro
+[ERROR]   location: class com.giodad.todolist.domain.LibroAsserts
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/LibroAsserts.java:[60,64] cannot find symbol
+[ERROR]   symbol:   class Libro
+[ERROR]   location: class com.giodad.todolist.domain.LibroAsserts
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/LibroAsserts.java:[60,80] cannot find symbol
+[ERROR]   symbol:   class Libro
+[ERROR]   location: class com.giodad.todolist.domain.LibroAsserts
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/RecensioneTestSamples.java:[12,19] cannot find symbol
+[ERROR]   symbol:   class Recensione
+[ERROR]   location: class com.giodad.todolist.domain.RecensioneTestSamples
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/RecensioneTestSamples.java:[16,19] cannot find symbol
+[ERROR]   symbol:   class Recensione
+[ERROR]   location: class com.giodad.todolist.domain.RecensioneTestSamples
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/RecensioneTestSamples.java:[20,19] cannot find symbol
+[ERROR]   symbol:   class Recensione
+[ERROR]   location: class com.giodad.todolist.domain.RecensioneTestSamples
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/RecensioneAsserts.java:[13,60] cannot find symbol
+[ERROR]   symbol:   class Recensione
+[ERROR]   location: class com.giodad.todolist.domain.RecensioneAsserts
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/RecensioneAsserts.java:[13,81] cannot find symbol
+[ERROR]   symbol:   class Recensione
+[ERROR]   location: class com.giodad.todolist.domain.RecensioneAsserts
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/RecensioneAsserts.java:[24,69] cannot find symbol
+[ERROR]   symbol:   class Recensione
+[ERROR]   location: class com.giodad.todolist.domain.RecensioneAsserts
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/RecensioneAsserts.java:[24,90] cannot find symbol
+[ERROR]   symbol:   class Recensione
+[ERROR]   location: class com.giodad.todolist.domain.RecensioneAsserts
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/RecensioneAsserts.java:[35,70] cannot find symbol
+[ERROR]   symbol:   class Recensione
+[ERROR]   location: class com.giodad.todolist.domain.RecensioneAsserts
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/RecensioneAsserts.java:[35,91] cannot find symbol
+[ERROR]   symbol:   class Recensione
+[ERROR]   location: class com.giodad.todolist.domain.RecensioneAsserts
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/RecensioneAsserts.java:[47,62] cannot find symbol
+[ERROR]   symbol:   class Recensione
+[ERROR]   location: class com.giodad.todolist.domain.RecensioneAsserts
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/RecensioneAsserts.java:[47,83] cannot find symbol
+[ERROR]   symbol:   class Recensione
+[ERROR]   location: class com.giodad.todolist.domain.RecensioneAsserts
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/RecensioneAsserts.java:[59,69] cannot find symbol
+[ERROR]   symbol:   class Recensione
+[ERROR]   location: class com.giodad.todolist.domain.RecensioneAsserts
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/RecensioneAsserts.java:[59,90] cannot find symbol
+[ERROR]   symbol:   class Recensione
+[ERROR]   location: class com.giodad.todolist.domain.RecensioneAsserts
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/management/SecurityMetersServiceTests.java:[18,13] cannot find symbol
+[ERROR]   symbol:   class SecurityMetersService
+[ERROR]   location: class com.giodad.todolist.management.SecurityMetersServiceTests
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/security/DomainUserDetailsServiceIT.java:[7,34] cannot find symbol
+[ERROR]   symbol:   class User
+[ERROR]   location: package com.giodad.todolist.domain
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/security/DomainUserDetailsServiceIT.java:[8,38] cannot find symbol
+[ERROR]   symbol:   class UserRepository
+[ERROR]   location: package com.giodad.todolist.repository
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/security/DomainUserDetailsServiceIT.java:[9,35] cannot find symbol
+[ERROR]   symbol:   class UserService
+[ERROR]   location: package com.giodad.todolist.service
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/security/DomainUserDetailsServiceIT.java:[36,13] cannot find symbol
+[ERROR]   symbol:   class UserRepository
+[ERROR]   location: class com.giodad.todolist.security.DomainUserDetailsServiceIT
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/security/DomainUserDetailsServiceIT.java:[39,13] cannot find symbol
+[ERROR]   symbol:   class UserService
+[ERROR]   location: class com.giodad.todolist.security.DomainUserDetailsServiceIT
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/security/DomainUserDetailsServiceIT.java:[45,12] cannot find symbol
+[ERROR]   symbol:   class User
+[ERROR]   location: class com.giodad.todolist.security.DomainUserDetailsServiceIT
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/security/DomainUserDetailsServiceIT.java:[57,12] cannot find symbol
+[ERROR]   symbol:   class User
+[ERROR]   location: class com.giodad.todolist.security.DomainUserDetailsServiceIT
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/security/DomainUserDetailsServiceIT.java:[69,12] cannot find symbol
+[ERROR]   symbol:   class User
+[ERROR]   location: class com.giodad.todolist.security.DomainUserDetailsServiceIT
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/security/SecurityUtilsUnitTest.java:[3,43] cannot find symbol
+[ERROR]   symbol:   class SecurityUtils
+[ERROR]   location: package com.giodad.todolist.security
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/security/SecurityUtilsUnitTest.java:[3,1] static import only from classes and interfaces
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/security/jwt/AuthenticationIntegrationTest.java:[3,34] cannot find symbol
+[ERROR]   symbol:   class SecurityConfiguration
+[ERROR]   location: package com.giodad.todolist.config
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/security/jwt/AuthenticationIntegrationTest.java:[4,34] cannot find symbol
+[ERROR]   symbol:   class SecurityJwtConfiguration
+[ERROR]   location: package com.giodad.todolist.config
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/security/jwt/AuthenticationIntegrationTest.java:[5,34] cannot find symbol
+[ERROR]   symbol:   class WebConfigurer
+[ERROR]   location: package com.giodad.todolist.config
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/security/jwt/AuthenticationIntegrationTest.java:[6,38] cannot find symbol
+[ERROR]   symbol:   class SecurityMetersService
+[ERROR]   location: package com.giodad.todolist.management
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/security/jwt/AuthenticationIntegrationTest.java:[7,36] cannot find symbol
+[ERROR]   symbol:   class AuthenticateController
+[ERROR]   location: package com.giodad.todolist.web.rest
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/security/jwt/JwtAuthenticationTestUtils.java:[3,43] cannot find symbol
+[ERROR]   symbol:   class AuthoritiesConstants
+[ERROR]   location: package com.giodad.todolist.security
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/security/jwt/JwtAuthenticationTestUtils.java:[3,1] static import only from classes and interfaces
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/security/jwt/JwtAuthenticationTestUtils.java:[4,43] cannot find symbol
+[ERROR]   symbol:   class SecurityUtils
+[ERROR]   location: package com.giodad.todolist.security
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/security/jwt/JwtAuthenticationTestUtils.java:[4,1] static import only from classes and interfaces
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/security/jwt/JwtAuthenticationTestUtils.java:[5,43] cannot find symbol
+[ERROR]   symbol:   class SecurityUtils
+[ERROR]   location: package com.giodad.todolist.security
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/security/jwt/JwtAuthenticationTestUtils.java:[5,1] static import only from classes and interfaces
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/service/MailServiceIT.java:[8,34] cannot find symbol
+[ERROR]   symbol:   class Constants
+[ERROR]   location: package com.giodad.todolist.config
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/service/MailServiceIT.java:[9,34] cannot find symbol
+[ERROR]   symbol:   class User
+[ERROR]   location: package com.giodad.todolist.domain
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/service/MailServiceIT.java:[56,13] cannot find symbol
+[ERROR]   symbol:   class MailService
+[ERROR]   location: class com.giodad.todolist.service.MailServiceIT
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/service/UserServiceIT.java:[7,34] cannot find symbol
+[ERROR]   symbol:   class User
+[ERROR]   location: package com.giodad.todolist.domain
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/service/UserServiceIT.java:[8,38] cannot find symbol
+[ERROR]   symbol:   class UserRepository
+[ERROR]   location: package com.giodad.todolist.repository
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/service/UserServiceIT.java:[51,13] cannot find symbol
+[ERROR]   symbol:   class UserRepository
+[ERROR]   location: class com.giodad.todolist.service.UserServiceIT
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/service/UserServiceIT.java:[54,13] cannot find symbol
+[ERROR]   symbol:   class UserService
+[ERROR]   location: class com.giodad.todolist.service.UserServiceIT
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/service/UserServiceIT.java:[62,13] cannot find symbol
+[ERROR]   symbol:   class User
+[ERROR]   location: class com.giodad.todolist.service.UserServiceIT
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/service/criteria/AutoreCriteriaTest.java:[77,39] cannot find symbol
+[ERROR]   symbol:   class AutoreCriteria
+[ERROR]   location: class com.giodad.todolist.service.criteria.AutoreCriteriaTest
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/service/criteria/AutoreCriteriaTest.java:[84,30] cannot find symbol
+[ERROR]   symbol:   class AutoreCriteria
+[ERROR]   location: class com.giodad.todolist.service.criteria.AutoreCriteriaTest
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/service/criteria/AutoreCriteriaTest.java:[95,61] cannot find symbol
+[ERROR]   symbol:   class AutoreCriteria
+[ERROR]   location: class com.giodad.todolist.service.criteria.AutoreCriteriaTest
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/service/criteria/AutoreCriteriaTest.java:[95,30] cannot find symbol
+[ERROR]   symbol:   class AutoreCriteria
+[ERROR]   location: class com.giodad.todolist.service.criteria.AutoreCriteriaTest
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/service/criteria/LibroCriteriaTest.java:[77,39] cannot find symbol
+[ERROR]   symbol:   class LibroCriteria
+[ERROR]   location: class com.giodad.todolist.service.criteria.LibroCriteriaTest
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/service/criteria/LibroCriteriaTest.java:[86,30] cannot find symbol
+[ERROR]   symbol:   class LibroCriteria
+[ERROR]   location: class com.giodad.todolist.service.criteria.LibroCriteriaTest
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/service/criteria/LibroCriteriaTest.java:[99,60] cannot find symbol
+[ERROR]   symbol:   class LibroCriteria
+[ERROR]   location: class com.giodad.todolist.service.criteria.LibroCriteriaTest
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/service/criteria/LibroCriteriaTest.java:[99,30] cannot find symbol
+[ERROR]   symbol:   class LibroCriteria
+[ERROR]   location: class com.giodad.todolist.service.criteria.LibroCriteriaTest
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/service/criteria/RecensioneCriteriaTest.java:[77,39] cannot find symbol
+[ERROR]   symbol:   class RecensioneCriteria
+[ERROR]   location: class com.giodad.todolist.service.criteria.RecensioneCriteriaTest
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/service/criteria/RecensioneCriteriaTest.java:[85,30] cannot find symbol
+[ERROR]   symbol:   class RecensioneCriteria
+[ERROR]   location: class com.giodad.todolist.service.criteria.RecensioneCriteriaTest
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/service/criteria/RecensioneCriteriaTest.java:[97,65] cannot find symbol
+[ERROR]   symbol:   class RecensioneCriteria
+[ERROR]   location: class com.giodad.todolist.service.criteria.RecensioneCriteriaTest
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/service/criteria/RecensioneCriteriaTest.java:[97,30] cannot find symbol
+[ERROR]   symbol:   class RecensioneCriteria
+[ERROR]   location: class com.giodad.todolist.service.criteria.RecensioneCriteriaTest
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/service/mapper/AutoreMapperTest.java:[11,13] cannot find symbol
+[ERROR]   symbol:   class AutoreMapper
+[ERROR]   location: class com.giodad.todolist.service.mapper.AutoreMapperTest
+[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/service/mapper/LibroMapperTest.java:[11,13] cannot find symbol
+[ERROR]   symbol:   class LibroMapper
+[ERROR]   location: class com.giodad.todolist.service.mapper.LibroMapperTest
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
