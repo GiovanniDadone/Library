@@ -8,7 +8,11 @@ import org.mapstruct.Mapping;
 import org.mapstruct.MappingTarget;
 import org.mapstruct.Named;
 
-@Mapper(componentModel = "spring")
+@Mapper(
+    componentModel = "spring",
+    nullValueCheckStrategy = org.mapstruct.NullValueCheckStrategy.ALWAYS,
+    unmappedTargetPolicy = org.mapstruct.ReportingPolicy.WARN
+)
 public interface AutoreMapper extends EntityMapper<AutoreDTO, Autore> {
     AutoreDTO toDto(Autore autore);
 

@@ -95,7 +95,7 @@ spring:
     name: Library
   docker:
     compose:
-      enabled: true
+      enabled: true # Disabilitato per usare MySQL locale
       lifecycle-management: start-only
       file: src/main/docker/services.yml
   profiles:
