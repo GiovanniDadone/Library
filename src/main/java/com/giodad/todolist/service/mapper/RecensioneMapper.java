@@ -1,30 +1,17 @@
 package com.giodad.todolist.service.mapper;
 
-import com.giodad.todolist.domain.Libro;
 import com.giodad.todolist.domain.Recensione;
-import com.giodad.todolist.domain.User;
-import com.giodad.todolist.service.dto.LibroDTO;
 import com.giodad.todolist.service.dto.RecensioneDTO;
-import com.giodad.todolist.service.dto.UserDTO;
 import org.mapstruct.*;
 
-/**
- * Mapper for the entity {@link Recensione} and its DTO {@link RecensioneDTO}.
- */
-@Mapper(componentModel = "spring")
+@Mapper(componentModel = "spring", uses = { LibroMapper.class, UserMapper.class })
 public interface RecensioneMapper extends EntityMapper<RecensioneDTO, Recensione> {
-    @Mapping(target = "libro", source = "libro", qualifiedByName = "libroId")
-    @Mapping(target = "user", source = "user", qualifiedByName = "userLogin")
+    @Mapping(target = "libro", source = "libro", qualifiedByName = "libroComplete")
+    @Mapping(target = "user", source = "user", qualifiedByName = "login")
     RecensioneDTO toDto(Recensione s);
 
-    @Named("libroId")
-    @BeanMapping(ignoreByDefault = true)
-    @Mapping(target = "id", source = "id")
-    LibroDTO toDtoLibroId(Libro libro);
+    Recensione toEntity(RecensioneDTO recensioneDTO);
 
-    @Named("userLogin")
-    @BeanMapping(ignoreByDefault = true)
-    @Mapping(target = "id", source = "id")
-    @Mapping(target = "login", source = "login")
-    UserDTO toDtoUserLogin(User user);
+    @Override
+    void partialUpdate(@MappingTarget Recensione entity, RecensioneDTO dto);
 }

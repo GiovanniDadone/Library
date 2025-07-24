@@ -1,242 +1,154 @@
-# Library
+# 📚 Library Management System
 
-This application was generated using JHipster 8.11.0, you can find documentation and help at [https://www.jhipster.tech/documentation-archive/v8.11.0](https://www.jhipster.tech/documentation-archive/v8.11.0).
+Sistema di gestione biblioteca realizzato con **Spring Boot 3.4.5** e **React**, utilizzando **JHipster 8.11.0**.
 
-## Project Structure
+## 🚀 Funzionalità
 
-Node is required for generation and recommended for development. `package.json` is always generated for a better development experience with prettier, commit hooks, scripts and so on.
+- **📖 Gestione Libri** - CRUD completo per libri con autori
+- **👤 Gestione Autori** - Profili autori e associazioni libri
+- **⭐ Sistema Recensioni** - Recensioni e valutazioni utenti
+- **🔐 Autenticazione** - Sicurezza JWT con ruoli utente
+- **📱 UI Responsiva** - Frontend React moderno
+- **📊 API REST** - API RESTful con documentazione OpenAPI
 
-In the project root, JHipster generates configuration files for tools like git, prettier, eslint, husky, and others that are well known and you can find references in the web.
+## 🏗️ Architettura
 
-`/src/*` structure follows default Java structure.
+- **Backend**: Spring Boot 3.4.5 + MySQL + MapStruct
+- **Frontend**: React 18.3.1 + TypeScript + Bootstrap
+- **Database**: MySQL 8.0+ con migrazioni Liquibase
+- **Sicurezza**: OAuth2 + JWT
+- **Testing**: JUnit 5 + Jest
 
-- `.yo-rc.json` - Yeoman configuration file
-  JHipster configuration is stored in this file at `generator-jhipster` key. You may find `generator-jhipster-*` for specific blueprints configuration.
-- `.yo-resolve` (optional) - Yeoman conflict resolver
-  Allows to use a specific action when conflicts are found skipping prompts for files that matches a pattern. Each line should match `[pattern] [action]` with pattern been a [Minimatch](https://github.com/isaacs/minimatch#minimatch) pattern and action been one of skip (default if omitted) or force. Lines starting with `#` are considered comments and are ignored.
-- `.jhipster/*.json` - JHipster entity configuration files
+## 📦 Entità
 
-- `npmw` - wrapper to use locally installed npm.
-  JHipster installs Node and npm locally using the build tool by default. This wrapper makes sure npm is installed locally and uses it avoiding some differences different versions can cause. By using `./npmw` instead of the traditional `npm` you can configure a Node-less environment to develop or test your application.
-- `/src/main/docker` - Docker configurations for the application and services that the application depends on
+- **Autore**: `id`, `nome`
+- **Libro**: `id`, `titolo`, `prezzo`, `autore`
+- **Recensione**: `id`, `descrizione`, `libro`, `user`
 
-## Development
+## 🛠️ Requisiti
 
-The build system will install automatically the recommended version of Node and npm.
+- **Java 17+**
+- **Node.js 22.15.0+**
+- **MySQL 8.0+** sulla porta 3306
 
-We provide a wrapper to launch npm.
-You will only need to run this command when dependencies change in [package.json](package.json).
+## 🚀 Avvio Rapido
 
+### 1. Setup Database
+
+```sql
+CREATE DATABASE Library;
+CREATE USER 'giovanni'@'localhost' IDENTIFIED BY 'B@RGHa86$b';
+GRANT ALL PRIVILEGES ON Library.* TO 'giovanni'@'localhost';
+FLUSH PRIVILEGES;
 ```
-./npmw install
-```
 
-We use npm scripts and [Webpack][] as our build system.
+### 2. Avvio Applicazione
 
-Run the following commands in two separate terminals to create a blissful development experience where your browser
-auto-refreshes when files change on your hard drive.
+```bash
+# Backend
+./mvnw spring-boot:run
 
-```
-./mvnw
+# Frontend (terminal separato)
 ./npmw start
 ```
 
-Npm is also used to manage CSS and JavaScript dependencies used in this application. You can upgrade dependencies by
-specifying a newer version in [package.json](package.json). You can also run `./npmw update` and `./npmw install` to manage dependencies.
-Add the `help` flag on any command to see how you can use it. For example, `./npmw help update`.
+### 3. Accesso
 
-The `./npmw run` command will list all the scripts available to run for this project.
+- **App**: http://localhost:8080
+- **API Docs**: http://localhost:8080/api-docs
+- **Login**: `admin`/`admin` o `user`/`user`
 
-### PWA Support
+## 📊 API Endpoints
 
-JHipster ships with PWA (Progressive Web App) support, and it's turned off by default. One of the main components of a PWA is a service worker.
+### Autori (`/api/autores`)
 
-The service worker initialization code is commented out by default. To enable it, uncomment the following code in `src/main/webapp/index.html`:
+- `GET /api/autores` - Lista autori
+- `POST /api/autores` - Crea autore
+- `PUT /api/autores/{id}` - Modifica autore
+- `DELETE /api/autores/{id}` - Elimina autore
 
-```html
-<script>
-  if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('./service-worker.js').then(function () {
-      console.log('Service Worker Registered');
-    });
-  }
-</script>
-```
+### Libri (`/api/libros`)
 
-Note: [Workbox](https://developers.google.com/web/tools/workbox/) powers JHipster's service worker. It dynamically generates the `service-worker.js` file.
+- `GET /api/libros` - Lista libri
+- `POST /api/libros` - Crea libro
+- `PUT /api/libros/{id}` - Modifica libro
+- `DELETE /api/libros/{id}` - Elimina libro
 
-### Managing dependencies
+### Recensioni (`/api/recensiones`)
 
-For example, to add [Leaflet][] library as a runtime dependency of your application, you would run following command:
+- `GET /api/recensiones` - Lista recensioni
+- `POST /api/recensiones` - Crea recensione
+- `PUT /api/recensiones/{id}` - Modifica recensione
+- `DELETE /api/recensiones/{id}` - Elimina recensione
 
-```
-./npmw install --save --save-exact leaflet
-```
+## 🔧 Comandi Utili
 
-To benefit from TypeScript type definitions from [DefinitelyTyped][] repository in development, you would run following command:
+```bash
+# Build
+./mvnw clean compile
 
-```
-./npmw install --save-dev --save-exact @types/leaflet
-```
+# Test
+./mvnw test
 
-Then you would import the JS and CSS files specified in library's installation instructions so that [Webpack][] knows about them:
-Note: There are still a few other things remaining to do for Leaflet that we won't detail here.
+# Test specifico
+./mvnw -Dtest=AutoreMapperTest test
 
-For further instructions on how to develop with JHipster, have a look at [Using JHipster in development][].
+# Formattazione codice
+./mvnw spotless:apply
 
-## Building for production
-
-### Packaging as jar
-
-To build the final jar and optimize the Library application for production, run:
-
-```
+# Build produzione
 ./mvnw -Pprod clean verify
+
+# Frontend
+./npmw install
+./npmw test
+./npmw run build
 ```
 
-This will concatenate and minify the client CSS and JavaScript files. It will also modify `index.html` so it references these new files.
-To ensure everything worked, run:
+## 🧪 Testing
 
-```
-java -jar target/*.jar
-```
+```bash
+# Unit test backend
+./mvnw test
 
-Then navigate to [http://localhost:8080](http://localhost:8080) in your browser.
+# Test filtrati (esclude test problematici)
+./mvnw test -Dtest=!*IT,!*MapperTest,!WebConfigurerTest
 
-Refer to [Using JHipster in production][] for more details.
-
-### Packaging as war
-
-To package your application as a war in order to deploy it to an application server, run:
-
-```
-./mvnw -Pprod,war clean verify
-```
-
-### JHipster Control Center
-
-JHipster Control Center can help you manage and control your application(s). You can start a local control center server (accessible on http://localhost:7419) with:
-
-```
-docker compose -f src/main/docker/jhipster-control-center.yml up
-```
-
-## Testing
-
-### Spring Boot tests
-
-To launch your application's tests, run:
-
-```
-./mvnw verify
-```
-
-### Client tests
-
-Unit tests are run by [Jest][]. They're located near components and can be run with:
-
-```
+# Test frontend
 ./npmw test
 ```
 
-## Others
+## 🐛 Risoluzione Problemi
 
-### Code quality using Sonar
+### Connessione Database
 
-Sonar is used to analyse code quality. You can start a local Sonar server (accessible on http://localhost:9001) with:
+- Verificare MySQL attivo: `mysql -u giovanni -p`
+- Controllare configurazione in `src/main/resources/config/application-dev.yml`
+- Assicurarsi che il database `Library` esista
 
-```
-docker compose -f src/main/docker/sonar.yml up -d
-```
+### Conflitti Porta
 
-Note: we have turned off forced authentication redirect for UI in [src/main/docker/sonar.yml](src/main/docker/sonar.yml) for out of the box experience while trying out SonarQube, for real use cases turn it back on.
+- Applicazione: porta 8080
+- MySQL: porta 3306
 
-You can run a Sonar analysis with using the [sonar-scanner](https://docs.sonarqube.org/display/SCAN/Analyzing+with+SonarQube+Scanner) or by using the maven plugin.
+### Test Falliti
 
-Then, run a Sonar analysis:
+- Alcuni test di integrazione richiedono setup TestContainers
+- Usare comando filtrato per test di sviluppo
 
-```
-./mvnw -Pprod clean verify sonar:sonar -Dsonar.login=admin -Dsonar.password=admin
-```
-
-If you need to re-run the Sonar phase, please be sure to specify at least the `initialize` phase since Sonar properties are loaded from the sonar-project.properties file.
+## 📁 Struttura Progetto
 
 ```
-./mvnw initialize sonar:sonar -Dsonar.login=admin -Dsonar.password=admin
+src/
+├── main/
+│   ├── java/com/giodad/todolist/
+│   │   ├── domain/          # Entità JPA
+│   │   ├── repository/      # Repository Spring Data
+│   │   ├── service/         # Logica business + DTO
+│   │   ├── web/rest/        # Controller REST
+│   │   └── config/          # Configurazioni
+│   ├── resources/
+│   │   └── config/          # File configurazione
+│   └── webapp/              # Frontend React
+└── test/                    # Test JUnit + Jest
 ```
-
-Additionally, Instead of passing `sonar.password` and `sonar.login` as CLI arguments, these parameters can be configured from [sonar-project.properties](sonar-project.properties) as shown below:
-
-```
-sonar.login=admin
-sonar.password=admin
-```
-
-For more information, refer to the [Code quality page][].
-
-### Docker Compose support
-
-JHipster generates a number of Docker Compose configuration files in the [src/main/docker/](src/main/docker/) folder to launch required third party services.
-
-For example, to start required services in Docker containers, run:
-
-```
-docker compose -f src/main/docker/services.yml up -d
-```
-
-To stop and remove the containers, run:
-
-```
-docker compose -f src/main/docker/services.yml down
-```
-
-[Spring Docker Compose Integration](https://docs.spring.io/spring-boot/reference/features/dev-services.html) is enabled by default. It's possible to disable it in application.yml:
-
-```yaml
-spring:
-  ...
-  docker:
-    compose:
-      enabled: false
-```
-
-You can also fully dockerize your application and all the services that it depends on.
-To achieve this, first build a Docker image of your app by running:
-
-```sh
-npm run java:docker
-```
-
-Or build a arm64 Docker image when using an arm64 processor os like MacOS with M1 processor family running:
-
-```sh
-npm run java:docker:arm64
-```
-
-Then run:
-
-```sh
-docker compose -f src/main/docker/app.yml up -d
-```
-
-For more information refer to [Using Docker and Docker-Compose][], this page also contains information on the Docker Compose sub-generator (`jhipster docker-compose`), which is able to generate Docker configurations for one or several JHipster applications.
-
-## Continuous Integration (optional)
-
-To configure CI for your project, run the ci-cd sub-generator (`jhipster ci-cd`), this will let you generate configuration files for a number of Continuous Integration systems. Consult the [Setting up Continuous Integration][] page for more information.
-
-[JHipster Homepage and latest documentation]: https://www.jhipster.tech
-[JHipster 8.11.0 archive]: https://www.jhipster.tech/documentation-archive/v8.11.0
-[Using JHipster in development]: https://www.jhipster.tech/documentation-archive/v8.11.0/development/
-[Using Docker and Docker-Compose]: https://www.jhipster.tech/documentation-archive/v8.11.0/docker-compose
-[Using JHipster in production]: https://www.jhipster.tech/documentation-archive/v8.11.0/production/
-[Running tests page]: https://www.jhipster.tech/documentation-archive/v8.11.0/running-tests/
-[Code quality page]: https://www.jhipster.tech/documentation-archive/v8.11.0/code-quality/
-[Setting up Continuous Integration]: https://www.jhipster.tech/documentation-archive/v8.11.0/setting-up-ci/
-[Node.js]: https://nodejs.org/
-[NPM]: https://www.npmjs.com/
-[Webpack]: https://webpack.github.io/
-[BrowserSync]: https://www.browsersync.io/
-[Jest]: https://jestjs.io
-[Leaflet]: https://leafletjs.com/
-[DefinitelyTyped]: https://definitelytyped.org/

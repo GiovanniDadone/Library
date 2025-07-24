@@ -5,6 +5,7 @@ import static com.giodad.todolist.domain.AutoreTestSamples.*;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.mapstruct.factory.Mappers;
 
 class AutoreMapperTest {
 
@@ -12,7 +13,7 @@ class AutoreMapperTest {
 
     @BeforeEach
     void setUp() {
-        autoreMapper = new AutoreMapperImpl();
+        autoreMapper = Mappers.getMapper(AutoreMapper.class);
     }
 
     @Test

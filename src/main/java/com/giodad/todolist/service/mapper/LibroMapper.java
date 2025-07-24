@@ -1,21 +1,31 @@
 package com.giodad.todolist.service.mapper;
 
-import com.giodad.todolist.domain.Autore;
 import com.giodad.todolist.domain.Libro;
-import com.giodad.todolist.service.dto.AutoreDTO;
 import com.giodad.todolist.service.dto.LibroDTO;
-import org.mapstruct.*;
+import org.mapstruct.BeanMapping;
+import org.mapstruct.Mapper;
+import org.mapstruct.Mapping;
+import org.mapstruct.MappingTarget;
+import org.mapstruct.Named;
 
-/**
- * Mapper for the entity {@link Libro} and its DTO {@link LibroDTO}.
- */
-@Mapper(componentModel = "spring")
+@Mapper(componentModel = "spring", uses = { AutoreMapper.class })
 public interface LibroMapper extends EntityMapper<LibroDTO, Libro> {
-    @Mapping(target = "autore", source = "autore", qualifiedByName = "autoreId")
+    @Mapping(target = "autore", source = "autore", qualifiedByName = "autoreComplete")
     LibroDTO toDto(Libro s);
 
-    @Named("autoreId")
+    @Mapping(target = "recensionis", ignore = true)
+    @Mapping(target = "removeRecensioni", ignore = true)
+    Libro toEntity(LibroDTO libroDTO);
+
+    @Override
+    @Mapping(target = "recensionis", ignore = true)
+    @Mapping(target = "removeRecensioni", ignore = true)
+    void partialUpdate(@MappingTarget Libro entity, LibroDTO dto);
+
+    @Named("libroComplete")
     @BeanMapping(ignoreByDefault = true)
     @Mapping(target = "id", source = "id")
-    AutoreDTO toDtoAutoreId(Autore autore);
+    @Mapping(target = "titolo", source = "titolo")
+    @Mapping(target = "prezzo", source = "prezzo")
+    LibroDTO toDtoLibroComplete(Libro libro);
 }

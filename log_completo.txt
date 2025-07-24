@@ -1,1017 +1,1005 @@
+C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library>jhipster --force
+
+        ██╗ ██╗   ██╗ ████████╗ ███████╗   ██████╗ ████████╗ ████████╗ ███████╗
+        ██║ ██║   ██║ ╚══██╔══╝ ██╔═══██╗ ██╔════╝ ╚══██╔══╝ ██╔═════╝ ██╔═══██╗
+        ██║ ████████║    ██║    ███████╔╝ ╚█████╗     ██║    ██████╗   ███████╔╝
+  ██╗   ██║ ██╔═══██║    ██║    ██╔════╝   ╚═══██╗    ██║    ██╔═══╝   ██╔══██║
+  ╚██████╔╝ ██║   ██║ ████████╗ ██║       ██████╔╝    ██║    ████████╗ ██║  ╚██╗
+   ╚═════╝  ╚═╝   ╚═╝ ╚═══════╝ ╚═╝       ╚═════╝     ╚═╝    ╚═══════╝ ╚═╝   ╚═╝
+                            https://www.jhipster.tech
+Welcome to JHipster v8.11.0
+
+ _______________________________________________________________________________________________________________
+
+  Documentation for creating an application is at https://www.jhipster.tech/creating-an-app/
+
+  Application files will be generated in folder: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library
+ _______________________________________________________________________________________________________________
+
+     info KeyStore 'C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\main\resources\config\tls\keystore.p12' already exists. Leaving unchanged.
+√ applying multi-step templates
+√ Git repository initialized.
+    force .prettierrc
+    force .prettierignore
+√ prettier configuration files committed to disk
+√ loading translations
+√ updating package.json dependencies versions
+√ prettifying sonar-project.properties
+√ adding package-info.java files
+√ sorting pom.xml file
+√ translating react application
+    force sonar-project.properties
+    force .husky\pre-commit
+    force src\main\resources\banner.txt
+    force .devcontainer\Dockerfile
+    force pom.xml
+    force src\main\resources\logback-spring.xml
+    force src\main\resources\i18n\messages.properties
+    force src\test\resources\logback.xml
+    force src\test\resources\junit-platform.properties
+    force src\test\resources\i18n\messages_en.properties
+    force mvnw
+    force mvnw.cmd
+    force .mvn\wrapper\maven-wrapper.jar
+    force .mvn\wrapper\maven-wrapper.properties
+    force .mvn\jvm.config
+    force src\main\docker\config\mysql\my.cnf
+    force src\main\docker\jib\entrypoint.sh
+    force checkstyle.xml
+    force src\main\resources\config\liquibase\changelog\00000000000000_initial_schema.xml
+    force src\main\resources\config\liquibase\master.xml
+    force src\main\resources\config\liquibase\data\user.csv
+    force src\main\resources\config\liquibase\data\user_authority.csv
+    force src\main\resources\config\liquibase\data\authority.csv
+    force src\main\webapp\content\images\jhipster_family_member_0.svg
+    force src\main\webapp\content\images\jhipster_family_member_0_head-192.png
+    force src\main\webapp\content\images\jhipster_family_member_0_head-256.png
+    force src\main\webapp\content\images\jhipster_family_member_0_head-384.png
+    force src\main\webapp\content\images\jhipster_family_member_0_head-512.png
+    force src\main\webapp\content\images\jhipster_family_member_1.svg
+    force src\main\webapp\content\images\jhipster_family_member_1_head-192.png
+    force src\main\webapp\content\images\jhipster_family_member_1_head-256.png
+    force src\main\webapp\content\images\jhipster_family_member_1_head-384.png
+    force src\main\webapp\content\images\jhipster_family_member_1_head-512.png
+    force src\main\webapp\content\images\jhipster_family_member_2.svg
+    force src\main\webapp\content\images\jhipster_family_member_2_head-192.png
+    force src\main\webapp\content\images\jhipster_family_member_2_head-256.png
+    force src\main\webapp\content\images\jhipster_family_member_2_head-384.png
+    force src\main\webapp\content\images\jhipster_family_member_2_head-512.png
+    force src\main\webapp\content\images\jhipster_family_member_3.svg
+    force src\main\webapp\content\images\jhipster_family_member_3_head-192.png
+    force src\main\webapp\content\images\jhipster_family_member_3_head-256.png
+    force src\main\webapp\content\images\jhipster_family_member_3_head-384.png
+    force src\main\webapp\content\images\jhipster_family_member_3_head-512.png
+    force src\main\webapp\content\images\logo-jhipster.png
+    force src\main\webapp\favicon.ico
+    force src\main\webapp\manifest.webapp
+    force src\main\webapp\WEB-INF\web.xml
+    force src\main\webapp\robots.txt
+    force webpack\logo-jhipster.png
+    force npmw
+    force npmw.cmd
+    force package.json
+    force src\main\resources\config\liquibase\changelog\20250724154319_added_entity_Autore.xml
+    force src\main\resources\config\liquibase\fake-data\autore.csv
+    force .yo-rc.json
+    force src\main\resources\config\liquibase\changelog\20250724154644_added_entity_Libro.xml
+    force src\main\resources\config\liquibase\changelog\20250724154644_added_entity_constraints_Libro.xml
+    force .jhipster\Autore.json
+    force .jhipster\Libro.json
+    force src\main\resources\config\liquibase\fake-data\libro.csv
+    force .jhipster\Recensione.json
+    force src\main\resources\config\liquibase\changelog\20250724154950_added_entity_Recensione.xml
+    force src\main\resources\config\liquibase\changelog\20250724154950_added_entity_constraints_Recensione.xml
+    force src\main\resources\config\liquibase\fake-data\recensione.csv
+    force .devcontainer\devcontainer.json
+    force .gitignore
+    force .gitattributes
+    force .editorconfig
+    force src\main\resources\templates\error.html
+    force src\main\resources\config\application.yml
+    force src\main\resources\config\application-dev.yml
+    force src\main\resources\config\application-tls.yml
+    force src\main\resources\config\application-prod.yml
+    force src\test\resources\META-INF\spring.factories
+    force src\test\resources\config\application.yml
+    force src\main\resources\templates\mail\activationEmail.html
+    force src\main\resources\templates\mail\creationEmail.html
+    force src\main\resources\templates\mail\passwordResetEmail.html
+    force src\test\resources\templates\mail\activationEmail.html
+    force src\test\resources\templates\mail\creationEmail.html
+    force src\test\resources\templates\mail\passwordResetEmail.html
+    force src\test\resources\templates\mail\testEmail.html
+    force src\main\docker\mysql.yml
+    force src\main\docker\app.yml
+    force src\main\docker\jhipster-control-center.yml
+    force src\main\docker\monitoring.yml
+    force src\main\docker\grafana\provisioning\dashboards\dashboard.yml
+    force src\main\docker\grafana\provisioning\dashboards\JVM.json
+    force src\main\docker\grafana\provisioning\datasources\datasource.yml
+    force src\main\docker\sonar.yml
+    force src\main\docker\prometheus\prometheus.yml
+    force src\test\resources\config\application-testdev.yml
+    force src\test\resources\config\application-testprod.yml
+    force src\main\webapp\content\css\loading.css
+    force src\main\webapp\404.html
+    force src\main\webapp\index.html
+    force src\main\webapp\swagger-ui\index.html
+    force tsconfig.json
+    force tsconfig.test.json
+    force src\main\webapp\app\app.scss
+    force src\main\webapp\app\_bootstrap-variables.scss
+    force src\main\webapp\app\modules\home\home.scss
+    force src\main\webapp\app\modules\administration\docs\docs.scss
+    force src\main\webapp\app\shared\layout\header\header.scss
+    force src\main\webapp\app\shared\layout\footer\footer.scss
+    force src\main\webapp\app\shared\layout\password\password-strength-bar.scss
+    force src\test\java\com\giodad\todolist\domain\AssertUtils.java
+    force src\test\java\com\giodad\todolist\security\SecurityUtilsUnitTest.java
+    force src\test\java\com\giodad\todolist\TechnicalStructureTest.java
+    force src\test\java\com\giodad\todolist\config\AsyncSyncConfiguration.java
+    force src\test\java\com\giodad\todolist\IntegrationTest.java
+    force src\test\java\com\giodad\todolist\config\SpringBootTestClassOrderer.java
+    force src\test\java\com\giodad\todolist\config\StaticResourcesWebConfigurerTest.java
+    force src\test\java\com\giodad\todolist\web\filter\SpaWebFilterIT.java
+    force src\test\java\com\giodad\todolist\web\rest\TestUtil.java
+    force src\test\java\com\giodad\todolist\web\rest\errors\ExceptionTranslatorTestController.java
+    force src\test\java\com\giodad\todolist\web\rest\errors\ExceptionTranslatorIT.java
+    force src\test\java\com\giodad\todolist\web\rest\WithUnauthenticatedMockUser.java
+    force src\test\java\com\giodad\todolist\management\SecurityMetersServiceTests.java
+    force src\test\java\com\giodad\todolist\security\jwt\AuthenticationIntegrationTest.java
+    force src\test\java\com\giodad\todolist\security\jwt\JwtAuthenticationTestUtils.java
+    force src\test\java\com\giodad\todolist\security\jwt\TokenAuthenticationSecurityMetersIT.java
+    force src\test\java\com\giodad\todolist\security\jwt\TokenAuthenticationIT.java
+    force src\test\java\com\giodad\todolist\web\rest\AuthenticateControllerIT.java
+    force src\test\java\com\giodad\todolist\web\rest\AccountResourceIT.java
+    force src\main\java\com\giodad\todolist\GeneratedByJHipster.java
+    force src\main\java\com\giodad\todolist\security\SpringSecurityAuditorAware.java
+    force src\main\java\com\giodad\todolist\security\SecurityUtils.java
+    force src\main\java\com\giodad\todolist\security\AuthoritiesConstants.java
+    force src\main\java\com\giodad\todolist\config\SecurityConfiguration.java
+    force src\main\java\com\giodad\todolist\LibraryApp.java
+    force src\main\java\com\giodad\todolist\aop\logging\LoggingAspect.java
+    force src\main\java\com\giodad\todolist\config\AsyncConfiguration.java
+    force src\main\java\com\giodad\todolist\config\CRLFLogConverter.java
+    force src\main\java\com\giodad\todolist\config\DateTimeFormatConfiguration.java
+    force src\main\java\com\giodad\todolist\config\LoggingConfiguration.java
+    force src\main\java\com\giodad\todolist\config\ApplicationProperties.java
+    force src\main\java\com\giodad\todolist\config\JacksonConfiguration.java
+    force src\main\java\com\giodad\todolist\config\LoggingAspectConfiguration.java
+    force src\main\java\com\giodad\todolist\config\WebConfigurer.java
+    force src\main\java\com\giodad\todolist\config\Constants.java
+    force src\test\java\com\giodad\todolist\service\MailServiceIT.java
+    force src\test\java\com\giodad\todolist\security\DomainUserDetailsServiceIT.java
+    force src\test\java\com\giodad\todolist\config\CRLFLogConverterTest.java
+    force src\test\java\com\giodad\todolist\config\WebConfigurerTest.java
+    force src\test\java\com\giodad\todolist\config\WebConfigurerTestController.java
+    force src\test\java\com\giodad\todolist\config\timezone\HibernateTimeZoneIT.java
+    force src\test\java\com\giodad\todolist\repository\timezone\DateTimeWrapper.java
+    force src\test\java\com\giodad\todolist\repository\timezone\DateTimeWrapperRepository.java
+    force src\test\java\com\giodad\todolist\config\EmbeddedSQL.java
+    force src\test\java\com\giodad\todolist\config\SqlTestContainer.java
+    force src\test\java\com\giodad\todolist\config\SqlTestContainersSpringContextCustomizerFactory.java
+    force src\test\java\com\giodad\todolist\config\MysqlTestContainer.java
+    force src\test\java\com\giodad\todolist\domain\AuthorityAsserts.java
+    force src\test\java\com\giodad\todolist\domain\AuthorityTest.java
+    force src\test\java\com\giodad\todolist\domain\AuthorityTestSamples.java
+    force src\test\java\com\giodad\todolist\domain\AutoreAsserts.java
+    force src\test\java\com\giodad\todolist\domain\AutoreTest.java
+    force src\test\java\com\giodad\todolist\domain\AutoreTestSamples.java
+    force src\test\java\com\giodad\todolist\domain\LibroAsserts.java
+    force src\test\java\com\giodad\todolist\domain\LibroTest.java
+    force src\test\java\com\giodad\todolist\domain\LibroTestSamples.java
+    force src\test\java\com\giodad\todolist\domain\RecensioneAsserts.java
+    force src\test\java\com\giodad\todolist\domain\RecensioneTest.java
+    force src\test\java\com\giodad\todolist\domain\RecensioneTestSamples.java
+    force README.md
+    force src\main\java\com\giodad\todolist\domain\AbstractAuditingEntity.java
+    force src\main\java\com\giodad\todolist\web\rest\errors\BadRequestAlertException.java
+    force src\main\java\com\giodad\todolist\web\rest\errors\ErrorConstants.java
+    force src\main\java\com\giodad\todolist\web\rest\errors\ExceptionTranslator.java
+    force src\main\java\com\giodad\todolist\web\rest\errors\FieldErrorVM.java
+    force src\main\java\com\giodad\todolist\config\StaticResourcesWebConfiguration.java
+    force src\main\java\com\giodad\todolist\web\filter\SpaWebFilter.java
+    force src\main\java\com\giodad\todolist\config\SecurityJwtConfiguration.java
+    force src\main\java\com\giodad\todolist\management\SecurityMetersService.java
+    force src\main\java\com\giodad\todolist\web\rest\vm\LoginVM.java
+    force src\main\java\com\giodad\todolist\web\rest\AuthenticateController.java
+    force src\main\docker\services.yml
+    force src\main\java\com\giodad\todolist\web\rest\AccountResource.java
+    force src\main\java\com\giodad\todolist\web\rest\vm\ManagedUserVM.java
+    force src\main\java\com\giodad\todolist\security\DomainUserDetailsService.java
+    force src\main\java\com\giodad\todolist\security\UserNotActivatedException.java
+    force src\main\java\com\giodad\todolist\service\MailService.java
+    force src\test\java\com\giodad\todolist\service\mapper\UserMapperTest.java
+    force src\test\java\com\giodad\todolist\service\UserServiceIT.java
+    force src\test\java\com\giodad\todolist\web\rest\UserResourceIT.java
+    force src\test\java\com\giodad\todolist\web\rest\PublicUserResourceIT.java
+    force src\test\java\com\giodad\todolist\web\rest\AuthorityResourceIT.java
+    force src\test\java\com\giodad\todolist\web\rest\AutoreResourceIT.java
+    force src\test\java\com\giodad\todolist\service\criteria\AutoreCriteriaTest.java
+    force src\test\java\com\giodad\todolist\service\dto\AutoreDTOTest.java
+    force src\test\java\com\giodad\todolist\service\mapper\AutoreMapperTest.java
+    force src\test\java\com\giodad\todolist\web\rest\LibroResourceIT.java
+    force src\test\java\com\giodad\todolist\service\criteria\LibroCriteriaTest.java
+    force src\main\java\com\giodad\todolist\service\dto\PasswordChangeDTO.java
+    force src\main\java\com\giodad\todolist\service\EmailAlreadyUsedException.java
+    force src\main\java\com\giodad\todolist\service\InvalidPasswordException.java
+    force src\main\java\com\giodad\todolist\service\UsernameAlreadyUsedException.java
+    force src\main\java\com\giodad\todolist\web\rest\vm\KeyAndPasswordVM.java
+    force src\main\java\com\giodad\todolist\web\rest\errors\EmailAlreadyUsedException.java
+    force src\main\java\com\giodad\todolist\web\rest\errors\InvalidPasswordException.java
+    force src\main\java\com\giodad\todolist\web\rest\errors\LoginAlreadyUsedException.java
+    force src\main\java\com\giodad\todolist\ApplicationWebXml.java
+    force src\main\java\com\giodad\todolist\config\DatabaseConfiguration.java
+    force src\main\java\com\giodad\todolist\config\CacheConfiguration.java
+    force src\main\java\com\giodad\todolist\config\LiquibaseConfiguration.java
+    force src\main\java\com\giodad\todolist\domain\User.java
+    force src\main\java\com\giodad\todolist\service\dto\UserDTO.java
+    force src\main\java\com\giodad\todolist\service\dto\AdminUserDTO.java
+    force src\main\java\com\giodad\todolist\service\mapper\UserMapper.java
+    force src\test\java\com\giodad\todolist\service\dto\LibroDTOTest.java
+    force src\test\java\com\giodad\todolist\service\mapper\LibroMapperTest.java
+    force src\test\java\com\giodad\todolist\web\rest\RecensioneResourceIT.java
+    force src\test\java\com\giodad\todolist\service\criteria\RecensioneCriteriaTest.java
+    force src\test\java\com\giodad\todolist\service\dto\RecensioneDTOTest.java
+    force src\test\java\com\giodad\todolist\service\mapper\RecensioneMapperTest.java
+    force src\main\java\com\giodad\todolist\web\rest\UserResource.java
+    force src\main\java\com\giodad\todolist\service\UserService.java
+    force src\main\java\com\giodad\todolist\repository\UserRepository.java
+    force src\main\java\com\giodad\todolist\web\rest\PublicUserResource.java
+    force src\main\java\com\giodad\todolist\web\rest\AuthorityResource.java
+    force src\main\java\com\giodad\todolist\web\rest\AutoreResource.java
+    force src\main\java\com\giodad\todolist\service\criteria\AutoreCriteria.java
+    force src\main\java\com\giodad\todolist\service\AutoreQueryService.java
+    force src\main\java\com\giodad\todolist\service\AutoreService.java
+    force src\main\java\com\giodad\todolist\service\mapper\EntityMapper.java
+    force src\main\java\com\giodad\todolist\service\dto\AutoreDTO.java
+    force src\main\java\com\giodad\todolist\service\mapper\AutoreMapper.java
+    force src\main\java\com\giodad\todolist\web\rest\LibroResource.java
+    force src\main\java\com\giodad\todolist\service\criteria\LibroCriteria.java
+    force src\main\java\com\giodad\todolist\service\LibroQueryService.java
+    force src\main\java\com\giodad\todolist\service\LibroService.java
+    force src\main\java\com\giodad\todolist\service\dto\LibroDTO.java
+    force src\main\java\com\giodad\todolist\service\mapper\LibroMapper.java
+    force src\main\java\com\giodad\todolist\web\rest\RecensioneResource.java
+    force src\main\java\com\giodad\todolist\service\criteria\RecensioneCriteria.java
+    force src\main\java\com\giodad\todolist\service\RecensioneQueryService.java
+    force src\main\java\com\giodad\todolist\service\RecensioneService.java
+    force src\main\java\com\giodad\todolist\service\dto\RecensioneDTO.java
+    force src\main\java\com\giodad\todolist\service\mapper\RecensioneMapper.java
+    force src\main\java\com\giodad\todolist\repository\AuthorityRepository.java
+    force src\main\java\com\giodad\todolist\repository\AutoreRepository.java
+    force src\main\java\com\giodad\todolist\repository\LibroRepository.java
+    force src\main\java\com\giodad\todolist\repository\RecensioneRepository.java
+    force src\main\java\com\giodad\todolist\domain\Authority.java
+    force src\main\java\com\giodad\todolist\domain\Autore.java
+    force src\main\java\com\giodad\todolist\domain\Libro.java
+    force src\main\java\com\giodad\todolist\domain\Recensione.java
+    force .lintstagedrc.cjs
+    force jest.conf.js
+    force webpack\environment.js
+    force webpack\webpack.common.js
+    force webpack\webpack.dev.js
+    force webpack\webpack.prod.js
+    force webpack\utils.js
+    force postcss.config.js
+    force src\main\webapp\app\app.tsx
+    force src\main\webapp\app\index.tsx
+    force src\main\webapp\app\routes.tsx
+    force src\main\webapp\app\setup-tests.ts
+    force src\main\webapp\app\typings.d.ts
+    force src\main\webapp\app\config\constants.ts
+    force src\main\webapp\app\config\dayjs.ts
+    force src\main\webapp\app\config\axios-interceptor.ts
+    force src\main\webapp\app\config\error-middleware.ts
+    force src\main\webapp\app\config\logger-middleware.ts
+    force src\main\webapp\app\config\notification-middleware.ts
+    force src\main\webapp\app\config\store.ts
+    force src\main\webapp\app\config\icon-loader.ts
+    force src\main\webapp\app\entities\reducers.ts
+    force src\main\webapp\app\entities\menu.tsx
+    force src\main\webapp\app\entities\routes.tsx
+    force src\main\webapp\app\modules\home\home.tsx
+    force src\main\webapp\app\modules\login\logout.tsx
+    force src\main\webapp\app\modules\login\login.tsx
+    force src\main\webapp\app\modules\login\login-modal.tsx
+    force src\main\webapp\app\shared\reducers\index.ts
+    force src\main\webapp\app\shared\reducers\reducer.utils.ts
+    force src\main\webapp\app\shared\reducers\authentication.ts
+    force src\main\webapp\app\shared\reducers\application-profile.ts
+    force src\main\webapp\app\modules\account\index.tsx
+    force src\main\webapp\app\modules\account\activate\activate.tsx
+    force src\main\webapp\app\modules\account\password\password.tsx
+    force src\main\webapp\app\modules\account\register\register.tsx
+    force src\main\webapp\app\modules\account\password-reset\init\password-reset-init.tsx
+    force src\main\webapp\app\modules\account\password-reset\finish\password-reset-finish.tsx
+    force src\main\webapp\app\modules\account\settings\settings.tsx
+    force src\main\webapp\app\modules\account\register\register.reducer.ts
+    force src\main\webapp\app\modules\account\activate\activate.reducer.ts
+    force src\main\webapp\app\modules\account\password-reset\password-reset.reducer.ts
+    force src\main\webapp\app\modules\account\password\password.reducer.ts
+    force src\main\webapp\app\modules\account\settings\settings.reducer.ts
+    force src\main\webapp\app\modules\administration\index.tsx
+    force src\main\webapp\app\modules\administration\administration.reducer.ts
+    force src\main\webapp\app\modules\administration\docs\docs.tsx
+    force src\main\webapp\app\modules\administration\configuration\configuration.tsx
+    force src\main\webapp\app\modules\administration\health\health.tsx
+    force src\main\webapp\app\modules\administration\health\health-modal.tsx
+    force src\main\webapp\app\modules\administration\logs\logs.tsx
+    force src\main\webapp\app\modules\administration\metrics\metrics.tsx
+    force src\main\webapp\app\modules\administration\user-management\index.tsx
+    force src\main\webapp\app\modules\administration\user-management\user-management.tsx
+    force src\main\webapp\app\modules\administration\user-management\user-management-update.tsx
+    force src\main\webapp\app\modules\administration\user-management\user-management-detail.tsx
+    force src\main\webapp\app\modules\administration\user-management\user-management-delete-dialog.tsx
+    force src\main\webapp\app\modules\administration\user-management\user-management.reducer.ts
+    force src\main\webapp\app\shared\layout\footer\footer.tsx
+    force src\main\webapp\app\shared\layout\header\header.tsx
+    force src\main\webapp\app\shared\layout\header\header-components.tsx
+    force src\main\webapp\app\shared\layout\menus\index.ts
+    force src\main\webapp\app\shared\layout\menus\admin.tsx
+    force src\main\webapp\app\shared\layout\menus\account.tsx
+    force src\main\webapp\app\shared\layout\menus\entities.tsx
+    force src\main\webapp\app\shared\layout\menus\menu-components.tsx
+    force src\main\webapp\app\shared\layout\menus\menu-item.tsx
+    force src\main\webapp\app\shared\layout\password\password-strength-bar.tsx
+    force src\main\webapp\app\shared\util\date-utils.ts
+    force src\main\webapp\app\shared\util\pagination.constants.ts
+    force src\main\webapp\app\shared\util\entity-utils.ts
+    force src\main\webapp\app\shared\auth\private-route.tsx
+    force src\main\webapp\app\shared\error\error-boundary.tsx
+    force src\main\webapp\app\shared\error\error-boundary-routes.tsx
+    force src\main\webapp\app\shared\error\page-not-found.tsx
+    force src\main\webapp\app\shared\DurationFormat.tsx
+    force src\main\webapp\app\shared\model\user.model.ts
+    force src\main\webapp\app\config\axios-interceptor.spec.ts
+    force src\main\webapp\app\config\notification-middleware.spec.ts
+    force src\main\webapp\app\shared\reducers\application-profile.spec.ts
+    force src\main\webapp\app\shared\reducers\authentication.spec.ts
+    force src\main\webapp\app\shared\util\entity-utils.spec.ts
+    force src\main\webapp\app\shared\auth\private-route.spec.tsx
+    force src\main\webapp\app\shared\error\error-boundary.spec.tsx
+    force src\main\webapp\app\shared\error\error-boundary-routes.spec.tsx
+    force src\main\webapp\app\shared\layout\header\header.spec.tsx
+    force src\main\webapp\app\shared\layout\menus\account.spec.tsx
+    force src\main\webapp\app\modules\administration\administration.reducer.spec.ts
+    force src\main\webapp\app\modules\account\register\register.reducer.spec.ts
+    force src\main\webapp\app\modules\account\activate\activate.reducer.spec.ts
+    force src\main\webapp\app\modules\account\password\password.reducer.spec.ts
+    force src\main\webapp\app\modules\account\settings\settings.reducer.spec.ts
+    force src\main\webapp\app\modules\administration\user-management\user-management.reducer.spec.ts
+    force src\main\webapp\app\shared\jhipster\problem-details.ts
+    force src\main\webapp\app\shared\jhipster\headers.ts
+    force src\main\webapp\app\entities\autore\autore-detail.tsx
+    force src\main\webapp\app\entities\autore\autore.tsx
+    force src\main\webapp\app\entities\autore\autore.reducer.ts
+    force src\main\webapp\app\entities\autore\index.tsx
+    force src\main\webapp\app\shared\model\autore.model.ts
+    force src\main\webapp\app\entities\autore\autore-delete-dialog.tsx
+    force src\main\webapp\app\entities\autore\autore-update.tsx
+    force src\main\webapp\app\entities\autore\autore-reducer.spec.ts
+    force src\main\webapp\app\entities\libro\libro-detail.tsx
+    force src\main\webapp\app\entities\libro\libro.tsx
+    force src\main\webapp\app\entities\libro\libro.reducer.ts
+    force src\main\webapp\app\entities\libro\index.tsx
+    force src\main\webapp\app\shared\model\libro.model.ts
+    force src\main\webapp\app\entities\libro\libro-delete-dialog.tsx
+    force src\main\webapp\app\entities\libro\libro-update.tsx
+    force src\main\webapp\app\entities\libro\libro-reducer.spec.ts
+    force src\main\webapp\app\entities\recensione\recensione-detail.tsx
+    force src\main\webapp\app\entities\recensione\recensione.tsx
+    force src\main\webapp\app\entities\recensione\recensione.reducer.ts
+    force src\main\webapp\app\entities\recensione\index.tsx
+    force src\main\webapp\app\shared\model\recensione.model.ts
+    force src\main\webapp\app\entities\recensione\recensione-delete-dialog.tsx
+    force src\main\webapp\app\entities\recensione\recensione-update.tsx
+    force src\main\webapp\app\entities\recensione\recensione-reducer.spec.ts
+    force eslint.config.mjs
+√ files committed to disk
+
+Changes to package.json were detected.
+
+> library@0.0.1-SNAPSHOT prepare
+> husky
+
+
+up to date, audited 2004 packages in 7s
+
+375 packages are looking for funding
+  run `npm fund` for details
+
+6 vulnerabilities (4 high, 2 critical)
+
+To address all issues possible (including breaking changes), run:
+  npm audit fix --force
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+√ Application successfully committed to Git from C:/Users/argir/Documents/CodingGiovanni/CorsoBackend/Library.
+√ Spring Boot application generated successfully.
+  Run your Spring Boot application:
+  ./mvnw (mvnw if using Windows Command Prompt)
+√ React application generated successfully.
+  Start your Webpack development server with:
+  npm start
+
+
+Congratulations, JHipster execution is complete!
+If you find JHipster useful consider sponsoring the project https://www.jhipster.tech/sponsors/
+
+Thanks for using JHipster!
+
+C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library>mvn dependency:resolve
 [INFO] Scanning for projects...
-[INFO] 
+Downloading from central: https://repo.maven.apache.org/maven2/org/sonarsource/scanner/maven/sonar-maven-plugin/5.1.0.4751/sonar-maven-plugin-5.1.0.4751.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/sonarsource/scanner/maven/sonar-maven-plugin/5.1.0.4751/sonar-maven-plugin-5.1.0.4751.pom (9.7 kB at 17 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/sonarsource/scanner/maven/sonar-scanner-maven/5.1.0.4751/sonar-scanner-maven-5.1.0.4751.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/sonarsource/scanner/maven/sonar-scanner-maven/5.1.0.4751/sonar-scanner-maven-5.1.0.4751.pom (3.0 kB at 70 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/sonarsource/parent/parent/83.0.0.2369/parent-83.0.0.2369.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/sonarsource/parent/parent/83.0.0.2369/parent-83.0.0.2369.pom (32 kB at 421 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/sonarsource/scanner/maven/sonar-maven-plugin/5.1.0.4751/sonar-maven-plugin-5.1.0.4751.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/sonarsource/scanner/maven/sonar-maven-plugin/5.1.0.4751/sonar-maven-plugin-5.1.0.4751.jar (64 kB at 986 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-site-plugin/3.21.0/maven-site-plugin-3.21.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-site-plugin/3.21.0/maven-site-plugin-3.21.0.pom (22 kB at 450 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/build-helper-maven-plugin/3.6.0/build-helper-maven-plugin-3.6.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/build-helper-maven-plugin/3.6.0/build-helper-maven-plugin-3.6.0.pom (8.1 kB at 239 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/mojo-parent/82/mojo-parent-82.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/mojo-parent/82/mojo-parent-82.pom (36 kB at 898 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/build-helper-maven-plugin/3.6.0/build-helper-maven-plugin-3.6.0.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/build-helper-maven-plugin/3.6.0/build-helper-maven-plugin-3.6.0.jar (72 kB at 1.8 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/cyclonedx/cyclonedx-maven-plugin/2.9.1/cyclonedx-maven-plugin-2.9.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/cyclonedx/cyclonedx-maven-plugin/2.9.1/cyclonedx-maven-plugin-2.9.1.pom (19 kB at 577 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/cyclonedx/cyclonedx-maven-plugin/2.9.1/cyclonedx-maven-plugin-2.9.1.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/cyclonedx/cyclonedx-maven-plugin/2.9.1/cyclonedx-maven-plugin-2.9.1.jar (52 kB at 1.4 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/flywaydb/flyway-maven-plugin/10.20.1/flyway-maven-plugin-10.20.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/flywaydb/flyway-maven-plugin/10.20.1/flyway-maven-plugin-10.20.1.pom (3.8 kB at 105 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/flywaydb/flyway-parent/10.20.1/flyway-parent-10.20.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/flywaydb/flyway-parent/10.20.1/flyway-parent-10.20.1.pom (36 kB at 961 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/flywaydb/flyway-maven-plugin/10.20.1/flyway-maven-plugin-10.20.1.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/flywaydb/flyway-maven-plugin/10.20.1/flyway-maven-plugin-10.20.1.jar (110 kB at 2.7 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jooq/jooq-codegen-maven/3.19.22/jooq-codegen-maven-3.19.22.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jooq/jooq-codegen-maven/3.19.22/jooq-codegen-maven-3.19.22.pom (3.8 kB at 108 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jooq/jooq-parent/3.19.22/jooq-parent-3.19.22.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jooq/jooq-parent/3.19.22/jooq-parent-3.19.22.pom (40 kB at 1.1 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jooq/jooq-codegen-maven/3.19.22/jooq-codegen-maven-3.19.22.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jooq/jooq-codegen-maven/3.19.22/jooq-codegen-maven-3.19.22.jar (17 kB at 495 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-maven-plugin/1.9.25/kotlin-maven-plugin-1.9.25.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-maven-plugin/1.9.25/kotlin-maven-plugin-1.9.25.pom (6.7 kB at 196 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-project/1.9.25/kotlin-project-1.9.25.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-project/1.9.25/kotlin-project-1.9.25.pom (16 kB at 422 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-maven-plugin/1.9.25/kotlin-maven-plugin-1.9.25.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-maven-plugin/1.9.25/kotlin-maven-plugin-1.9.25.jar (82 kB at 2.3 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/liquibase/liquibase-maven-plugin/4.29.2/liquibase-maven-plugin-4.29.2.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/liquibase/liquibase-maven-plugin/4.29.2/liquibase-maven-plugin-4.29.2.pom (2.0 kB at 63 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/liquibase/liquibase-maven-plugin/4.29.2/liquibase-maven-plugin-4.29.2.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/liquibase/liquibase-maven-plugin/4.29.2/liquibase-maven-plugin-4.29.2.jar (310 kB at 4.8 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-dependency-plugin/3.8.1/maven-dependency-plugin-3.8.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-dependency-plugin/3.8.1/maven-dependency-plugin-3.8.1.pom (18 kB at 486 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-dependency-plugin/3.8.1/maven-dependency-plugin-3.8.1.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-dependency-plugin/3.8.1/maven-dependency-plugin-3.8.1.jar (208 kB at 4.7 MB/s)
+[INFO]
 [INFO] --------------------< com.giodad.todolist:library >---------------------
 [INFO] Building Library 0.0.1-SNAPSHOT
 [INFO]   from pom.xml
 [INFO] --------------------------------[ jar ]---------------------------------
-[INFO] 
-[INFO] --- clean:3.4.1:clean (default-clean) @ library ---
-[INFO] Deleting C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\target
-[INFO] 
+[INFO]
+[INFO] --- dependency:3.8.1:resolve (default-cli) @ library ---
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/4.10.0/plexus-archiver-4.10.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/4.10.0/plexus-archiver-4.10.0.pom (5.8 kB at 153 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/3.5.0/plexus-io-3.5.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/3.5.0/plexus-io-3.5.0.pom (4.3 kB at 121 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/airlift/aircompressor/0.27/aircompressor-0.27.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/io/airlift/aircompressor/0.27/aircompressor-0.27.pom (5.8 kB at 169 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/airlift/airbase/112/airbase-112.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/io/airlift/airbase/112/airbase-112.pom (69 kB at 2.0 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.8.0-M1/junit-bom-5.8.0-M1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.8.0-M1/junit-bom-5.8.0-M1.pom (5.7 kB at 183 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/github/luben/zstd-jni/1.5.6-3/zstd-jni-1.5.6-3.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/com/github/luben/zstd-jni/1.5.6-3/zstd-jni-1.5.6-3.pom (2.0 kB at 63 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/3.5.1/plexus-io-3.5.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/3.5.1/plexus-io-3.5.1.pom (4.3 kB at 136 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-analyzer/1.15.0/maven-dependency-analyzer-1.15.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-analyzer/1.15.0/maven-dependency-analyzer-1.15.0.pom (32 kB at 973 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.5.4/plexus-component-annotations-1.5.4.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.5.4/plexus-component-annotations-1.5.4.pom (815 B at 24 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-containers/1.5.4/plexus-containers-1.5.4.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-containers/1.5.4/plexus-containers-1.5.4.pom (4.2 kB at 128 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/commons-beanutils/commons-beanutils/1.9.4/commons-beanutils-1.9.4.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/commons-beanutils/commons-beanutils/1.9.4/commons-beanutils-1.9.4.jar (247 kB at 5.5 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-xdoc/2.0.0/doxia-module-xdoc-2.0.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/4.10.0/plexus-archiver-4.10.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.26.2/commons-compress-1.26.2.jar
+Downloading from central: https://repo.maven.apache.org/maven2/io/airlift/aircompressor/0.27/aircompressor-0.27.jar
+Downloading from central: https://repo.maven.apache.org/maven2/com/github/luben/zstd-jni/1.5.6-3/zstd-jni-1.5.6-3.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-xdoc/2.0.0/doxia-module-xdoc-2.0.0.jar (35 kB at 257 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/3.5.1/plexus-io-3.5.1.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/4.10.0/plexus-archiver-4.10.0.jar (225 kB at 1.5 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-analyzer/1.15.0/maven-dependency-analyzer-1.15.0.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-analyzer/1.15.0/maven-dependency-analyzer-1.15.0.jar (45 kB at 242 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/io/airlift/aircompressor/0.27/aircompressor-0.27.jar (255 kB at 1.2 MB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/3.5.1/plexus-io-3.5.1.jar (80 kB at 377 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.26.2/commons-compress-1.26.2.jar (1.1 MB at 4.3 MB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/com/github/luben/zstd-jni/1.5.6-3/zstd-jni-1.5.6-3.jar (6.7 MB at 13 MB/s)
+[INFO]
+[INFO] The following files have been resolved:
+[INFO]    tech.jhipster:jhipster-framework:jar:8.11.0:compile -- module jhipster.framework (auto)
+[INFO]    org.springframework.boot:spring-boot-configuration-processor:jar:3.4.5:provided -- module spring.boot.configuration.processor [auto]
+[INFO]    org.springframework.boot:spring-boot-loader-tools:jar:3.4.5:compile -- module spring.boot.loader.tools [auto]
+[INFO]    org.apache.commons:commons-compress:jar:1.25.0:compile -- module org.apache.commons.compress
+[INFO]    org.springframework:spring-core:jar:6.2.6:compile -- module spring.core [auto]
+[INFO]    org.springframework:spring-jcl:jar:6.2.6:compile -- module spring.jcl [auto]
+[INFO]    org.springframework.boot:spring-boot-starter-actuator:jar:3.4.5:compile -- module spring.boot.starter.actuator [auto]
+[INFO]    org.springframework.boot:spring-boot-starter:jar:3.4.5:compile -- module spring.boot.starter [auto]
+[INFO]    org.springframework.boot:spring-boot-actuator-autoconfigure:jar:3.4.5:compile -- module spring.boot.actuator.autoconfigure [auto]
+[INFO]    org.springframework.boot:spring-boot-actuator:jar:3.4.5:compile -- module spring.boot.actuator [auto]
+[INFO]    io.micrometer:micrometer-observation:jar:1.14.6:compile -- module micrometer.observation [auto]
+[INFO]    io.micrometer:micrometer-commons:jar:1.14.6:compile -- module micrometer.commons [auto]
+[INFO]    io.micrometer:micrometer-jakarta9:jar:1.14.6:compile -- module micrometer.jakarta9 [auto]
+[INFO]    org.springframework.boot:spring-boot-starter-aop:jar:3.4.5:compile -- module spring.boot.starter.aop [auto]
+[INFO]    org.springframework:spring-aop:jar:6.2.6:compile -- module spring.aop [auto]
+[INFO]    org.springframework:spring-beans:jar:6.2.6:compile -- module spring.beans [auto]
+[INFO]    org.aspectj:aspectjweaver:jar:1.9.24:compile -- module org.aspectj.weaver [auto]
+[INFO]    org.springframework.boot:spring-boot-starter-cache:jar:3.4.5:compile -- module spring.boot.starter.cache [auto]
+[INFO]    org.springframework:spring-context-support:jar:6.2.6:compile -- module spring.context.support [auto]
+[INFO]    org.springframework:spring-context:jar:6.2.6:compile -- module spring.context [auto]
+[INFO]    org.springframework.boot:spring-boot-starter-data-jpa:jar:3.4.5:compile -- module spring.boot.starter.data.jpa [auto]
+[INFO]    org.springframework.boot:spring-boot-starter-jdbc:jar:3.4.5:compile -- module spring.boot.starter.jdbc [auto]
+[INFO]    org.springframework:spring-jdbc:jar:6.2.6:compile -- module spring.jdbc [auto]
+[INFO]    org.springframework.data:spring-data-jpa:jar:3.4.5:compile -- module spring.data.jpa [auto]
+[INFO]    org.springframework:spring-orm:jar:6.2.6:compile -- module spring.orm [auto]
+[INFO]    org.springframework:spring-tx:jar:6.2.6:compile -- module spring.tx [auto]
+[INFO]    org.springframework:spring-aspects:jar:6.2.6:compile -- module spring.aspects [auto]
+[INFO]    org.springframework.boot:spring-boot-starter-logging:jar:3.4.5:compile -- module spring.boot.starter.logging [auto]
+[INFO]    ch.qos.logback:logback-classic:jar:1.5.18:compile -- module ch.qos.logback.classic
+[INFO]    ch.qos.logback:logback-core:jar:1.5.18:compile -- module ch.qos.logback.core
+[INFO]    org.apache.logging.log4j:log4j-to-slf4j:jar:2.24.3:compile -- module org.apache.logging.log4j.to.slf4j
+[INFO]    org.apache.logging.log4j:log4j-api:jar:2.24.3:compile -- module org.apache.logging.log4j
+[INFO]    org.slf4j:jul-to-slf4j:jar:2.0.17:compile -- module jul.to.slf4j
+[INFO]    org.springframework.boot:spring-boot-starter-mail:jar:3.4.5:compile -- module spring.boot.starter.mail [auto]
+[INFO]    org.eclipse.angus:jakarta.mail:jar:2.0.3:compile -- module jakarta.mail
+[INFO]    org.eclipse.angus:angus-activation:jar:2.0.2:runtime -- module org.eclipse.angus.activation
+[INFO]    org.springframework.boot:spring-boot-starter-oauth2-resource-server:jar:3.4.5:compile -- module spring.boot.starter.oauth2.resource.server [auto]
+[INFO]    org.springframework.security:spring-security-config:jar:6.4.5:compile -- module spring.security.config [auto]
+[INFO]    org.springframework.security:spring-security-core:jar:6.4.5:compile -- module spring.security.core [auto]
+[INFO]    org.springframework.security:spring-security-crypto:jar:6.4.5:compile -- module spring.security.crypto [auto]
+[INFO]    org.springframework:spring-expression:jar:6.2.6:compile -- module spring.expression [auto]
+[INFO]    org.springframework.security:spring-security-oauth2-resource-server:jar:6.4.5:compile -- module spring.security.oauth2.resource.server [auto]
+[INFO]    org.springframework.security:spring-security-oauth2-core:jar:6.4.5:compile -- module spring.security.oauth2.core [auto]
+[INFO]    org.springframework.security:spring-security-oauth2-jose:jar:6.4.5:compile -- module spring.security.oauth2.jose [auto]
+[INFO]    com.nimbusds:nimbus-jose-jwt:jar:9.37.3:compile -- module com.nimbusds.jose.jwt [auto]
+[INFO]    com.github.stephenc.jcip:jcip-annotations:jar:1.0-1:compile -- module jcip.annotations (auto)
+[INFO]    org.springframework.boot:spring-boot-starter-security:jar:3.4.5:compile -- module spring.boot.starter.security [auto]
+[INFO]    org.springframework.security:spring-security-web:jar:6.4.5:compile -- module spring.security.web [auto]
+[INFO]    org.springframework.boot:spring-boot-starter-test:jar:3.4.5:test -- module spring.boot.starter.test [auto]
+[INFO]    org.springframework.boot:spring-boot-test-autoconfigure:jar:3.4.5:test -- module spring.boot.test.autoconfigure [auto]
+[INFO]    com.jayway.jsonpath:json-path:jar:2.9.0:test -- module json.path [auto]
+[INFO]    jakarta.xml.bind:jakarta.xml.bind-api:jar:4.0.2:compile -- module jakarta.xml.bind
+[INFO]    net.minidev:json-smart:jar:2.5.2:test -- module json.smart (auto)
+[INFO]    net.minidev:accessors-smart:jar:2.5.2:test -- module accessors.smart (auto)
+[INFO]    org.ow2.asm:asm:jar:9.7.1:test -- module org.objectweb.asm
+[INFO]    org.assertj:assertj-core:jar:3.26.3:test -- module org.assertj.core
+[INFO]    org.awaitility:awaitility:jar:4.2.2:test -- module awaitility (auto)
+[INFO]    org.hamcrest:hamcrest:jar:2.2:test -- module org.hamcrest [auto]
+[INFO]    org.junit.jupiter:junit-jupiter:jar:5.11.4:test -- module org.junit.jupiter
+[INFO]    org.junit.jupiter:junit-jupiter-api:jar:5.11.4:test -- module org.junit.jupiter.api
+[INFO]    org.opentest4j:opentest4j:jar:1.3.0:test -- module org.opentest4j
+[INFO]    org.junit.platform:junit-platform-commons:jar:1.11.4:test -- module org.junit.platform.commons
+[INFO]    org.apiguardian:apiguardian-api:jar:1.1.2:test -- module org.apiguardian.api
+[INFO]    org.junit.jupiter:junit-jupiter-params:jar:5.11.4:test -- module org.junit.jupiter.params
+[INFO]    org.junit.jupiter:junit-jupiter-engine:jar:5.11.4:test -- module org.junit.jupiter.engine
+[INFO]    org.mockito:mockito-core:jar:5.14.2:test -- module org.mockito [auto]
+[INFO]    net.bytebuddy:byte-buddy-agent:jar:1.15.11:test -- module net.bytebuddy.agent
+[INFO]    org.objenesis:objenesis:jar:3.3:test -- module org.objenesis [auto]
+[INFO]    org.mockito:mockito-junit-jupiter:jar:5.14.2:test -- module org.mockito.junit.jupiter [auto]
+[INFO]    org.skyscreamer:jsonassert:jar:1.5.3:test -- module jsonassert (auto)
+[INFO]    com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1:test -- module android.json (auto)
+[INFO]    org.springframework:spring-test:jar:6.2.6:test -- module spring.test [auto]
+[INFO]    org.xmlunit:xmlunit-core:jar:2.10.0:test -- module org.xmlunit [auto]
+[INFO]    org.springframework.boot:spring-boot-starter-thymeleaf:jar:3.4.5:compile -- module spring.boot.starter.thymeleaf [auto]
+[INFO]    org.thymeleaf:thymeleaf-spring6:jar:3.1.3.RELEASE:compile -- module thymeleaf.spring6 [auto]
+[INFO]    org.thymeleaf:thymeleaf:jar:3.1.3.RELEASE:compile -- module thymeleaf [auto]
+[INFO]    org.attoparser:attoparser:jar:2.0.7.RELEASE:compile -- module attoparser [auto]
+[INFO]    org.unbescape:unbescape:jar:1.1.6.RELEASE:compile -- module unbescape [auto]
+[INFO]    org.springframework.boot:spring-boot-starter-undertow:jar:3.4.5:compile -- module spring.boot.starter.undertow [auto]
+[INFO]    io.undertow:undertow-core:jar:2.3.18.Final:compile -- module undertow.core (auto)
+[INFO]    org.jboss.xnio:xnio-api:jar:3.8.16.Final:compile -- module xnio.api (auto)
+[INFO]    org.wildfly.common:wildfly-common:jar:1.5.4.Final:compile -- module wildfly.common (auto)
+[INFO]    org.wildfly.client:wildfly-client-config:jar:1.0.1.Final:compile -- module wildfly.client.config (auto)
+[INFO]    org.jboss.xnio:xnio-nio:jar:3.8.16.Final:runtime -- module xnio.nio (auto)
+[INFO]    org.jboss.threads:jboss-threads:jar:3.5.0.Final:compile -- module jboss.threads (auto)
+[INFO]    io.undertow:undertow-servlet:jar:2.3.18.Final:compile -- module undertow.servlet (auto)
+[INFO]    jakarta.servlet:jakarta.servlet-api:jar:6.0.0:compile -- module jakarta.servlet
+[INFO]    io.undertow:undertow-websockets-jsr:jar:2.3.18.Final:compile -- module undertow.websockets.jsr (auto)
+[INFO]    jakarta.websocket:jakarta.websocket-api:jar:2.1.1:compile -- module jakarta.websocket
+[INFO]    jakarta.websocket:jakarta.websocket-client-api:jar:2.1.1:compile -- module jakarta.websocket.client
+[INFO]    org.apache.tomcat.embed:tomcat-embed-el:jar:10.1.40:compile -- module org.apache.tomcat.embed.el
+[INFO]    org.springframework.boot:spring-boot-starter-validation:jar:3.4.5:compile -- module spring.boot.starter.validation [auto]
+[INFO]    org.springframework.boot:spring-boot-starter-web:jar:3.4.5:compile -- module spring.boot.starter.web [auto]
+[INFO]    org.springframework.boot:spring-boot-starter-json:jar:3.4.5:compile -- module spring.boot.starter.json [auto]
+[INFO]    com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.18.3:compile -- module com.fasterxml.jackson.datatype.jdk8
+[INFO]    org.springframework:spring-web:jar:6.2.6:compile -- module spring.web [auto]
+[INFO]    org.springframework:spring-webmvc:jar:6.2.6:compile -- module spring.webmvc [auto]
+[INFO]    org.springframework.boot:spring-boot-test:jar:3.4.5:test -- module spring.boot.test [auto]
+[INFO]    org.springframework.boot:spring-boot:jar:3.4.5:compile -- module spring.boot [auto]
+[INFO]    org.springframework.security:spring-security-data:jar:6.4.5:compile -- module spring.security.data [auto]
+[INFO]    org.springframework.data:spring-data-commons:jar:3.4.5:compile -- module spring.data.commons [auto]
+[INFO]    org.springframework.security:spring-security-test:jar:6.4.5:test -- module spring.security.test [auto]
+[INFO]    org.springdoc:springdoc-openapi-starter-webmvc-api:jar:2.8.8:compile -- module org.springdoc.openapi.webmvc.core [auto]
+[INFO]    org.springdoc:springdoc-openapi-starter-common:jar:2.8.8:compile -- module org.springdoc.openapi.common [auto]
+[INFO]    io.swagger.core.v3:swagger-core-jakarta:jar:2.2.30:compile -- module io.swagger.v3.core [auto]
+[INFO]    io.swagger.core.v3:swagger-annotations-jakarta:jar:2.2.30:compile -- module io.swagger.v3.oas.annotations [auto]
+[INFO]    io.swagger.core.v3:swagger-models-jakarta:jar:2.2.30:compile -- module io.swagger.v3.oas.models [auto]
+[INFO]    com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.18.3:compile -- module com.fasterxml.jackson.dataformat.yaml
+[INFO]    com.fasterxml.jackson.datatype:jackson-datatype-hibernate6:jar:2.18.3:compile -- module com.fasterxml.jackson.datatype.hibernate6
+[INFO]    jakarta.transaction:jakarta.transaction-api:jar:2.0.1:compile -- module jakarta.transaction
+[INFO]    com.fasterxml.jackson.core:jackson-core:jar:2.18.3:compile -- module com.fasterxml.jackson.core
+[INFO]    com.fasterxml.jackson.core:jackson-databind:jar:2.18.3:compile -- module com.fasterxml.jackson.databind
+[INFO]    com.fasterxml.jackson.datatype:jackson-datatype-hppc:jar:2.18.3:compile -- module com.fasterxml.jackson.datatype.hppc
+[INFO]    com.carrotsearch:hppc:jar:0.9.1:compile -- module com.carrotsearch.hppc [auto]
+[INFO]    com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.18.3:compile -- module com.fasterxml.jackson.datatype.jsr310
+[INFO]    com.fasterxml.jackson.core:jackson-annotations:jar:2.18.3:compile -- module com.fasterxml.jackson.annotation
+[INFO]    com.fasterxml.jackson.module:jackson-module-jaxb-annotations:jar:2.18.3:compile -- module com.fasterxml.jackson.module.jaxb
+[INFO]    javax.xml.bind:jaxb-api:jar:2.2.12:compile -- module jaxb.api (auto)
+[INFO]    jakarta.activation:jakarta.activation-api:jar:2.1.3:compile -- module jakarta.activation
+[INFO]    com.mysql:mysql-connector-j:jar:9.1.0:compile -- module mysql.connector.j (auto)
+[INFO]    com.tngtech.archunit:archunit-junit5-api:jar:1.4.0:test -- module com.tngtech.archunit.junit5.api [auto]
+[INFO]    com.tngtech.archunit:archunit:jar:1.4.0:test -- module com.tngtech.archunit [auto]
+[INFO]    com.tngtech.archunit:archunit-junit5-engine:jar:1.4.0:test -- module com.tngtech.archunit.junit5.engine [auto]
+[INFO]    com.tngtech.archunit:archunit-junit5-engine-api:jar:1.4.0:test -- module com.tngtech.archunit.junit5.engineapi [auto]
+[INFO]    org.junit.platform:junit-platform-engine:jar:1.11.4:test -- module org.junit.platform.engine
+[INFO]    com.zaxxer:HikariCP:jar:5.1.0:compile -- module com.zaxxer.hikari
+[INFO]    org.slf4j:slf4j-api:jar:2.0.17:compile -- module org.slf4j
+[INFO]    io.micrometer:micrometer-registry-prometheus-simpleclient:jar:1.14.6:compile -- module micrometer.registry.prometheus.simpleclient [auto]
+[INFO]    io.micrometer:micrometer-core:jar:1.14.6:compile -- module micrometer.core [auto]
+[INFO]    org.hdrhistogram:HdrHistogram:jar:2.2.2:runtime -- module HdrHistogram (auto)
+[INFO]    org.latencyutils:LatencyUtils:jar:2.0.3:runtime -- module LatencyUtils (auto)
+[INFO]    io.prometheus:simpleclient_common:jar:0.16.0:compile -- module simpleclient.common (auto)
+[INFO]    io.prometheus:simpleclient:jar:0.16.0:compile -- module simpleclient (auto)
+[INFO]    io.prometheus:simpleclient_tracer_otel:jar:0.16.0:compile -- module simpleclient.tracer.otel (auto)
+[INFO]    io.prometheus:simpleclient_tracer_common:jar:0.16.0:compile -- module simpleclient.tracer.common (auto)
+[INFO]    io.prometheus:simpleclient_tracer_otel_agent:jar:0.16.0:compile -- module simpleclient.tracer.otel.agent (auto)
+[INFO]    jakarta.annotation:jakarta.annotation-api:jar:2.1.1:compile -- module jakarta.annotation
+[INFO]    javax.cache:cache-api:jar:1.1.1:compile -- module cache.api (auto)
+[INFO]    org.apache.commons:commons-lang3:jar:3.17.0:compile -- module org.apache.commons.lang3
+[INFO]    org.ehcache:ehcache:jar:jakarta:3.10.8:compile -- module ehcache (auto)
+[INFO]    org.glassfish.jaxb:jaxb-runtime:jar:4.0.5:provided -- module org.glassfish.jaxb.runtime
+[INFO]    org.glassfish.jaxb:jaxb-core:jar:4.0.5:provided -- module org.glassfish.jaxb.core
+[INFO]    org.glassfish.jaxb:txw2:jar:4.0.5:provided -- module com.sun.xml.txw2
+[INFO]    com.sun.istack:istack-commons-runtime:jar:4.1.2:provided -- module com.sun.istack.runtime
+[INFO]    org.hibernate.orm:hibernate-core:jar:6.6.13.Final:compile -- module org.hibernate.orm.core [auto]
+[INFO]    jakarta.persistence:jakarta.persistence-api:jar:3.1.0:compile -- module jakarta.persistence
+[INFO]    org.jboss.logging:jboss-logging:jar:3.6.1.Final:compile -- module org.jboss.logging
+[INFO]    org.hibernate.common:hibernate-commons-annotations:jar:7.0.3.Final:runtime -- module org.hibernate.commons.annotations
+[INFO]    io.smallrye:jandex:jar:3.2.0:runtime -- module org.jboss.jandex [auto]
+[INFO]    com.fasterxml:classmate:jar:1.7.0:compile -- module com.fasterxml.classmate
+[INFO]    net.bytebuddy:byte-buddy:jar:1.15.11:runtime -- module net.bytebuddy
+[INFO]    jakarta.inject:jakarta.inject-api:jar:2.0.1:runtime -- module jakarta.inject
+[INFO]    org.antlr:antlr4-runtime:jar:4.13.0:compile -- module org.antlr.antlr4.runtime [auto]
+[INFO]    org.hibernate.orm:hibernate-jcache:jar:6.6.13.Final:compile -- module org.hibernate.orm.jcache [auto]
+[INFO]    org.hibernate.orm:hibernate-jpamodelgen:jar:6.6.13.Final:provided -- module org.hibernate.orm.jpamodelgen [auto]
+[INFO]    jakarta.validation:jakarta.validation-api:jar:3.0.2:compile -- module jakarta.validation
+[INFO]    org.hibernate.validator:hibernate-validator:jar:8.0.2.Final:compile -- module org.hibernate.validator [auto]
+[INFO]    org.liquibase:liquibase-core:jar:4.29.2:compile -- module liquibase.core [auto]
+[INFO]    com.opencsv:opencsv:jar:5.9:compile -- module com.opencsv [auto]
+[INFO]    org.yaml:snakeyaml:jar:2.3:compile -- module org.yaml.snakeyaml
+[INFO]    commons-io:commons-io:jar:2.16.1:compile -- module org.apache.commons.io
+[INFO]    org.apache.commons:commons-collections4:jar:4.4:compile -- module org.apache.commons.collections4 [auto]
+[INFO]    org.apache.commons:commons-text:jar:1.12.0:compile -- module org.apache.commons.text
+[INFO]    org.mapstruct:mapstruct:jar:1.6.3:compile -- module org.mapstruct [auto]
+[INFO]    org.mapstruct:mapstruct-processor:jar:1.6.3:provided -- module org.mapstruct.processor [auto]
+[INFO]    org.testcontainers:jdbc:jar:1.20.6:test -- module jdbc (auto)
+[INFO]    org.testcontainers:database-commons:jar:1.20.6:test -- module database.commons (auto)
+[INFO]    org.testcontainers:junit-jupiter:jar:1.20.6:test -- module junit.jupiter (auto)
+[INFO]    org.testcontainers:mysql:jar:1.20.6:test -- module mysql (auto)
+[INFO]    org.testcontainers:testcontainers:jar:1.20.6:test -- module testcontainers (auto)
+[INFO]    junit:junit:jar:4.13.2:test -- module junit [auto]
+[INFO]    org.hamcrest:hamcrest-core:jar:2.2:test -- module org.hamcrest.core.deprecated [auto]
+[INFO]    org.rnorth.duct-tape:duct-tape:jar:1.0.8:test -- module duct.tape (auto)
+[INFO]    org.jetbrains:annotations:jar:17.0.0:test -- module org.jetbrains.annotations [auto]
+[INFO]    com.github.docker-java:docker-java-api:jar:3.4.1:test -- module com.github.dockerjava.api [auto]
+[INFO]    com.github.docker-java:docker-java-transport-zerodep:jar:3.4.1:test -- module com.github.dockerjava.transport.zerodep [auto]
+[INFO]    com.github.docker-java:docker-java-transport:jar:3.4.1:test -- module com.github.dockerjava.transport [auto]
+[INFO]    net.java.dev.jna:jna:jar:5.13.0:test -- module com.sun.jna [auto]
+[INFO]    org.springframework.boot:spring-boot-devtools:jar:3.4.5:compile (optional) -- module spring.boot.devtools [auto]
+[INFO]    org.springframework.boot:spring-boot-autoconfigure:jar:3.4.5:compile -- module spring.boot.autoconfigure [auto]
+[INFO]    org.springframework.boot:spring-boot-docker-compose:jar:3.4.5:compile (optional) -- module spring.boot.docker.compose [auto]
+[INFO]    com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.18.3:compile -- module com.fasterxml.jackson.module.paramnames
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  7.066 s
+[INFO] Finished at: 2025-07-24T18:22:45+02:00
+[INFO] ------------------------------------------------------------------------
+
+C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library>mvn compile
+[INFO] Scanning for projects...
+[INFO]
+[INFO] --------------------< com.giodad.todolist:library >---------------------
+[INFO] Building Library 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO]
 [INFO] --- enforcer:3.5.0:enforce (enforce-versions) @ library ---
 [INFO] Rule 0: org.apache.maven.enforcer.rules.version.RequireMavenVersion passed
 [INFO] Rule 1: org.apache.maven.enforcer.rules.version.RequireJavaVersion passed
-[INFO] 
+[INFO]
 [INFO] --- enforcer:3.5.0:enforce (enforce-dependencyConvergence) @ library ---
-[INFO] Rule 0: org.apache.maven.enforcer.rules.dependency.DependencyConvergence passed
-[INFO] 
+[WARNING] Rule 0: org.apache.maven.enforcer.rules.dependency.DependencyConvergence failed with message:
+Failed while enforcing releasability.
+
+Dependency convergence error for javax.xml.bind:jaxb-api:jar:2.2.12 paths to dependency are:
++-com.giodad.todolist:library:jar:0.0.1-SNAPSHOT
+  +-com.fasterxml.jackson.module:jackson-module-jaxb-annotations:jar:2.18.3:compile
+    +-javax.xml.bind:jaxb-api:jar:2.2.12:compile
+and
++-com.giodad.todolist:library:jar:0.0.1-SNAPSHOT
+  +-org.liquibase:liquibase-core:jar:4.29.2:compile
+    +-javax.xml.bind:jaxb-api:jar:2.3.1:compile
+
+
+Dependency convergence error for org.apache.commons:commons-text:jar:1.11.0 paths to dependency are:
++-com.giodad.todolist:library:jar:0.0.1-SNAPSHOT
+  +-org.liquibase:liquibase-core:jar:4.29.2:compile
+    +-com.opencsv:opencsv:jar:5.9:compile
+      +-org.apache.commons:commons-text:jar:1.11.0:compile
+and
++-com.giodad.todolist:library:jar:0.0.1-SNAPSHOT
+  +-org.liquibase:liquibase-core:jar:4.29.2:compile
+    +-org.apache.commons:commons-text:jar:1.12.0:compile
+
+[INFO]
 [INFO] --- properties:1.2.1:read-project-properties (default) @ library ---
 [INFO] Loading 34 properties from File: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\sonar-project.properties
-[INFO] 
+[INFO]
 [INFO] --- jacoco:0.8.13:prepare-agent (pre-unit-tests) @ library ---
 [INFO] argLine set to -javaagent:C:\\Users\\argir\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.8.13\\org.jacoco.agent-0.8.13-runtime.jar=destfile=C:\\Users\\argir\\Documenti\\CodingGiovanni\\CorsoBackend\\Library\\target\\jacoco.exec -Djava.security.egd=file:/dev/./urandom -Xmx1G
-[INFO] 
+[INFO]
 [INFO] --- spotless:2.44.4:apply (spotless) @ library ---
-[INFO] Index file does not exist. Fallback to an empty index
-[INFO] Spotless.Java is keeping 155 files clean - 0 were changed to be clean, 155 were already clean, 0 were skipped because caching determined they were already clean
-[INFO] 
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\main\java\com\giodad\todolist\aop\logging\LoggingAspect.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\main\java\com\giodad\todolist\ApplicationWebXml.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\main\java\com\giodad\todolist\config\ApplicationProperties.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\main\java\com\giodad\todolist\config\AsyncConfiguration.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\main\java\com\giodad\todolist\config\CacheConfiguration.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\main\java\com\giodad\todolist\config\Constants.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\main\java\com\giodad\todolist\config\CRLFLogConverter.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\main\java\com\giodad\todolist\config\DatabaseConfiguration.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\main\java\com\giodad\todolist\config\DateTimeFormatConfiguration.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\main\java\com\giodad\todolist\config\JacksonConfiguration.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\main\java\com\giodad\todolist\config\LiquibaseConfiguration.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\main\java\com\giodad\todolist\config\LoggingAspectConfiguration.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\main\java\com\giodad\todolist\config\LoggingConfiguration.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\main\java\com\giodad\todolist\config\SecurityConfiguration.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\main\java\com\giodad\todolist\config\SecurityJwtConfiguration.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\main\java\com\giodad\todolist\config\StaticResourcesWebConfiguration.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\main\java\com\giodad\todolist\config\WebConfigurer.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\main\java\com\giodad\todolist\domain\AbstractAuditingEntity.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\main\java\com\giodad\todolist\domain\Authority.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\main\java\com\giodad\todolist\domain\Autore.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\main\java\com\giodad\todolist\domain\Libro.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\main\java\com\giodad\todolist\domain\Recensione.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\main\java\com\giodad\todolist\domain\User.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\main\java\com\giodad\todolist\GeneratedByJHipster.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\main\java\com\giodad\todolist\LibraryApp.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\main\java\com\giodad\todolist\management\SecurityMetersService.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\main\java\com\giodad\todolist\repository\AuthorityRepository.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\main\java\com\giodad\todolist\repository\AutoreRepository.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\main\java\com\giodad\todolist\repository\LibroRepository.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\main\java\com\giodad\todolist\repository\RecensioneRepository.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\main\java\com\giodad\todolist\repository\UserRepository.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\main\java\com\giodad\todolist\security\AuthoritiesConstants.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\main\java\com\giodad\todolist\security\DomainUserDetailsService.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\main\java\com\giodad\todolist\security\SecurityUtils.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\main\java\com\giodad\todolist\security\SpringSecurityAuditorAware.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\main\java\com\giodad\todolist\security\UserNotActivatedException.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\main\java\com\giodad\todolist\service\AutoreQueryService.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\main\java\com\giodad\todolist\service\AutoreService.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\main\java\com\giodad\todolist\service\criteria\AutoreCriteria.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\main\java\com\giodad\todolist\service\criteria\LibroCriteria.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\main\java\com\giodad\todolist\service\criteria\RecensioneCriteria.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\main\java\com\giodad\todolist\service\dto\AdminUserDTO.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\main\java\com\giodad\todolist\service\dto\AutoreDTO.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\main\java\com\giodad\todolist\service\dto\LibroDTO.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\main\java\com\giodad\todolist\service\dto\PasswordChangeDTO.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\main\java\com\giodad\todolist\service\dto\RecensioneDTO.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\main\java\com\giodad\todolist\service\dto\UserDTO.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\main\java\com\giodad\todolist\service\EmailAlreadyUsedException.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\main\java\com\giodad\todolist\service\InvalidPasswordException.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\main\java\com\giodad\todolist\service\LibroQueryService.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\main\java\com\giodad\todolist\service\LibroService.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\main\java\com\giodad\todolist\service\MailService.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\main\java\com\giodad\todolist\service\mapper\AutoreMapper.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\main\java\com\giodad\todolist\service\mapper\EntityMapper.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\main\java\com\giodad\todolist\service\mapper\LibroMapper.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\main\java\com\giodad\todolist\service\mapper\RecensioneMapper.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\main\java\com\giodad\todolist\service\mapper\UserMapper.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\main\java\com\giodad\todolist\service\RecensioneQueryService.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\main\java\com\giodad\todolist\service\RecensioneService.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\main\java\com\giodad\todolist\service\UsernameAlreadyUsedException.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\main\java\com\giodad\todolist\service\UserService.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\main\java\com\giodad\todolist\web\filter\SpaWebFilter.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\main\java\com\giodad\todolist\web\rest\AccountResource.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\main\java\com\giodad\todolist\web\rest\AuthenticateController.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\main\java\com\giodad\todolist\web\rest\AuthorityResource.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\main\java\com\giodad\todolist\web\rest\AutoreResource.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\main\java\com\giodad\todolist\web\rest\errors\BadRequestAlertException.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\main\java\com\giodad\todolist\web\rest\errors\EmailAlreadyUsedException.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\main\java\com\giodad\todolist\web\rest\errors\ErrorConstants.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\main\java\com\giodad\todolist\web\rest\errors\ExceptionTranslator.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\main\java\com\giodad\todolist\web\rest\errors\FieldErrorVM.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\main\java\com\giodad\todolist\web\rest\errors\InvalidPasswordException.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\main\java\com\giodad\todolist\web\rest\errors\LoginAlreadyUsedException.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\main\java\com\giodad\todolist\web\rest\LibroResource.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\main\java\com\giodad\todolist\web\rest\PublicUserResource.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\main\java\com\giodad\todolist\web\rest\RecensioneResource.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\main\java\com\giodad\todolist\web\rest\UserResource.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\main\java\com\giodad\todolist\web\rest\vm\KeyAndPasswordVM.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\main\java\com\giodad\todolist\web\rest\vm\LoginVM.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\main\java\com\giodad\todolist\web\rest\vm\ManagedUserVM.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\test\java\com\giodad\todolist\config\AsyncSyncConfiguration.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\test\java\com\giodad\todolist\config\CRLFLogConverterTest.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\test\java\com\giodad\todolist\config\EmbeddedSQL.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\test\java\com\giodad\todolist\config\MysqlTestContainer.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\test\java\com\giodad\todolist\config\SpringBootTestClassOrderer.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\test\java\com\giodad\todolist\config\SqlTestContainer.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\test\java\com\giodad\todolist\config\SqlTestContainersSpringContextCustomizerFactory.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\test\java\com\giodad\todolist\config\StaticResourcesWebConfigurerTest.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\test\java\com\giodad\todolist\config\timezone\HibernateTimeZoneIT.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\test\java\com\giodad\todolist\config\WebConfigurerTest.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\test\java\com\giodad\todolist\config\WebConfigurerTestController.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\test\java\com\giodad\todolist\domain\AssertUtils.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\test\java\com\giodad\todolist\domain\AuthorityAsserts.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\test\java\com\giodad\todolist\domain\AuthorityTest.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\test\java\com\giodad\todolist\domain\AuthorityTestSamples.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\test\java\com\giodad\todolist\domain\AutoreAsserts.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\test\java\com\giodad\todolist\domain\AutoreTest.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\test\java\com\giodad\todolist\domain\AutoreTestSamples.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\test\java\com\giodad\todolist\domain\LibroAsserts.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\test\java\com\giodad\todolist\domain\LibroTest.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\test\java\com\giodad\todolist\domain\LibroTestSamples.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\test\java\com\giodad\todolist\domain\RecensioneAsserts.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\test\java\com\giodad\todolist\domain\RecensioneTest.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\test\java\com\giodad\todolist\domain\RecensioneTestSamples.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\test\java\com\giodad\todolist\IntegrationTest.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\test\java\com\giodad\todolist\management\SecurityMetersServiceTests.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\test\java\com\giodad\todolist\repository\timezone\DateTimeWrapper.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\test\java\com\giodad\todolist\repository\timezone\DateTimeWrapperRepository.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\test\java\com\giodad\todolist\security\DomainUserDetailsServiceIT.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\test\java\com\giodad\todolist\security\jwt\AuthenticationIntegrationTest.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\test\java\com\giodad\todolist\security\jwt\JwtAuthenticationTestUtils.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\test\java\com\giodad\todolist\security\jwt\TokenAuthenticationIT.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\test\java\com\giodad\todolist\security\jwt\TokenAuthenticationSecurityMetersIT.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\test\java\com\giodad\todolist\security\SecurityUtilsUnitTest.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\test\java\com\giodad\todolist\service\criteria\AutoreCriteriaTest.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\test\java\com\giodad\todolist\service\criteria\LibroCriteriaTest.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\test\java\com\giodad\todolist\service\criteria\RecensioneCriteriaTest.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\test\java\com\giodad\todolist\service\dto\AutoreDTOTest.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\test\java\com\giodad\todolist\service\dto\LibroDTOTest.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\test\java\com\giodad\todolist\service\dto\RecensioneDTOTest.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\test\java\com\giodad\todolist\service\MailServiceIT.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\test\java\com\giodad\todolist\service\mapper\AutoreMapperTest.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\test\java\com\giodad\todolist\service\mapper\LibroMapperTest.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\test\java\com\giodad\todolist\service\mapper\RecensioneMapperTest.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\test\java\com\giodad\todolist\service\mapper\UserMapperTest.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\test\java\com\giodad\todolist\service\UserServiceIT.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\test\java\com\giodad\todolist\TechnicalStructureTest.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\test\java\com\giodad\todolist\web\filter\SpaWebFilterIT.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\test\java\com\giodad\todolist\web\rest\AccountResourceIT.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\test\java\com\giodad\todolist\web\rest\AuthenticateControllerIT.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\test\java\com\giodad\todolist\web\rest\AuthorityResourceIT.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\test\java\com\giodad\todolist\web\rest\AutoreResourceIT.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\test\java\com\giodad\todolist\web\rest\errors\ExceptionTranslatorIT.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\test\java\com\giodad\todolist\web\rest\errors\ExceptionTranslatorTestController.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\test\java\com\giodad\todolist\web\rest\LibroResourceIT.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\test\java\com\giodad\todolist\web\rest\PublicUserResourceIT.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\test\java\com\giodad\todolist\web\rest\RecensioneResourceIT.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\test\java\com\giodad\todolist\web\rest\TestUtil.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\test\java\com\giodad\todolist\web\rest\UserResourceIT.java
+[INFO] clean file: C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\src\test\java\com\giodad\todolist\web\rest\WithUnauthenticatedMockUser.java
+[INFO] Spotless.Java is keeping 155 files clean - 140 were changed to be clean, 0 were already clean, 15 were skipped because caching determined they were already clean
+[INFO]
 [INFO] --- spring-boot:3.4.5:build-info (build-info) @ library ---
-[INFO] 
+[INFO]
 [INFO] --- checksum:1.11:files (create-pre-compiled-webapp-checksum) @ library ---
-[INFO] 
+[INFO]
 [INFO] --- antrun:3.1.0:run (eval-frontend-checksum) @ library ---
 [INFO] Executing tasks
 [INFO] Executed tasks
-[INFO] 
+[INFO]
 [INFO] --- frontend:1.15.1:install-node-and-npm (install-node-and-npm) @ library ---
-[INFO] Installing node version v22.15.0
-[INFO] Copying node binary from C:\Users\argir\.m2\repository\com\github\eirslett\node\22.15.0\node-22.15.0-win-x64.exe to C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\target\node\node.exe
-[INFO] Installed node locally.
-[INFO] Installing npm version 11.3.0
-[INFO] Unpacking C:\Users\argir\.m2\repository\com\github\eirslett\npm\11.3.0\npm-11.3.0.tar.gz into C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library\target\node\node_modules
-[INFO] Installed npm locally.
-[INFO] 
+[INFO] Node v22.15.0 is already installed.
+[INFO] NPM 11.3.0 is already installed.
+[INFO]
 [INFO] --- frontend:1.15.1:npm (npm install) @ library ---
 [INFO] Running 'npm install' in C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library
-[INFO] 
+[INFO]
 [INFO] > library@0.0.1-SNAPSHOT prepare
 [INFO] > husky
-[INFO] 
-[INFO] .git can't be found
-[INFO] up to date, audited 2004 packages in 5s
-[INFO] 
+[INFO]
+[INFO]
+[INFO] up to date, audited 2004 packages in 4s
+[INFO]
 [INFO] 375 packages are looking for funding
 [INFO]   run `npm fund` for details
-[INFO] 
+[INFO]
 [INFO] 6 vulnerabilities (4 high, 2 critical)
-[INFO] 
+[INFO]
 [INFO] To address all issues possible (including breaking changes), run:
 [INFO]   npm audit fix --force
-[INFO] 
+[INFO]
 [INFO] Some issues need review, and may require choosing
 [INFO] a different dependency.
-[INFO] 
+[INFO]
 [INFO] Run `npm audit` for details.
-[INFO] 
+[INFO]
 [INFO] --- frontend:1.15.1:npm (webapp build dev) @ library ---
 [INFO] npm not inheriting proxy config from Maven
 [INFO] Running 'npm run webapp:build' in C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library
-[INFO] 
+[INFO]
 [INFO] > library@0.0.1-SNAPSHOT webapp:build
 [INFO] > npm run clean-www && npm run webapp:build:dev --
-[INFO] 
-[INFO] 
+[INFO]
+[INFO]
 [INFO] > library@0.0.1-SNAPSHOT clean-www
 [INFO] > rimraf target/classes/static/
-[INFO] 
-[INFO] 
+[INFO]
+[INFO]
 [INFO] > library@0.0.1-SNAPSHOT webapp:build:dev
 [INFO] > webpack --config webpack/webpack.dev.js --env stats=minimal
-[INFO] 
-[INFO] Webpack: Starting ...
-[INFO] [GWebpack: Starting ...
-[INFO] 
-[INFO]   > Compile modules
-[INFO] [GWebpack: Starting ...
-[INFO] 
-[INFO]   ? Compile modules
-[INFO]   > Build modules (0%)
-[INFO] [GWebpack: Starting ...
-[INFO] 
-[INFO]   ? Compile modules
-[INFO]   > Build modules (1%)
-[INFO] [GWebpack: Starting ...
-[INFO] 
-[INFO]   ? Compile modules
-[INFO]   > Build modules (2%)
-[INFO] [GWebpack: Starting ...
-[INFO] 
-[INFO]   ? Compile modules
-[INFO]   > Build modules (5%)
-[INFO] [GWebpack: Starting ...
-[INFO] 
-[INFO]   ? Compile modules
-[INFO]   > Build modules (6%)
-[INFO] [GWebpack: Starting ...
-[INFO] 
-[INFO]   ? Compile modules
-[INFO]   > Build modules (11%)
-[INFO] [GWebpack: Starting ...
-[INFO] 
-[INFO]   ? Compile modules
-[INFO]   > Build modules (92%)
-[INFO] [GWebpack: Starting ...
-[INFO] 
-[INFO]   ? Compile modules
-[INFO]   > Build modules (98%)
-[INFO] [GWebpack: Starting ...
-[INFO] 
-[INFO]   ? Compile modules
-[INFO]   > Build modules (100%)
-[INFO] [GWebpack: Starting ...
-[INFO] 
-[INFO]   ? Compile modules
-[INFO]   ? Build modules
-[INFO]   > Optimize modules (-2%)
-[INFO]     ? Sealing ...
-[INFO] [GWebpack: Starting ...
-[INFO] 
-[INFO]   ? Compile modules
-[INFO]   ? Build modules
-[INFO]   > Optimize modules (1%)
-[INFO]     ? Sealing ...
-[INFO] [GWebpack: Starting ...
-[INFO] 
-[INFO]   ? Compile modules
-[INFO]   ? Build modules
-[INFO]   > Optimize modules (4%)
-[INFO]     ? Sealing ...
-[INFO] [GWebpack: Starting ...
-[INFO] 
-[INFO]   ? Compile modules
-[INFO]   ? Build modules
-[INFO]   > Optimize modules (7%)
-[INFO]     ? Sealing ...
-[INFO] [GWebpack: Starting ...
-[INFO] 
-[INFO]   ? Compile modules
-[INFO]   ? Build modules
-[INFO]   > Optimize modules (10%)
-[INFO]     ? Sealing ...
-[INFO] [GWebpack: Starting ...
-[INFO] 
-[INFO]   ? Compile modules
-[INFO]   ? Build modules
-[INFO]   > Optimize modules (12%)
-[INFO]     ? Sealing ...
-[INFO] [GWebpack: Starting ...
-[INFO] 
-[INFO]   ? Compile modules
-[INFO]   ? Build modules
-[INFO]   > Optimize modules (15%)
-[INFO]     ? Sealing ...
-[INFO] [GWebpack: Starting ...
-[INFO] 
-[INFO]   ? Compile modules
-[INFO]   ? Build modules
-[INFO]   > Optimize modules (18%)
-[INFO]     ? Sealing ...
-[INFO] [GWebpack: Starting ...
-[INFO] 
-[INFO]   ? Compile modules
-[INFO]   ? Build modules
-[INFO]   > Optimize modules (21%)
-[INFO]     ? Sealing ...
-[INFO] [GWebpack: Starting ...
-[INFO] 
-[INFO]   ? Compile modules
-[INFO]   ? Build modules
-[INFO]   > Optimize modules (24%)
-[INFO]     ? Sealing ...
-[INFO] [GWebpack: Starting ...
-[INFO] 
-[INFO]   ? Compile modules
-[INFO]   ? Build modules
-[INFO]   > Optimize modules (26%)
-[INFO]     ? Sealing ...
-[INFO] [GWebpack: Starting ...
-[INFO] 
-[INFO]   ? Compile modules
-[INFO]   ? Build modules
-[INFO]   > Optimize modules (29%)
-[INFO]     ? Sealing ...
-[INFO] [GWebpack: Starting ...
-[INFO] 
-[INFO]   ? Compile modules
-[INFO]   ? Build modules
-[INFO]   > Optimize modules (32%)
-[INFO]     ? Sealing ...
-[INFO] [GWebpack: Starting ...
-[INFO] 
-[INFO]   ? Compile modules
-[INFO]   ? Build modules
-[INFO]   > Optimize modules (35%)
-[INFO]     ? Sealing ...
-[INFO] [GWebpack: Starting ...
-[INFO] 
-[INFO]   ? Compile modules
-[INFO]   ? Build modules
-[INFO]   > Optimize modules (37%)
-[INFO]     ? Sealing ...
-[INFO] [GWebpack: Starting ...
-[INFO] 
-[INFO]   ? Compile modules
-[INFO]   ? Build modules
-[INFO]   > Optimize modules (40%)
-[INFO]     ? Sealing ...
-[INFO] [GWebpack: Starting ...
-[INFO] 
-[INFO]   ? Compile modules
-[INFO]   ? Build modules
-[INFO]   > Optimize modules (43%)
-[INFO]     ? Sealing ...
-[INFO] [GWebpack: Starting ...
-[INFO] 
-[INFO]   ? Compile modules
-[INFO]   ? Build modules
-[INFO]   > Optimize modules (46%)
-[INFO]     ? Sealing ...
-[INFO] [GWebpack: Starting ...
-[INFO] 
-[INFO]   ? Compile modules
-[INFO]   ? Build modules
-[INFO]   > Optimize modules (49%)
-[INFO]     ? Sealing ...
-[INFO] [GWebpack: Starting ...
-[INFO] 
-[INFO]   ? Compile modules
-[INFO]   ? Build modules
-[INFO]   > Optimize modules (51%)
-[INFO]     ? Sealing ...
-[INFO] [GWebpack: Starting ...
-[INFO] 
-[INFO]   ? Compile modules
-[INFO]   ? Build modules
-[INFO]   > Optimize modules (54%)
-[INFO]     ? Sealing ...
-[INFO] [GWebpack: Starting ...
-[INFO] 
-[INFO]   ? Compile modules
-[INFO]   ? Build modules
-[INFO]   > Optimize modules (57%)
-[INFO]     ? Sealing ...
-[INFO] [GWebpack: Starting ...
-[INFO] 
-[INFO]   ? Compile modules
-[INFO]   ? Build modules
-[INFO]   > Optimize modules (60%)
-[INFO]     ? Sealing ...
-[INFO] [GWebpack: Starting ...
-[INFO] 
-[INFO]   ? Compile modules
-[INFO]   ? Build modules
-[INFO]   > Optimize modules (63%)
-[INFO]     ? Sealing ...
-[INFO] [GWebpack: Starting ...
-[INFO] 
-[INFO]   ? Compile modules
-[INFO]   ? Build modules
-[INFO]   > Optimize modules (65%)
-[INFO]     ? Sealing ...
-[INFO] [GWebpack: Starting ...
-[INFO] 
-[INFO]   ? Compile modules
-[INFO]   ? Build modules
-[INFO]   > Optimize modules (68%)
-[INFO]     ? Sealing ...
-[INFO] [GWebpack: Starting ...
-[INFO] 
-[INFO]   ? Compile modules
-[INFO]   ? Build modules
-[INFO]   > Optimize modules (71%)
-[INFO]     ? Sealing ...
-[INFO] [GWebpack: Starting ...
-[INFO] 
-[INFO]   ? Compile modules
-[INFO]   ? Build modules
-[INFO]   > Optimize modules (74%)
-[INFO]     ? Sealing ...
-[INFO] [GWebpack: Starting ...
-[INFO] 
-[INFO]   ? Compile modules
-[INFO]   ? Build modules
-[INFO]   > Optimize modules (76%)
-[INFO]     ? Sealing ...
-[INFO] [GWebpack: Starting ...
-[INFO] 
-[INFO]   ? Compile modules
-[INFO]   ? Build modules
-[INFO]   > Optimize modules (79%)
-[INFO]     ? Sealing ...
-[INFO] [GWebpack: Starting ...
-[INFO] 
-[INFO]   ? Compile modules
-[INFO]   ? Build modules
-[INFO]   > Optimize modules (82%)
-[INFO]     ? Sealing ...
-[INFO] [GWebpack: Starting ...
-[INFO] 
-[INFO]   ? Compile modules
-[INFO]   ? Build modules
-[INFO]   > Optimize modules (85%)
-[INFO]     ? Sealing ...
-[INFO] [GWebpack: Starting ...
-[INFO] 
-[INFO]   ? Compile modules
-[INFO]   ? Build modules
-[INFO]   > Optimize modules (88%)
-[INFO]     ? Sealing ...
-[INFO] [GWebpack: Starting ...
-[INFO] 
-[INFO]   ? Compile modules
-[INFO]   ? Build modules
-[INFO]   > Optimize modules (90%)
-[INFO]     ? Sealing ...
-[INFO] [GWebpack: Starting ...
-[INFO] 
-[INFO]   ? Compile modules
-[INFO]   ? Build modules
-[INFO]   > Optimize modules (93%)
-[INFO]     ? Sealing ...
-[INFO] [GWebpack: Starting ...
-[INFO] 
-[INFO]   ? Compile modules
-[INFO]   ? Build modules
-[INFO]   > Optimize modules (96%)
-[INFO]     ? Sealing ...
-[INFO] [GWebpack: Starting ...
-[INFO] 
-[INFO]   ? Compile modules
-[INFO]   ? Build modules
-[INFO]   > Optimize modules (99%)
-[INFO]     ? Sealing ...
-[INFO] [GWebpack: Starting ...
-[INFO] 
-[INFO]   ? Compile modules
-[INFO]   ? Build modules
-[INFO]   > Optimize modules (102%)
-[INFO]     ? Sealing ...
-[INFO] [GWebpack: Starting ...
-[INFO] 
-[INFO]   ? Compile modules
-[INFO]   ? Build modules
-[INFO]   ? Optimize modules
-[INFO]   > Emit files
-[INFO] [GWebpack: Starting ...
-[INFO] 
+[INFO]
+Webpack: Starting ...
+[INFO]
 [INFO]   ? Compile modules
 [INFO]   ? Build modules
 [INFO]   ? Optimize modules
 [INFO]   ? Emit files
-[INFO] 
-[INFO] Finished after 15.641 seconds.
-[INFO] 
-[INFO] Webpack: Starting ...
-[INFO] [GWebpack: Starting ...
-[INFO] 
-[INFO]   ? Compile modules
-[INFO]   ? Build modules
-[INFO]   ? Optimize modules
-[INFO]   > Emit files
-[INFO] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
-[INFO] [GWebpack: Starting ...
-[INFO] 
+[INFO]
+[INFO] Finished after 14.471 seconds.
+[INFO]
+Webpack: Starting ...
+Webpack: Starting ...
+[INFO]
 [INFO]   ? Compile modules
 [INFO]   ? Build modules
 [INFO]   ? Optimize modules
 [INFO]   ? Emit files
-[INFO] 
-[INFO] Finished after 3.186 seconds.
-[INFO] 
+[INFO]
+[INFO] Finished after 3.160 seconds.
+[INFO]
 [INFO] 44 assets
 [INFO] 634 modules
-[INFO] webpack 5.99.8 compiled successfully in 15638 ms
-[INFO] 
+[INFO] webpack 5.99.8 compiled successfully in 14463 ms
+[INFO]
 [INFO] --- resources:3.3.1:resources (default-resources) @ library ---
 [INFO] Copying 4 resources from src\main\resources to target\classes
 [INFO] Copying 21 resources from src\main\resources to target\classes
-[INFO] 
+[INFO]
 [INFO] --- compiler:3.14.0:compile (default-compile) @ library ---
 [INFO] Recompiling the module because of changed source code.
 [INFO] Compiling 95 source files with javac [debug parameters release 17] to target\classes
-[WARNING] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/main/java/com/giodad/todolist/service/mapper/AutoreMapper.java:[11,8] Unmapped target properties: "libris, removeLibri". Occured at 'E toEntity(D dto)' in 'EntityMapper'.
-[WARNING] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/main/java/com/giodad/todolist/service/mapper/AutoreMapper.java:[11,8] Unmapped target properties: "libris, removeLibri". Occured at 'void partialUpdate(E entity, D dto)' in 'EntityMapper'.
+[WARNING] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/main/java/com/giodad/todolist/service/mapper/LibroMapper.java:[13,8] Unmapped target properties: "libris, removeLibri". Mapping from property "AutoreDTO autore" to "Autore autore". Occured at 'E toEntity(D dto)' in 'EntityMapper'.
+[WARNING] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/main/java/com/giodad/todolist/service/mapper/LibroMapper.java:[13,8] Unmapped target properties: "recensionis, removeRecensioni". Occured at 'E toEntity(D dto)' in 'EntityMapper'.
+[WARNING] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/main/java/com/giodad/todolist/service/mapper/LibroMapper.java:[13,8] Unmapped target properties: "libris, removeLibri". Mapping from property "AutoreDTO autore" to "Autore autore". Occured at 'void partialUpdate(E entity, D dto)' in 'EntityMapper'.
+[WARNING] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/main/java/com/giodad/todolist/service/mapper/LibroMapper.java:[13,8] Unmapped target properties: "recensionis, removeRecensioni". Occured at 'void partialUpdate(E entity, D dto)' in 'EntityMapper'.
 [WARNING] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/main/java/com/giodad/todolist/service/mapper/RecensioneMapper.java:[15,8] Unmapped target properties: "libris, removeLibri". Mapping from property "AutoreDTO libro.autore" to "Autore libro.autore". Occured at 'E toEntity(D dto)' in 'EntityMapper'.
 [WARNING] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/main/java/com/giodad/todolist/service/mapper/RecensioneMapper.java:[15,8] Unmapped target properties: "recensionis, removeRecensioni". Mapping from property "LibroDTO libro" to "Libro libro". Occured at 'E toEntity(D dto)' in 'EntityMapper'.
 [WARNING] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/main/java/com/giodad/todolist/service/mapper/RecensioneMapper.java:[15,8] Unmapped target properties: "createdBy, createdDate, lastModifiedBy, lastModifiedDate, password, firstName, lastName, email, imageUrl, activated, activationKey, resetKey, resetDate, langKey, authorities". Mapping from property "UserDTO user" to "User user". Occured at 'E toEntity(D dto)' in 'EntityMapper'.
 [WARNING] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/main/java/com/giodad/todolist/service/mapper/RecensioneMapper.java:[15,8] Unmapped target properties: "libris, removeLibri". Mapping from property "AutoreDTO libro.autore" to "Autore libro.autore". Occured at 'void partialUpdate(E entity, D dto)' in 'EntityMapper'.
 [WARNING] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/main/java/com/giodad/todolist/service/mapper/RecensioneMapper.java:[15,8] Unmapped target properties: "recensionis, removeRecensioni". Mapping from property "LibroDTO libro" to "Libro libro". Occured at 'void partialUpdate(E entity, D dto)' in 'EntityMapper'.
 [WARNING] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/main/java/com/giodad/todolist/service/mapper/RecensioneMapper.java:[15,8] Unmapped target properties: "createdBy, createdDate, lastModifiedBy, lastModifiedDate, password, firstName, lastName, email, imageUrl, activated, activationKey, resetKey, resetDate, langKey, authorities". Mapping from property "UserDTO user" to "User user". Occured at 'void partialUpdate(E entity, D dto)' in 'EntityMapper'.
-[WARNING] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/main/java/com/giodad/todolist/service/mapper/LibroMapper.java:[13,8] Unmapped target properties: "libris, removeLibri". Mapping from property "AutoreDTO autore" to "Autore autore". Occured at 'E toEntity(D dto)' in 'EntityMapper'.
-[WARNING] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/main/java/com/giodad/todolist/service/mapper/LibroMapper.java:[13,8] Unmapped target properties: "recensionis, removeRecensioni". Occured at 'E toEntity(D dto)' in 'EntityMapper'.
-[WARNING] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/main/java/com/giodad/todolist/service/mapper/LibroMapper.java:[13,8] Unmapped target properties: "libris, removeLibri". Mapping from property "AutoreDTO autore" to "Autore autore". Occured at 'void partialUpdate(E entity, D dto)' in 'EntityMapper'.
-[WARNING] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/main/java/com/giodad/todolist/service/mapper/LibroMapper.java:[13,8] Unmapped target properties: "recensionis, removeRecensioni". Occured at 'void partialUpdate(E entity, D dto)' in 'EntityMapper'.
+[WARNING] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/main/java/com/giodad/todolist/service/mapper/AutoreMapper.java:[11,8] Unmapped target properties: "libris, removeLibri". Occured at 'E toEntity(D dto)' in 'EntityMapper'.
+[WARNING] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/main/java/com/giodad/todolist/service/mapper/AutoreMapper.java:[11,8] Unmapped target properties: "libris, removeLibri". Occured at 'void partialUpdate(E entity, D dto)' in 'EntityMapper'.
 [INFO] Hibernate compile-time tooling 6.6.13.Final
-[INFO] 
+[INFO]
 [INFO] --- checksum:1.11:files (create-compiled-webapp-checksum) @ library ---
-[INFO] 
-[INFO] --- resources:3.3.1:testResources (default-testResources) @ library ---
-[INFO] Copying 11 resources from src\test\resources to target\test-classes
-[INFO] 
-[INFO] --- compiler:3.14.0:testCompile (default-testCompile) @ library ---
-[INFO] Recompiling the module because of changed dependency.
-[INFO] Compiling 60 source files with javac [debug parameters release 17] to target\test-classes
-[INFO] Hibernate compile-time tooling 6.6.13.Final
-[INFO] -------------------------------------------------------------
-[ERROR] COMPILATION ERROR : 
-[INFO] -------------------------------------------------------------
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/IntegrationTest.java:[5,34] cannot find symbol
-  symbol:   class JacksonConfiguration
-  location: package com.giodad.todolist.config
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/config/StaticResourcesWebConfigurerTest.java:[3,41] cannot find symbol
-  symbol:   class StaticResourcesWebConfiguration
-  location: package com.giodad.todolist.config
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/config/StaticResourcesWebConfigurerTest.java:[21,12] cannot find symbol
-  symbol:   class StaticResourcesWebConfiguration
-  location: class com.giodad.todolist.config.StaticResourcesWebConfigurerTest
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/config/WebConfigurerTest.java:[29,13] cannot find symbol
-  symbol:   class WebConfigurer
-  location: class com.giodad.todolist.config.WebConfigurerTest
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/AuthorityAsserts.java:[13,59] cannot find symbol
-  symbol:   class Authority
-  location: class com.giodad.todolist.domain.AuthorityAsserts
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/AuthorityAsserts.java:[13,79] cannot find symbol
-  symbol:   class Authority
-  location: class com.giodad.todolist.domain.AuthorityAsserts
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/AuthorityAsserts.java:[24,68] cannot find symbol
-  symbol:   class Authority
-  location: class com.giodad.todolist.domain.AuthorityAsserts
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/AuthorityAsserts.java:[24,88] cannot find symbol
-  symbol:   class Authority
-  location: class com.giodad.todolist.domain.AuthorityAsserts
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/AuthorityAsserts.java:[35,69] cannot find symbol
-  symbol:   class Authority
-  location: class com.giodad.todolist.domain.AuthorityAsserts
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/AuthorityAsserts.java:[35,89] cannot find symbol
-  symbol:   class Authority
-  location: class com.giodad.todolist.domain.AuthorityAsserts
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/AuthorityAsserts.java:[45,61] cannot find symbol
-  symbol:   class Authority
-  location: class com.giodad.todolist.domain.AuthorityAsserts
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/AuthorityAsserts.java:[45,81] cannot find symbol
-  symbol:   class Authority
-  location: class com.giodad.todolist.domain.AuthorityAsserts
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/AuthorityAsserts.java:[57,68] cannot find symbol
-  symbol:   class Authority
-  location: class com.giodad.todolist.domain.AuthorityAsserts
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/AuthorityAsserts.java:[57,88] cannot find symbol
-  symbol:   class Authority
-  location: class com.giodad.todolist.domain.AuthorityAsserts
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/AuthorityTestSamples.java:[7,19] cannot find symbol
-  symbol:   class Authority
-  location: class com.giodad.todolist.domain.AuthorityTestSamples
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/AuthorityTestSamples.java:[11,19] cannot find symbol
-  symbol:   class Authority
-  location: class com.giodad.todolist.domain.AuthorityTestSamples
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/AuthorityTestSamples.java:[15,19] cannot find symbol
-  symbol:   class Authority
-  location: class com.giodad.todolist.domain.AuthorityTestSamples
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/AutoreAsserts.java:[13,56] cannot find symbol
-  symbol:   class Autore
-  location: class com.giodad.todolist.domain.AutoreAsserts
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/AutoreAsserts.java:[13,73] cannot find symbol
-  symbol:   class Autore
-  location: class com.giodad.todolist.domain.AutoreAsserts
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/AutoreAsserts.java:[24,65] cannot find symbol
-  symbol:   class Autore
-  location: class com.giodad.todolist.domain.AutoreAsserts
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/AutoreAsserts.java:[24,82] cannot find symbol
-  symbol:   class Autore
-  location: class com.giodad.todolist.domain.AutoreAsserts
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/AutoreAsserts.java:[35,66] cannot find symbol
-  symbol:   class Autore
-  location: class com.giodad.todolist.domain.AutoreAsserts
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/AutoreAsserts.java:[35,83] cannot find symbol
-  symbol:   class Autore
-  location: class com.giodad.todolist.domain.AutoreAsserts
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/AutoreAsserts.java:[47,58] cannot find symbol
-  symbol:   class Autore
-  location: class com.giodad.todolist.domain.AutoreAsserts
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/AutoreAsserts.java:[47,75] cannot find symbol
-  symbol:   class Autore
-  location: class com.giodad.todolist.domain.AutoreAsserts
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/AutoreAsserts.java:[59,65] cannot find symbol
-  symbol:   class Autore
-  location: class com.giodad.todolist.domain.AutoreAsserts
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/AutoreAsserts.java:[59,82] cannot find symbol
-  symbol:   class Autore
-  location: class com.giodad.todolist.domain.AutoreAsserts
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/AutoreTestSamples.java:[12,19] cannot find symbol
-  symbol:   class Autore
-  location: class com.giodad.todolist.domain.AutoreTestSamples
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/AutoreTestSamples.java:[16,19] cannot find symbol
-  symbol:   class Autore
-  location: class com.giodad.todolist.domain.AutoreTestSamples
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/AutoreTestSamples.java:[20,19] cannot find symbol
-  symbol:   class Autore
-  location: class com.giodad.todolist.domain.AutoreTestSamples
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/LibroTestSamples.java:[12,19] cannot find symbol
-  symbol:   class Libro
-  location: class com.giodad.todolist.domain.LibroTestSamples
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/LibroTestSamples.java:[16,19] cannot find symbol
-  symbol:   class Libro
-  location: class com.giodad.todolist.domain.LibroTestSamples
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/LibroTestSamples.java:[20,19] cannot find symbol
-  symbol:   class Libro
-  location: class com.giodad.todolist.domain.LibroTestSamples
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/LibroAsserts.java:[13,55] cannot find symbol
-  symbol:   class Libro
-  location: class com.giodad.todolist.domain.LibroAsserts
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/LibroAsserts.java:[13,71] cannot find symbol
-  symbol:   class Libro
-  location: class com.giodad.todolist.domain.LibroAsserts
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/LibroAsserts.java:[24,64] cannot find symbol
-  symbol:   class Libro
-  location: class com.giodad.todolist.domain.LibroAsserts
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/LibroAsserts.java:[24,80] cannot find symbol
-  symbol:   class Libro
-  location: class com.giodad.todolist.domain.LibroAsserts
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/LibroAsserts.java:[35,65] cannot find symbol
-  symbol:   class Libro
-  location: class com.giodad.todolist.domain.LibroAsserts
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/LibroAsserts.java:[35,81] cannot find symbol
-  symbol:   class Libro
-  location: class com.giodad.todolist.domain.LibroAsserts
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/LibroAsserts.java:[47,57] cannot find symbol
-  symbol:   class Libro
-  location: class com.giodad.todolist.domain.LibroAsserts
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/LibroAsserts.java:[47,73] cannot find symbol
-  symbol:   class Libro
-  location: class com.giodad.todolist.domain.LibroAsserts
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/LibroAsserts.java:[60,64] cannot find symbol
-  symbol:   class Libro
-  location: class com.giodad.todolist.domain.LibroAsserts
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/LibroAsserts.java:[60,80] cannot find symbol
-  symbol:   class Libro
-  location: class com.giodad.todolist.domain.LibroAsserts
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/RecensioneTestSamples.java:[12,19] cannot find symbol
-  symbol:   class Recensione
-  location: class com.giodad.todolist.domain.RecensioneTestSamples
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/RecensioneTestSamples.java:[16,19] cannot find symbol
-  symbol:   class Recensione
-  location: class com.giodad.todolist.domain.RecensioneTestSamples
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/RecensioneTestSamples.java:[20,19] cannot find symbol
-  symbol:   class Recensione
-  location: class com.giodad.todolist.domain.RecensioneTestSamples
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/RecensioneAsserts.java:[13,60] cannot find symbol
-  symbol:   class Recensione
-  location: class com.giodad.todolist.domain.RecensioneAsserts
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/RecensioneAsserts.java:[13,81] cannot find symbol
-  symbol:   class Recensione
-  location: class com.giodad.todolist.domain.RecensioneAsserts
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/RecensioneAsserts.java:[24,69] cannot find symbol
-  symbol:   class Recensione
-  location: class com.giodad.todolist.domain.RecensioneAsserts
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/RecensioneAsserts.java:[24,90] cannot find symbol
-  symbol:   class Recensione
-  location: class com.giodad.todolist.domain.RecensioneAsserts
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/RecensioneAsserts.java:[35,70] cannot find symbol
-  symbol:   class Recensione
-  location: class com.giodad.todolist.domain.RecensioneAsserts
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/RecensioneAsserts.java:[35,91] cannot find symbol
-  symbol:   class Recensione
-  location: class com.giodad.todolist.domain.RecensioneAsserts
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/RecensioneAsserts.java:[47,62] cannot find symbol
-  symbol:   class Recensione
-  location: class com.giodad.todolist.domain.RecensioneAsserts
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/RecensioneAsserts.java:[47,83] cannot find symbol
-  symbol:   class Recensione
-  location: class com.giodad.todolist.domain.RecensioneAsserts
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/RecensioneAsserts.java:[59,69] cannot find symbol
-  symbol:   class Recensione
-  location: class com.giodad.todolist.domain.RecensioneAsserts
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/RecensioneAsserts.java:[59,90] cannot find symbol
-  symbol:   class Recensione
-  location: class com.giodad.todolist.domain.RecensioneAsserts
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/management/SecurityMetersServiceTests.java:[18,13] cannot find symbol
-  symbol:   class SecurityMetersService
-  location: class com.giodad.todolist.management.SecurityMetersServiceTests
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/security/DomainUserDetailsServiceIT.java:[7,34] cannot find symbol
-  symbol:   class User
-  location: package com.giodad.todolist.domain
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/security/DomainUserDetailsServiceIT.java:[8,38] cannot find symbol
-  symbol:   class UserRepository
-  location: package com.giodad.todolist.repository
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/security/DomainUserDetailsServiceIT.java:[9,35] cannot find symbol
-  symbol:   class UserService
-  location: package com.giodad.todolist.service
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/security/DomainUserDetailsServiceIT.java:[36,13] cannot find symbol
-  symbol:   class UserRepository
-  location: class com.giodad.todolist.security.DomainUserDetailsServiceIT
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/security/DomainUserDetailsServiceIT.java:[39,13] cannot find symbol
-  symbol:   class UserService
-  location: class com.giodad.todolist.security.DomainUserDetailsServiceIT
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/security/DomainUserDetailsServiceIT.java:[45,12] cannot find symbol
-  symbol:   class User
-  location: class com.giodad.todolist.security.DomainUserDetailsServiceIT
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/security/DomainUserDetailsServiceIT.java:[57,12] cannot find symbol
-  symbol:   class User
-  location: class com.giodad.todolist.security.DomainUserDetailsServiceIT
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/security/DomainUserDetailsServiceIT.java:[69,12] cannot find symbol
-  symbol:   class User
-  location: class com.giodad.todolist.security.DomainUserDetailsServiceIT
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/security/SecurityUtilsUnitTest.java:[3,43] cannot find symbol
-  symbol:   class SecurityUtils
-  location: package com.giodad.todolist.security
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/security/SecurityUtilsUnitTest.java:[3,1] static import only from classes and interfaces
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/security/jwt/AuthenticationIntegrationTest.java:[3,34] cannot find symbol
-  symbol:   class SecurityConfiguration
-  location: package com.giodad.todolist.config
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/security/jwt/AuthenticationIntegrationTest.java:[4,34] cannot find symbol
-  symbol:   class SecurityJwtConfiguration
-  location: package com.giodad.todolist.config
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/security/jwt/AuthenticationIntegrationTest.java:[5,34] cannot find symbol
-  symbol:   class WebConfigurer
-  location: package com.giodad.todolist.config
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/security/jwt/AuthenticationIntegrationTest.java:[6,38] cannot find symbol
-  symbol:   class SecurityMetersService
-  location: package com.giodad.todolist.management
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/security/jwt/AuthenticationIntegrationTest.java:[7,36] cannot find symbol
-  symbol:   class AuthenticateController
-  location: package com.giodad.todolist.web.rest
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/security/jwt/JwtAuthenticationTestUtils.java:[3,43] cannot find symbol
-  symbol:   class AuthoritiesConstants
-  location: package com.giodad.todolist.security
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/security/jwt/JwtAuthenticationTestUtils.java:[3,1] static import only from classes and interfaces
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/security/jwt/JwtAuthenticationTestUtils.java:[4,43] cannot find symbol
-  symbol:   class SecurityUtils
-  location: package com.giodad.todolist.security
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/security/jwt/JwtAuthenticationTestUtils.java:[4,1] static import only from classes and interfaces
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/security/jwt/JwtAuthenticationTestUtils.java:[5,43] cannot find symbol
-  symbol:   class SecurityUtils
-  location: package com.giodad.todolist.security
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/security/jwt/JwtAuthenticationTestUtils.java:[5,1] static import only from classes and interfaces
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/service/MailServiceIT.java:[8,34] cannot find symbol
-  symbol:   class Constants
-  location: package com.giodad.todolist.config
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/service/MailServiceIT.java:[9,34] cannot find symbol
-  symbol:   class User
-  location: package com.giodad.todolist.domain
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/service/MailServiceIT.java:[56,13] cannot find symbol
-  symbol:   class MailService
-  location: class com.giodad.todolist.service.MailServiceIT
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/service/UserServiceIT.java:[7,34] cannot find symbol
-  symbol:   class User
-  location: package com.giodad.todolist.domain
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/service/UserServiceIT.java:[8,38] cannot find symbol
-  symbol:   class UserRepository
-  location: package com.giodad.todolist.repository
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/service/UserServiceIT.java:[51,13] cannot find symbol
-  symbol:   class UserRepository
-  location: class com.giodad.todolist.service.UserServiceIT
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/service/UserServiceIT.java:[54,13] cannot find symbol
-  symbol:   class UserService
-  location: class com.giodad.todolist.service.UserServiceIT
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/service/UserServiceIT.java:[62,13] cannot find symbol
-  symbol:   class User
-  location: class com.giodad.todolist.service.UserServiceIT
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/service/criteria/AutoreCriteriaTest.java:[77,39] cannot find symbol
-  symbol:   class AutoreCriteria
-  location: class com.giodad.todolist.service.criteria.AutoreCriteriaTest
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/service/criteria/AutoreCriteriaTest.java:[84,30] cannot find symbol
-  symbol:   class AutoreCriteria
-  location: class com.giodad.todolist.service.criteria.AutoreCriteriaTest
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/service/criteria/AutoreCriteriaTest.java:[95,61] cannot find symbol
-  symbol:   class AutoreCriteria
-  location: class com.giodad.todolist.service.criteria.AutoreCriteriaTest
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/service/criteria/AutoreCriteriaTest.java:[95,30] cannot find symbol
-  symbol:   class AutoreCriteria
-  location: class com.giodad.todolist.service.criteria.AutoreCriteriaTest
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/service/criteria/LibroCriteriaTest.java:[77,39] cannot find symbol
-  symbol:   class LibroCriteria
-  location: class com.giodad.todolist.service.criteria.LibroCriteriaTest
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/service/criteria/LibroCriteriaTest.java:[86,30] cannot find symbol
-  symbol:   class LibroCriteria
-  location: class com.giodad.todolist.service.criteria.LibroCriteriaTest
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/service/criteria/LibroCriteriaTest.java:[99,60] cannot find symbol
-  symbol:   class LibroCriteria
-  location: class com.giodad.todolist.service.criteria.LibroCriteriaTest
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/service/criteria/LibroCriteriaTest.java:[99,30] cannot find symbol
-  symbol:   class LibroCriteria
-  location: class com.giodad.todolist.service.criteria.LibroCriteriaTest
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/service/criteria/RecensioneCriteriaTest.java:[77,39] cannot find symbol
-  symbol:   class RecensioneCriteria
-  location: class com.giodad.todolist.service.criteria.RecensioneCriteriaTest
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/service/criteria/RecensioneCriteriaTest.java:[85,30] cannot find symbol
-  symbol:   class RecensioneCriteria
-  location: class com.giodad.todolist.service.criteria.RecensioneCriteriaTest
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/service/criteria/RecensioneCriteriaTest.java:[97,65] cannot find symbol
-  symbol:   class RecensioneCriteria
-  location: class com.giodad.todolist.service.criteria.RecensioneCriteriaTest
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/service/criteria/RecensioneCriteriaTest.java:[97,30] cannot find symbol
-  symbol:   class RecensioneCriteria
-  location: class com.giodad.todolist.service.criteria.RecensioneCriteriaTest
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/service/mapper/AutoreMapperTest.java:[11,13] cannot find symbol
-  symbol:   class AutoreMapper
-  location: class com.giodad.todolist.service.mapper.AutoreMapperTest
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/service/mapper/LibroMapperTest.java:[11,13] cannot find symbol
-  symbol:   class LibroMapper
-  location: class com.giodad.todolist.service.mapper.LibroMapperTest
-[INFO] 100 errors 
-[INFO] -------------------------------------------------------------
 [INFO] ------------------------------------------------------------------------
-[INFO] BUILD FAILURE
+[INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  01:16 min
-[INFO] Finished at: 2025-07-24T18:19:40+02:00
+[INFO] Total time:  01:02 min
+[INFO] Finished at: 2025-07-24T18:24:06+02:00
 [INFO] ------------------------------------------------------------------------
-[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.14.0:testCompile (default-testCompile) on project library: Compilation failure: Compilation failure: 
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/IntegrationTest.java:[5,34] cannot find symbol
-[ERROR]   symbol:   class JacksonConfiguration
-[ERROR]   location: package com.giodad.todolist.config
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/config/StaticResourcesWebConfigurerTest.java:[3,41] cannot find symbol
-[ERROR]   symbol:   class StaticResourcesWebConfiguration
-[ERROR]   location: package com.giodad.todolist.config
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/config/StaticResourcesWebConfigurerTest.java:[21,12] cannot find symbol
-[ERROR]   symbol:   class StaticResourcesWebConfiguration
-[ERROR]   location: class com.giodad.todolist.config.StaticResourcesWebConfigurerTest
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/config/WebConfigurerTest.java:[29,13] cannot find symbol
-[ERROR]   symbol:   class WebConfigurer
-[ERROR]   location: class com.giodad.todolist.config.WebConfigurerTest
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/AuthorityAsserts.java:[13,59] cannot find symbol
-[ERROR]   symbol:   class Authority
-[ERROR]   location: class com.giodad.todolist.domain.AuthorityAsserts
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/AuthorityAsserts.java:[13,79] cannot find symbol
-[ERROR]   symbol:   class Authority
-[ERROR]   location: class com.giodad.todolist.domain.AuthorityAsserts
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/AuthorityAsserts.java:[24,68] cannot find symbol
-[ERROR]   symbol:   class Authority
-[ERROR]   location: class com.giodad.todolist.domain.AuthorityAsserts
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/AuthorityAsserts.java:[24,88] cannot find symbol
-[ERROR]   symbol:   class Authority
-[ERROR]   location: class com.giodad.todolist.domain.AuthorityAsserts
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/AuthorityAsserts.java:[35,69] cannot find symbol
-[ERROR]   symbol:   class Authority
-[ERROR]   location: class com.giodad.todolist.domain.AuthorityAsserts
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/AuthorityAsserts.java:[35,89] cannot find symbol
-[ERROR]   symbol:   class Authority
-[ERROR]   location: class com.giodad.todolist.domain.AuthorityAsserts
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/AuthorityAsserts.java:[45,61] cannot find symbol
-[ERROR]   symbol:   class Authority
-[ERROR]   location: class com.giodad.todolist.domain.AuthorityAsserts
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/AuthorityAsserts.java:[45,81] cannot find symbol
-[ERROR]   symbol:   class Authority
-[ERROR]   location: class com.giodad.todolist.domain.AuthorityAsserts
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/AuthorityAsserts.java:[57,68] cannot find symbol
-[ERROR]   symbol:   class Authority
-[ERROR]   location: class com.giodad.todolist.domain.AuthorityAsserts
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/AuthorityAsserts.java:[57,88] cannot find symbol
-[ERROR]   symbol:   class Authority
-[ERROR]   location: class com.giodad.todolist.domain.AuthorityAsserts
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/AuthorityTestSamples.java:[7,19] cannot find symbol
-[ERROR]   symbol:   class Authority
-[ERROR]   location: class com.giodad.todolist.domain.AuthorityTestSamples
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/AuthorityTestSamples.java:[11,19] cannot find symbol
-[ERROR]   symbol:   class Authority
-[ERROR]   location: class com.giodad.todolist.domain.AuthorityTestSamples
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/AuthorityTestSamples.java:[15,19] cannot find symbol
-[ERROR]   symbol:   class Authority
-[ERROR]   location: class com.giodad.todolist.domain.AuthorityTestSamples
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/AutoreAsserts.java:[13,56] cannot find symbol
-[ERROR]   symbol:   class Autore
-[ERROR]   location: class com.giodad.todolist.domain.AutoreAsserts
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/AutoreAsserts.java:[13,73] cannot find symbol
-[ERROR]   symbol:   class Autore
-[ERROR]   location: class com.giodad.todolist.domain.AutoreAsserts
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/AutoreAsserts.java:[24,65] cannot find symbol
-[ERROR]   symbol:   class Autore
-[ERROR]   location: class com.giodad.todolist.domain.AutoreAsserts
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/AutoreAsserts.java:[24,82] cannot find symbol
-[ERROR]   symbol:   class Autore
-[ERROR]   location: class com.giodad.todolist.domain.AutoreAsserts
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/AutoreAsserts.java:[35,66] cannot find symbol
-[ERROR]   symbol:   class Autore
-[ERROR]   location: class com.giodad.todolist.domain.AutoreAsserts
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/AutoreAsserts.java:[35,83] cannot find symbol
-[ERROR]   symbol:   class Autore
-[ERROR]   location: class com.giodad.todolist.domain.AutoreAsserts
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/AutoreAsserts.java:[47,58] cannot find symbol
-[ERROR]   symbol:   class Autore
-[ERROR]   location: class com.giodad.todolist.domain.AutoreAsserts
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/AutoreAsserts.java:[47,75] cannot find symbol
-[ERROR]   symbol:   class Autore
-[ERROR]   location: class com.giodad.todolist.domain.AutoreAsserts
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/AutoreAsserts.java:[59,65] cannot find symbol
-[ERROR]   symbol:   class Autore
-[ERROR]   location: class com.giodad.todolist.domain.AutoreAsserts
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/AutoreAsserts.java:[59,82] cannot find symbol
-[ERROR]   symbol:   class Autore
-[ERROR]   location: class com.giodad.todolist.domain.AutoreAsserts
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/AutoreTestSamples.java:[12,19] cannot find symbol
-[ERROR]   symbol:   class Autore
-[ERROR]   location: class com.giodad.todolist.domain.AutoreTestSamples
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/AutoreTestSamples.java:[16,19] cannot find symbol
-[ERROR]   symbol:   class Autore
-[ERROR]   location: class com.giodad.todolist.domain.AutoreTestSamples
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/AutoreTestSamples.java:[20,19] cannot find symbol
-[ERROR]   symbol:   class Autore
-[ERROR]   location: class com.giodad.todolist.domain.AutoreTestSamples
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/LibroTestSamples.java:[12,19] cannot find symbol
-[ERROR]   symbol:   class Libro
-[ERROR]   location: class com.giodad.todolist.domain.LibroTestSamples
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/LibroTestSamples.java:[16,19] cannot find symbol
-[ERROR]   symbol:   class Libro
-[ERROR]   location: class com.giodad.todolist.domain.LibroTestSamples
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/LibroTestSamples.java:[20,19] cannot find symbol
-[ERROR]   symbol:   class Libro
-[ERROR]   location: class com.giodad.todolist.domain.LibroTestSamples
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/LibroAsserts.java:[13,55] cannot find symbol
-[ERROR]   symbol:   class Libro
-[ERROR]   location: class com.giodad.todolist.domain.LibroAsserts
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/LibroAsserts.java:[13,71] cannot find symbol
-[ERROR]   symbol:   class Libro
-[ERROR]   location: class com.giodad.todolist.domain.LibroAsserts
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/LibroAsserts.java:[24,64] cannot find symbol
-[ERROR]   symbol:   class Libro
-[ERROR]   location: class com.giodad.todolist.domain.LibroAsserts
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/LibroAsserts.java:[24,80] cannot find symbol
-[ERROR]   symbol:   class Libro
-[ERROR]   location: class com.giodad.todolist.domain.LibroAsserts
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/LibroAsserts.java:[35,65] cannot find symbol
-[ERROR]   symbol:   class Libro
-[ERROR]   location: class com.giodad.todolist.domain.LibroAsserts
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/LibroAsserts.java:[35,81] cannot find symbol
-[ERROR]   symbol:   class Libro
-[ERROR]   location: class com.giodad.todolist.domain.LibroAsserts
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/LibroAsserts.java:[47,57] cannot find symbol
-[ERROR]   symbol:   class Libro
-[ERROR]   location: class com.giodad.todolist.domain.LibroAsserts
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/LibroAsserts.java:[47,73] cannot find symbol
-[ERROR]   symbol:   class Libro
-[ERROR]   location: class com.giodad.todolist.domain.LibroAsserts
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/LibroAsserts.java:[60,64] cannot find symbol
-[ERROR]   symbol:   class Libro
-[ERROR]   location: class com.giodad.todolist.domain.LibroAsserts
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/LibroAsserts.java:[60,80] cannot find symbol
-[ERROR]   symbol:   class Libro
-[ERROR]   location: class com.giodad.todolist.domain.LibroAsserts
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/RecensioneTestSamples.java:[12,19] cannot find symbol
-[ERROR]   symbol:   class Recensione
-[ERROR]   location: class com.giodad.todolist.domain.RecensioneTestSamples
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/RecensioneTestSamples.java:[16,19] cannot find symbol
-[ERROR]   symbol:   class Recensione
-[ERROR]   location: class com.giodad.todolist.domain.RecensioneTestSamples
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/RecensioneTestSamples.java:[20,19] cannot find symbol
-[ERROR]   symbol:   class Recensione
-[ERROR]   location: class com.giodad.todolist.domain.RecensioneTestSamples
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/RecensioneAsserts.java:[13,60] cannot find symbol
-[ERROR]   symbol:   class Recensione
-[ERROR]   location: class com.giodad.todolist.domain.RecensioneAsserts
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/RecensioneAsserts.java:[13,81] cannot find symbol
-[ERROR]   symbol:   class Recensione
-[ERROR]   location: class com.giodad.todolist.domain.RecensioneAsserts
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/RecensioneAsserts.java:[24,69] cannot find symbol
-[ERROR]   symbol:   class Recensione
-[ERROR]   location: class com.giodad.todolist.domain.RecensioneAsserts
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/RecensioneAsserts.java:[24,90] cannot find symbol
-[ERROR]   symbol:   class Recensione
-[ERROR]   location: class com.giodad.todolist.domain.RecensioneAsserts
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/RecensioneAsserts.java:[35,70] cannot find symbol
-[ERROR]   symbol:   class Recensione
-[ERROR]   location: class com.giodad.todolist.domain.RecensioneAsserts
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/RecensioneAsserts.java:[35,91] cannot find symbol
-[ERROR]   symbol:   class Recensione
-[ERROR]   location: class com.giodad.todolist.domain.RecensioneAsserts
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/RecensioneAsserts.java:[47,62] cannot find symbol
-[ERROR]   symbol:   class Recensione
-[ERROR]   location: class com.giodad.todolist.domain.RecensioneAsserts
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/RecensioneAsserts.java:[47,83] cannot find symbol
-[ERROR]   symbol:   class Recensione
-[ERROR]   location: class com.giodad.todolist.domain.RecensioneAsserts
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/RecensioneAsserts.java:[59,69] cannot find symbol
-[ERROR]   symbol:   class Recensione
-[ERROR]   location: class com.giodad.todolist.domain.RecensioneAsserts
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/domain/RecensioneAsserts.java:[59,90] cannot find symbol
-[ERROR]   symbol:   class Recensione
-[ERROR]   location: class com.giodad.todolist.domain.RecensioneAsserts
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/management/SecurityMetersServiceTests.java:[18,13] cannot find symbol
-[ERROR]   symbol:   class SecurityMetersService
-[ERROR]   location: class com.giodad.todolist.management.SecurityMetersServiceTests
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/security/DomainUserDetailsServiceIT.java:[7,34] cannot find symbol
-[ERROR]   symbol:   class User
-[ERROR]   location: package com.giodad.todolist.domain
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/security/DomainUserDetailsServiceIT.java:[8,38] cannot find symbol
-[ERROR]   symbol:   class UserRepository
-[ERROR]   location: package com.giodad.todolist.repository
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/security/DomainUserDetailsServiceIT.java:[9,35] cannot find symbol
-[ERROR]   symbol:   class UserService
-[ERROR]   location: package com.giodad.todolist.service
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/security/DomainUserDetailsServiceIT.java:[36,13] cannot find symbol
-[ERROR]   symbol:   class UserRepository
-[ERROR]   location: class com.giodad.todolist.security.DomainUserDetailsServiceIT
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/security/DomainUserDetailsServiceIT.java:[39,13] cannot find symbol
-[ERROR]   symbol:   class UserService
-[ERROR]   location: class com.giodad.todolist.security.DomainUserDetailsServiceIT
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/security/DomainUserDetailsServiceIT.java:[45,12] cannot find symbol
-[ERROR]   symbol:   class User
-[ERROR]   location: class com.giodad.todolist.security.DomainUserDetailsServiceIT
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/security/DomainUserDetailsServiceIT.java:[57,12] cannot find symbol
-[ERROR]   symbol:   class User
-[ERROR]   location: class com.giodad.todolist.security.DomainUserDetailsServiceIT
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/security/DomainUserDetailsServiceIT.java:[69,12] cannot find symbol
-[ERROR]   symbol:   class User
-[ERROR]   location: class com.giodad.todolist.security.DomainUserDetailsServiceIT
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/security/SecurityUtilsUnitTest.java:[3,43] cannot find symbol
-[ERROR]   symbol:   class SecurityUtils
-[ERROR]   location: package com.giodad.todolist.security
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/security/SecurityUtilsUnitTest.java:[3,1] static import only from classes and interfaces
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/security/jwt/AuthenticationIntegrationTest.java:[3,34] cannot find symbol
-[ERROR]   symbol:   class SecurityConfiguration
-[ERROR]   location: package com.giodad.todolist.config
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/security/jwt/AuthenticationIntegrationTest.java:[4,34] cannot find symbol
-[ERROR]   symbol:   class SecurityJwtConfiguration
-[ERROR]   location: package com.giodad.todolist.config
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/security/jwt/AuthenticationIntegrationTest.java:[5,34] cannot find symbol
-[ERROR]   symbol:   class WebConfigurer
-[ERROR]   location: package com.giodad.todolist.config
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/security/jwt/AuthenticationIntegrationTest.java:[6,38] cannot find symbol
-[ERROR]   symbol:   class SecurityMetersService
-[ERROR]   location: package com.giodad.todolist.management
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/security/jwt/AuthenticationIntegrationTest.java:[7,36] cannot find symbol
-[ERROR]   symbol:   class AuthenticateController
-[ERROR]   location: package com.giodad.todolist.web.rest
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/security/jwt/JwtAuthenticationTestUtils.java:[3,43] cannot find symbol
-[ERROR]   symbol:   class AuthoritiesConstants
-[ERROR]   location: package com.giodad.todolist.security
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/security/jwt/JwtAuthenticationTestUtils.java:[3,1] static import only from classes and interfaces
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/security/jwt/JwtAuthenticationTestUtils.java:[4,43] cannot find symbol
-[ERROR]   symbol:   class SecurityUtils
-[ERROR]   location: package com.giodad.todolist.security
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/security/jwt/JwtAuthenticationTestUtils.java:[4,1] static import only from classes and interfaces
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/security/jwt/JwtAuthenticationTestUtils.java:[5,43] cannot find symbol
-[ERROR]   symbol:   class SecurityUtils
-[ERROR]   location: package com.giodad.todolist.security
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/security/jwt/JwtAuthenticationTestUtils.java:[5,1] static import only from classes and interfaces
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/service/MailServiceIT.java:[8,34] cannot find symbol
-[ERROR]   symbol:   class Constants
-[ERROR]   location: package com.giodad.todolist.config
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/service/MailServiceIT.java:[9,34] cannot find symbol
-[ERROR]   symbol:   class User
-[ERROR]   location: package com.giodad.todolist.domain
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/service/MailServiceIT.java:[56,13] cannot find symbol
-[ERROR]   symbol:   class MailService
-[ERROR]   location: class com.giodad.todolist.service.MailServiceIT
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/service/UserServiceIT.java:[7,34] cannot find symbol
-[ERROR]   symbol:   class User
-[ERROR]   location: package com.giodad.todolist.domain
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/service/UserServiceIT.java:[8,38] cannot find symbol
-[ERROR]   symbol:   class UserRepository
-[ERROR]   location: package com.giodad.todolist.repository
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/service/UserServiceIT.java:[51,13] cannot find symbol
-[ERROR]   symbol:   class UserRepository
-[ERROR]   location: class com.giodad.todolist.service.UserServiceIT
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/service/UserServiceIT.java:[54,13] cannot find symbol
-[ERROR]   symbol:   class UserService
-[ERROR]   location: class com.giodad.todolist.service.UserServiceIT
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/service/UserServiceIT.java:[62,13] cannot find symbol
-[ERROR]   symbol:   class User
-[ERROR]   location: class com.giodad.todolist.service.UserServiceIT
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/service/criteria/AutoreCriteriaTest.java:[77,39] cannot find symbol
-[ERROR]   symbol:   class AutoreCriteria
-[ERROR]   location: class com.giodad.todolist.service.criteria.AutoreCriteriaTest
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/service/criteria/AutoreCriteriaTest.java:[84,30] cannot find symbol
-[ERROR]   symbol:   class AutoreCriteria
-[ERROR]   location: class com.giodad.todolist.service.criteria.AutoreCriteriaTest
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/service/criteria/AutoreCriteriaTest.java:[95,61] cannot find symbol
-[ERROR]   symbol:   class AutoreCriteria
-[ERROR]   location: class com.giodad.todolist.service.criteria.AutoreCriteriaTest
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/service/criteria/AutoreCriteriaTest.java:[95,30] cannot find symbol
-[ERROR]   symbol:   class AutoreCriteria
-[ERROR]   location: class com.giodad.todolist.service.criteria.AutoreCriteriaTest
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/service/criteria/LibroCriteriaTest.java:[77,39] cannot find symbol
-[ERROR]   symbol:   class LibroCriteria
-[ERROR]   location: class com.giodad.todolist.service.criteria.LibroCriteriaTest
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/service/criteria/LibroCriteriaTest.java:[86,30] cannot find symbol
-[ERROR]   symbol:   class LibroCriteria
-[ERROR]   location: class com.giodad.todolist.service.criteria.LibroCriteriaTest
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/service/criteria/LibroCriteriaTest.java:[99,60] cannot find symbol
-[ERROR]   symbol:   class LibroCriteria
-[ERROR]   location: class com.giodad.todolist.service.criteria.LibroCriteriaTest
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/service/criteria/LibroCriteriaTest.java:[99,30] cannot find symbol
-[ERROR]   symbol:   class LibroCriteria
-[ERROR]   location: class com.giodad.todolist.service.criteria.LibroCriteriaTest
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/service/criteria/RecensioneCriteriaTest.java:[77,39] cannot find symbol
-[ERROR]   symbol:   class RecensioneCriteria
-[ERROR]   location: class com.giodad.todolist.service.criteria.RecensioneCriteriaTest
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/service/criteria/RecensioneCriteriaTest.java:[85,30] cannot find symbol
-[ERROR]   symbol:   class RecensioneCriteria
-[ERROR]   location: class com.giodad.todolist.service.criteria.RecensioneCriteriaTest
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/service/criteria/RecensioneCriteriaTest.java:[97,65] cannot find symbol
-[ERROR]   symbol:   class RecensioneCriteria
-[ERROR]   location: class com.giodad.todolist.service.criteria.RecensioneCriteriaTest
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/service/criteria/RecensioneCriteriaTest.java:[97,30] cannot find symbol
-[ERROR]   symbol:   class RecensioneCriteria
-[ERROR]   location: class com.giodad.todolist.service.criteria.RecensioneCriteriaTest
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/service/mapper/AutoreMapperTest.java:[11,13] cannot find symbol
-[ERROR]   symbol:   class AutoreMapper
-[ERROR]   location: class com.giodad.todolist.service.mapper.AutoreMapperTest
-[ERROR] /C:/Users/argir/Documenti/CodingGiovanni/CorsoBackend/Library/src/test/java/com/giodad/todolist/service/mapper/LibroMapperTest.java:[11,13] cannot find symbol
-[ERROR]   symbol:   class LibroMapper
-[ERROR]   location: class com.giodad.todolist.service.mapper.LibroMapperTest
-[ERROR] -> [Help 1]
-[ERROR] 
-[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
-[ERROR] Re-run Maven using the -X switch to enable full debug logging.
-[ERROR] 
-[ERROR] For more information about the errors and possible solutions, please read the following articles:
-[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+
+C:\Users\argir\Documenti\CodingGiovanni\CorsoBackend\Library>
